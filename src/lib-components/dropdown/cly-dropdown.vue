@@ -136,3 +136,15 @@
         </el-select-dropdown>
     </div>
 </template>
+<style lang="scss">
+    .cly-vue-dropdown {
+        &__pop {
+            padding: 0px;
+            width: fit-content;
+        }
+
+        &__pop-container {
+            word-break: initial;
+        }
+    }
+</style>
