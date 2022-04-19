@@ -1,0 +1,34 @@
+/*
+    File : manifest.scss
+*/
+
+// All "Global" sass partials
+@use "base/typography-variables";
+@use "base/element-variables";
+@use "base/colors";
+@use "base/variables";
+@use "base/mixins";
+@use "base/icons";
+@use "base/base";
+
+// All "Overrides" specific SASS partials
+@use "overrides/element-override";
+@use "overrides/bulma-overrides";
+
+// All "Blocks" SASS partials
+@use "blocks/content";
+@use "blocks/header";
+@use "blocks/select";
+@use "blocks/dropdown";
+@use "blocks/table";
+@use "blocks/charts";
+@use "blocks/progress";
+@use "blocks/nav";
+@use "blocks/vis";
+@use "blocks/helpers";
+@use "blocks/notification-toasts";
+
+// All "States" specific SASS partials
+// Defined at the last to increase specificity
+
+@use "states/state";
