@@ -2,6 +2,7 @@
 import {AbstractListBox, SearchableOptionsMixin} from './commons';
 
 export default AbstractListBox.extend({
+    name: 'ClyListbox',
     mixins: [SearchableOptionsMixin],
     props: {
         searchable: {type: Boolean, default: false, required: false}, //override the mixin

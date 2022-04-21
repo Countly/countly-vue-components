@@ -23,6 +23,8 @@ export { default as ClyDatePicker } from './date-picker/cly-date-picker.vue';
 export { default as ClyTimePicker } from './date-picker/cly-time-picker.vue';
 //
 export { default as ClyDropdown } from './dropdown/cly-dropdown.vue';
+export { default as ClyMoreOptions } from './dropdown/cly-more-options.vue';
+export { default as ClyMultiSelect } from './dropdown/cly-multi-select.vue';
 export { default as ClyInputDropdownTrigger } from './dropdown/cly-input-dropdown-trigger.vue';
 //
 export { default as ClySelectX } from './list/cly-select-x.vue';
