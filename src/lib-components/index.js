@@ -1,12 +1,7 @@
-/* eslint-disable import/prefer-default-export */
-import Vue from 'vue'
+import Vue from 'vue';
 import ELEMENT from 'element-ui';
 import VTooltip from 'v-tooltip';
 import vuescroll from 'vuescroll';
-import 'element-ui/lib/theme-chalk/index.css';
-import '../styles/fonts.scss';
-import '../styles/clyvue.scss';
-import '../styles/manifest.scss';
 
 Vue.use(VTooltip);
 VTooltip.options.defaultClass = 'cly-vue-tooltip';
@@ -25,3 +20,6 @@ Vue.use(vuescroll);
 export { default as ClyDatePicker } from './date-picker/cly-date-picker.vue';
 export { default as ClyDropdown } from './dropdown/cly-dropdown.vue';
 export { default as ClyInputDropdownTrigger } from './dropdown/cly-input-dropdown-trigger.vue';
+export { default as ClySelectX } from './input/cly-select-x.vue';
+export { default as ClyListbox } from './input/cly-listbox.vue';
+export { default as ClyChecklistbox } from './input/cly-checklistbox.vue';

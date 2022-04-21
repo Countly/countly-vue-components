@@ -1,12 +1,8 @@
 <script>
-import ELEMENT from 'element-ui';
 import inViewport from 'vue-in-viewport-mixin';
 export default {
     props: {
         dateMeta: Object,
-    },
-    components: {
-        'el-date-table': ELEMENT.DateTable,
     },
     data() {
         return {
