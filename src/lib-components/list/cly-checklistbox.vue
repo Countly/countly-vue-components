@@ -2,6 +2,7 @@
 import {AbstractListBox} from './commons';
 
 export default AbstractListBox.extend({
+    name: 'ClyChecklistbox',
     props: {
         value: {
             type: Array,

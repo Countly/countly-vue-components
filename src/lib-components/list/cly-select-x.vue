@@ -3,6 +3,7 @@ import countlyVue from '../../compat/vue-core';
 import {SearchableOptionsMixin, TabbedOptionsMixin} from './commons';
 
 export default {
+    name: 'ClySelectX',
     mixins: [TabbedOptionsMixin, SearchableOptionsMixin, countlyVue.mixins.i18n],
     props: {
         title: {type: String, default: ''},

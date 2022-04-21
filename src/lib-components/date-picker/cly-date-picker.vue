@@ -571,7 +571,7 @@ const CalendarsMixin = {
 };
 
 export default countlyVue.components.BaseComponent.extend({
-    name: 'ClyDatePicker', // vue component name
+    name: 'ClyDatePicker',
     mixins: [
         countlyVue.mixins.i18n,
         InputControlsMixin,

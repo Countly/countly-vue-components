@@ -1,5 +1,6 @@
 <script>
 export default {
+    name: 'ClyDatatableUndoRow',
     props: {
         delayedAction: {
             type: Object

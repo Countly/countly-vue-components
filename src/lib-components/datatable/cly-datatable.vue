@@ -679,6 +679,7 @@ var ExportHandlerMixin = {
 };
 
 export default {
+    name: 'ClyDatatable',
     components: {
         'cly-dropdown': ClyDropdown,
     },
@@ -860,7 +861,7 @@ export default {
                                         v-model="exportColumns"
                                         :sortable="false"
                                         :bordered="false"
-                                        :options.sync="getMatching(availableDynamicCols)">
+                                        :options="getMatching(availableDynamicCols)">
                                         </cly-checklistbox>
                                     </div>
                                     <slot name="export-config"></slot>
