@@ -122,24 +122,202 @@ export default Vue.extend({
 
 <template>
   <div id="app">
-    <cly-date-picker v-model="selectedDate" timestampFormat="ms" type="date"></cly-date-picker>
-    <div class="example-cell">
-        <cly-select-x
-            search-placeholder="Search in Properties"
-            placeholder="Select Property"
-            v-model="selectX.currentVal"
-            :auto-commit="!autoCommitDisabled"
-            :mode="selectX.mode"
-            :disabled="dropdownsDisabled"
-            :hide-all-options-tab="allOptionsTabHidden"
-            :options="selectXOptions[0].options">
-            <template v-slot:option-prefix="option">
-                <div style="border: 2px solid #F96300; width: 15px; text-align: center">{{option.image}}</div>
-            </template>
-        </cly-select-x>
-    </div>
-    <div class="example-cell">
-        {{selectX.currentVal}}
+    <div>
+        <el-card class="box-card options-box" style="position:fixed; bottom:25px; right: 25px">
+            <div slot="header" class="clearfix">
+                <span>Options</span>
+            </div>
+            <div class="item">
+                <el-switch
+                    active-text="Disable dropdowns"
+                    v-model="dropdownsDisabled"
+                    active-color="#2FA732">
+                </el-switch>
+            </div>
+            <div class="item">
+                <el-switch
+                    active-text="Disable auto-commit"
+                    v-model="autoCommitDisabled"
+                    active-color="#2FA732">
+                </el-switch>
+            </div>
+            <div class="item">
+                <el-switch
+                    active-text="Hide all options tab"
+                    v-model="allOptionsTabHidden"
+                    active-color="#2FA732">
+                </el-switch>
+            </div>
+            <div class="item">
+                <el-radio-group v-model="selectXModeBuffer" size="small">
+                    <el-radio-button label="single-list">Single</el-radio-button>
+                    <el-radio-button label="multi-check">Multi</el-radio-button>
+                    <el-radio-button label="multi-check-sortable">Multi w/ sorting</el-radio-button>
+                </el-radio-group>
+            </div>
+        </el-card>
+        <div title="el-select">
+            <div class="example-cell">
+                <el-select v-model="selectedRadio" :disabled="dropdownsDisabled">
+                    <el-option :key="item.value" :value="item.value" :label="item.name"
+                        v-for="item in selectWItems"></el-option>
+                </el-select>
+            </div>
+            <div class="example-cell">
+
+            </div>
+        </div>
+        <div title="cly-dropdown (Nested)">
+            <div class="example-cell">
+                <cly-dropdown>
+                    <template v-slot:trigger>Click</template>
+                    <div>
+                        <cly-dropdown>
+                            <template v-slot:trigger>Click</template>
+                            <div>
+                                <cly-dropdown>
+                                    <template v-slot:trigger>Click</template>
+                                    <div>
+                                        <cly-dropdown>
+                                            <template v-slot:trigger>Click</template>
+                                            <div>
+                                                <cly-dropdown>
+                                                    <template v-slot:trigger>Click</template>
+                                                    <div>
+                                                        <cly-dropdown>
+                                                            <template v-slot:trigger>Click</template>
+                                                            Hello
+                                                        </cly-dropdown>
+                                                    </div>
+                                                </cly-dropdown>
+                                            </div>
+                                        </cly-dropdown>
+                                    </div>
+                                </cly-dropdown>
+                            </div>
+                        </cly-dropdown>
+                    </div>
+                </cly-dropdown>
+            </div>
+            <div class="example-cell">
+            </div>
+        </div>
+        <div title="cly-select-x (Simple)">
+            <div class="example-cell">
+                <cly-select-x
+                    search-placeholder="Search in Properties"
+                    placeholder="Select Property" 
+                    v-model="selectX.currentVal"
+                    :auto-commit="!autoCommitDisabled" 
+                    :mode="selectX.mode"
+                    :disabled="dropdownsDisabled"
+                    :hide-all-options-tab="allOptionsTabHidden"
+                    :options="selectXOptions[0].options">
+                    <template v-slot:option-prefix="option">
+                        <div style="border: 2px solid #F96300; width: 15px; text-align: center">{{option.image}}</div>
+                    </template>
+                </cly-select-x>
+            </div>
+            <div class="example-cell">
+                {{selectX.currentVal}}
+            </div>
+        </div>
+        <div title="cly-select-x (Tabs)">
+            <div class="example-cell">
+                <cly-select-x
+                    all-placeholder="All Properties" 
+                    search-placeholder="Search in Properties"
+                    placeholder="Select Property" 
+                    v-model="selectX.currentVal" 
+                    :auto-commit="!autoCommitDisabled"
+                    :mode="selectX.mode"
+                    :disabled="dropdownsDisabled"
+                    :hide-all-options-tab="allOptionsTabHidden"
+                    :options="selectXOptions">
+                </cly-select-x>
+            </div>
+            <div class="example-cell">
+                {{selectX.currentVal}}
+            </div>
+        </div>
+        <div title="cly-select-x (Remote)">
+            <div class="example-cell">
+                <cly-select-x
+                    remote
+                    :remote-method="remoteMethod"
+                    all-placeholder="All Properties" 
+                    search-placeholder="Search in Properties"
+                    placeholder="Select Property" 
+                    v-model="selectX.remoteVal" 
+                    :auto-commit="!autoCommitDisabled"
+                    :mode="selectX.mode"
+                    :disabled="dropdownsDisabled"
+                    :hide-all-options-tab="allOptionsTabHidden"
+                    :options="selectXRemoteOptions">
+                </cly-select-x>
+            </div>
+            <div class="example-cell">
+                {{selectX.remoteVal}}
+            </div>
+        </div>
+        <div title="cly-select-x (Tabs, custom header)">
+            <div class="example-cell">
+                <cly-select-x 
+                    all-placeholder="All Properties" 
+                    search-placeholder="Search in Properties"
+                    placeholder="Select Property" 
+                    title="Custom header & title"
+                    :auto-commit="!autoCommitDisabled"
+                    :disabled="dropdownsDisabled"
+                    :hide-default-tabs="true"
+                    :options="selectXOptions"
+                    :mode="selectX.mode"
+                    :hide-all-options-tab="allOptionsTabHidden"
+                    v-model="selectX.currentVal">
+                    <template v-slot:header="selectScope">
+                        <el-radio-group 
+                            :value="selectScope.activeTabId" 
+                            @input="selectScope.updateTab"
+                            size="medium">
+                            <el-radio-button v-for="tab in selectScope.tabs" :key="tab.name" :label="tab.name">{{tab.label}}</el-radio-button>
+                        </el-radio-group>
+                    </template>
+                </cly-select-x>
+            </div>
+            <div class="example-cell">
+                {{selectX.currentVal}}
+            </div>
+        </div>
+        <div title=" cly-select-x (Tabs, custom header #2)">
+            <div class="example-cell">
+                <cly-select-x 
+                    all-placeholder="All Properties" 
+                    search-placeholder="Search in Properties"
+                    placeholder="Select Property" 
+                    title="Custom header & title"
+                    :auto-commit="!autoCommitDisabled"
+                    :mode="selectX.mode"
+                    :disabled="dropdownsDisabled"
+                    :hide-default-tabs="true"
+                    :options="selectXOptions"
+                    :hide-all-options-tab="allOptionsTabHidden"
+                    :width="400"
+                    v-model="selectX.currentVal">
+                    <template v-slot:header="selectScope">
+                        <div style="font-size: 12px; padding-bottom: 7px;">Property type</div>                                
+                        <el-select
+                            :popper-append-to-body="false" 
+                            :value="selectScope.activeTabId" 
+                            @input="selectScope.updateTab">
+                            <el-option v-for="tab in selectScope.tabs" :key="tab.name" :value="tab.name" :label="tab.label"></el-option>
+                        </el-select>
+                    </template>
+                </cly-select-x>
+            </div>
+            <div class="example-cell">
+                {{selectX.currentVal}}
+            </div>
+        </div>
     </div>
   </div>
 </template>
