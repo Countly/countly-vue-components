@@ -1,11 +1,13 @@
 <script>
 import countlyVue from '../../compat/vue-core';
+import FormCommons from './commons';
+
 export default {
     inheritAttrs: false,
     mixins: [
-        _mixins.i18n,
-        _mixins.MultiStepForm,
-        _mixins.Modal
+        countlyVue.mixins.i18n,
+        FormCommons.MultiStepForm,
+        countlyVue.mixins.Modal
     ],
     props: {
         isOpened: {type: Boolean, required: true},

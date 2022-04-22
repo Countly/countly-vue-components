@@ -1,0 +1,174 @@
+<script>
+import FormCommons from '../form/commons';
+import countlyVue from '../../compat/vue-core';
+
+export default {
+    inheritAttrs: false,
+    mixins: [
+        countlyVue.mixins.i18n,
+        FormCommons.MultiStepForm,
+        countlyVue.mixins.Modal
+    ],
+    props: {
+        isOpened: {type: Boolean, required: true},
+        name: {type: String, required: true},
+        title: {type: String, required: true},
+        saveButtonLabel: {type: String, required: false, default: ""},
+        cancelButtonLabel: {type: String, required: false, default: countlyVue.i18n("common.cancel")},
+        closeFn: {type: Function},
+        hasCancelButton: {type: Boolean, required: false, default: true},
+        toggleTransition: {
+            type: String,
+            default: 'stdt-slide-right'
+        },
+        size: {
+            type: Number,
+            default: 6,
+            validator: function(value) {
+                return value >= 1 && value <= 12;
+            }
+        },
+    },
+    data: function() {
+        return {
+            isToggleable: true,
+            sidecarContents: []
+        };
+    },
+    computed: {
+        hasSidecars: function() {
+            return this.sidecarContents.length > 0;
+        },
+        rootClasses: function() {
+            var classes = {
+                'is-mounted': this.isMounted,
+                'is-open': this.isOpened,
+                'has-sidecars': this.hasSidecars
+            };
+            classes["cly-vue-drawer--" + this.currentScreenMode + "-screen"] = true;
+            if (this.currentScreenMode === 'half') {
+                classes["cly-vue-drawer--half-screen-" + this.size] = true;
+            }
+            return classes;
+        }
+    },
+    watch: {
+        isOpened: function(newState) {
+            if (!newState) {
+                this.reset();
+            }
+            else {
+                this.$emit("open");
+            }
+            this.setModalState(newState);
+        }
+    },
+    mounted: function() {
+        this.sidecarContents = this.$children.filter(function(child) {
+            return child.isContent && child.role === "sidecar";
+        });
+    },
+    methods: {
+        doClose: function() {
+            this.$emit("close", this.name);
+            if (this.closeFn) {
+                this.closeFn();
+            }
+        },
+        escKeyEvent: function() {
+            this.doClose();
+        },
+        onViewEntered: function() {
+            this.$refs.rootEl.focus();
+        }
+    }
+};
+</script>
+<template>
+    <transition :name="toggleTransition" @enter="onViewEntered">
+        <div class="cly-vue-drawer" tabindex="0" v-show="isOpened" @keydown.esc="escKeyEvent" ref="rootEl"
+            :class="rootClasses">
+            <div class="cly-vue-drawer__sidecars-view" v-show="hasSidecars">
+                <slot name="sidecars"
+                    v-bind="passedScope">
+                </slot>
+            </div>
+            <div class="cly-vue-drawer__steps-view">
+                <div class="cly-vue-drawer__steps-wrapper">
+                    <div class="bu-container bu-pt-3 bu-is-fluid bu-p-0" v-if="currentScreenMode === 'full'">
+                        <div class="bu-columns bu-is-gapless">
+                            <div class="bu-column bu-is-12 bu-is-flex bu-is-justify-content-flex-end">
+                                <span class="cly-vue-drawer__close-button" v-on:click="doClose">
+                                    <i class="ion-ios-close-empty"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cly-vue-drawer__header" :class="{ 'is-full-screen': currentScreenMode === 'full'}">
+                        <div class="cly-vue-drawer__title">
+                            <div v-if="currentScreenMode !== 'full'">
+                                <div class="cly-vue-drawer__title-container bu-is-flex bu-is-justify-content-space-between">
+                                    <h3 class="cly-vue-drawer__title-header">{{title}}</h3>
+                                    <span class="cly-vue-drawer__close-button bu-p-1 bu-mr-5" v-on:click="doClose">
+                                        <i class="ion-ios-close-empty"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div v-if="isMultiStep" class="bu-columns bu-is-gapless bu-is-mobile cly-vue-drawer__subtitle">
+                                <div class="bu-column bu-is-12 bu-is-flex bu-is-align-items-center bu-is-justify-content-left">
+                                    <div class="cly-vue-drawer__steps-header">
+                                        <template v-for="(currentContent, i) in stepContents">
+                                            <div :key="'label_' + i" @click="setStepSafe(i, 'header-click')" class="cly-vue-drawer__step-label" :class="{'is-locked': i > lastValidIndex, 'is-active': i === currentStepIndex,  'is-passed': i < currentStepIndex}">
+                                                <div class="bu-is-flex">
+                                                    <div class="cly-vue-drawer__step-sign">
+                                                        <span class="index text-small" :class="{'color-white': i === currentStepIndex}">{{i + 1}}</span>
+                                                        <span class="done-icon text-small color-white bu-pt-0">
+                                                            <img src="images/icons/check-icon.svg">
+                                                        </span>
+                                                    </div>
+                                                    <div class="cly-vue-drawer__step-title text-small font-weight-bold color-cool-gray-40">{{currentContent.name}}</div>
+                                                </div>
+                                            </div>
+                                            <div :key="'sep_' + i" class="cly-vue-drawer__step-separator" v-if="i < stepContents.length - 1"></div>
+                                        </template>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cly-vue-drawer__steps-container" v-scroll-shadow :class="{'is-multi-step':isMultiStep}">
+                        <div class="bu-columns bu-is-gapless bu-is-mobile" v-if="currentScreenMode === 'full'">
+                            <div class="bu-column bu-is-12">
+                                <h3>{{title}}</h3>
+                            </div>
+                        </div>
+                        <div class="bu-columns bu-is-gapless bu-is-mobile cly-vue-drawer__body-container" :class="{ 'bu-pb-5 bu-pt-4 bu-mb-2 bu-mt-1': currentScreenMode !== 'full' }">
+                            <div class="bu-column bu-is-12">
+                                <slot name="default"
+                                    v-bind="passedScope">
+                                </slot>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cly-vue-drawer__footer" v-if="isMultiStep || hasCancelButton || saveButtonLabel">
+                        <div class="cly-vue-drawer__controls-left-pc">
+                            <slot name="controls-left"
+                                v-bind="passedScope">
+                            </slot>
+                        </div>
+                        <div class="cly-vue-drawer__buttons is-multi-step is-single-step bu-is-justify-content-flex-end bu-is-flex" v-if="isMultiStep">
+                            <el-button type="secondary" @click="doClose" size="small" v-if="currentStepIndex === 0 && hasCancelButton" :disabled="isSubmitPending">{{cancelButtonLabel}}</el-button>
+                            <el-button type="secondary" @click="prevStep" size="small" v-if="currentStepIndex > 0" :disabled="isSubmitPending">{{i18n('common.drawer.previous-step')}}</el-button>
+                            <el-button type="success" @click="nextStep" size="small" v-if="!isLastStep" :class="{'is-disabled':!isCurrentStepValid}" :disabled="isSubmitPending">{{i18n('common.drawer.next-step')}}</el-button>
+                            <el-button type="success" @click="submit" :loading="isSubmitPending" size="small" v-if="isLastStep" :class="{'is-disabled':!isSubmissionAllowed}" :disabled="isSubmitPending">{{saveButtonLabel}}</el-button>
+                        </div>
+                        <div class="cly-vue-drawer__buttons is-single-step is-single-step bu-is-justify-content-flex-end bu-is-flex" v-if="!isMultiStep">
+                            <el-button type="secondary" @click="doClose" size="small" v-if="hasCancelButton" :disabled="isSubmitPending">{{cancelButtonLabel}}</el-button>
+                            <el-button type="success" v-if="saveButtonLabel" @click="submit" :loading="isSubmitPending" size="small" :class="{'is-disabled':!isSubmissionAllowed}" :disabled="isSubmitPending">{{saveButtonLabel}}</el-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </transition>
+</template>
