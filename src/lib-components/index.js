@@ -33,4 +33,9 @@ export { default as ClyChecklistbox } from './list/cly-checklistbox.vue';
 //
 export { default as ClyTabs } from './tabs/cly-tabs.vue';
 //
+export { default as ClyConfirmDialog } from './dialog/cly-confirm-dialog.vue';
+export { default as ClyDialog } from './dialog/cly-dialog.vue';
+export { default as ClyFormDialog } from './dialog/cly-form-dialog.vue';
+export { default as ClyMessageDialog } from './dialog/cly-form-dialog.vue';
 export { default as useGlobalDialogsStore } from './dialog/store';
+export { default as ClyDialogCommons } from './dialog/commons';
