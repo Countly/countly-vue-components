@@ -110,8 +110,8 @@ export default {
 };
 </script>
 <template>
-<div>
-<el-card class="box-card options-box" style="position:fixed; bottom:25px; right: 25px">
+    <div>
+        <el-card class="box-card options-box" style="position:fixed; bottom:25px; right: 25px">
             <div slot="header" class="clearfix">
                 <span>Options</span>
             </div>
@@ -151,9 +151,6 @@ export default {
                         v-for="item in selectWItems"></el-option>
                 </el-select>
             </div>
-            <div class="example-cell">
-
-            </div>
         </div>
         <div title="cly-dropdown (Nested)">
             <div class="example-cell">
@@ -186,8 +183,6 @@ export default {
                         </cly-dropdown>
                     </div>
                 </cly-dropdown>
-            </div>
-            <div class="example-cell">
             </div>
         </div>
         <div title="cly-select-x (Simple)">
@@ -306,5 +301,5 @@ export default {
                 {{selectX.currentVal}}
             </div>
         </div>
-        </div>
+    </div>
 </template>

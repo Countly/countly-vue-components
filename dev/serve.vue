@@ -18,12 +18,39 @@ export default Vue.extend({
 });
 </script>
 
+<style>
+.example-cell{
+    padding: 20px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.example-cell section {
+    margin-bottom: 20px;
+}
+.example-cell > span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+</style>
+
 <template>
   <div id="app">
     <div>
-        <ListDemo />
-        <DateDemo />
-        <TableDemo />
+      <cly-tabs>
+        <el-tab-pane label="Lists">
+          <ListDemo />
+        </el-tab-pane>
+        <el-tab-pane label="Datepickers">
+          <DateDemo />
+          </el-tab-pane>
+        <el-tab-pane label="Tables">
+          <TableDemo />
+        </el-tab-pane>
+      </cly-tabs>
     </div>
   </div>
 </template>

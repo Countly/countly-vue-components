@@ -8,6 +8,13 @@ var _i18nM = function(key) {
     return key;
 };
 
+var i18nMixin = {
+    methods: {
+        i18n: _i18n,
+        i18nM: _i18nM
+    }
+}
+
 
 var _uniqueComponentId = 0;
 
@@ -32,7 +39,7 @@ var BaseContentMixin = countlyBaseComponent.extend(
     {
         inheritAttrs: false,
         mixins: [
-            _mixins.i18n
+            i18nMixin
         ],
         props: {
             name: { type: String, default: null},
@@ -116,11 +123,6 @@ export default {
             }
         },
         BaseContent: BaseContentMixin,
-        i18n: {
-            methods: {
-                i18n: _i18n,
-                i18nM: _i18nM
-            }
-        }
+        i18n: i18nMixin
     }
 };

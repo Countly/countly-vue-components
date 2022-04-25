@@ -30,3 +30,5 @@ export { default as ClyInputDropdownTrigger } from './dropdown/cly-input-dropdow
 export { default as ClySelectX } from './list/cly-select-x.vue';
 export { default as ClyListbox } from './list/cly-listbox.vue';
 export { default as ClyChecklistbox } from './list/cly-checklistbox.vue';
+//
+export { default as ClyTabs } from './tabs/cly-tabs.vue';
