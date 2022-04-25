@@ -32,3 +32,5 @@ export { default as ClyListbox } from './list/cly-listbox.vue';
 export { default as ClyChecklistbox } from './list/cly-checklistbox.vue';
 //
 export { default as ClyTabs } from './tabs/cly-tabs.vue';
+//
+export { default as useGlobalDialogsStore } from './dialog/store';

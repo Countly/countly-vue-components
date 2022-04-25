@@ -4,9 +4,14 @@ import Dev from './serve.vue';
 // library as a whole, comment/remove this import and it's corresponding "Vue.use" call
 import ClyComponents from '@/entry.esm';
 Vue.use(ClyComponents);
+import { createPinia, PiniaVuePlugin } from 'pinia';
+
+Vue.use(PiniaVuePlugin)
+const pinia = createPinia()
 
 Vue.config.productionTip = false;
 
 new Vue({
     render: (h) => h(Dev),
+    pinia
 }).$mount('#app');

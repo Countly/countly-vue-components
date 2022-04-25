@@ -7,13 +7,15 @@ import '../src/styles/main.scss';
 import ListDemo from './list-demo';
 import DateDemo from './date-demo';
 import TableDemo from './table-demo';
+import DialogsDemo from './dialogs-demo';
 
 export default Vue.extend({
     name: 'ServeDev',
     components: {
         ListDemo,
         DateDemo,
-        TableDemo
+        TableDemo,
+        DialogsDemo
     }
 });
 </script>
@@ -49,6 +51,9 @@ export default Vue.extend({
           </el-tab-pane>
         <el-tab-pane label="Tables">
           <TableDemo />
+        </el-tab-pane>
+        <el-tab-pane label="Dialogs">
+          <DialogsDemo />
         </el-tab-pane>
       </cly-tabs>
     </div>
