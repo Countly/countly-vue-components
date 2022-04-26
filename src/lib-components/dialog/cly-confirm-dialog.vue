@@ -1,6 +1,8 @@
 <script>
+import Vue from 'vue';
 import countlyVue from '../../compat/vue-core';
-export default {
+export default Vue.extend({
+    name: "ClyConfirmDialog",
     props: {
         title: {type: String, required: true},
         saveButtonLabel: {type: String, required: false, default: countlyVue.i18n("common.save")},
@@ -36,7 +38,7 @@ export default {
             this.$emit("cancel");
         }
     }
-};
+});
 </script>
 <template>
     <el-dialog destroyOnClose class="cly-vue-confirm-dialog" v-on="$listeners" v-bind="$attrs" :title="title">

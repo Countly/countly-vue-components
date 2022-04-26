@@ -1,8 +1,10 @@
 <script>
+import Vue from 'vue';
 import countlyVue from '../../compat/vue-core';
 import FormCommons from './commons';
 
-export default {
+export default Vue.extend({
+    name: "ClyFormDialog",
     inheritAttrs: false,
     mixins: [
         countlyVue.mixins.i18n,
@@ -63,7 +65,7 @@ export default {
             this.$refs.rootEl.focus();
         }
     }
-};
+});
 </script>
 <template>
     <transition :name="toggleTransition" @enter="onViewEntered">

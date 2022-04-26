@@ -1,6 +1,8 @@
 <script>
+import Vue from 'vue';
 import countlyVue from '../../compat/vue-core';
-export default {
+export default Vue.extend({
+    name: "ClyMessageDialog",
     props: {
         title: {type: String, required: true},
         confirmButtonLabel: {type: String, required: false, default: countlyVue.i18n("common.confirm")},
@@ -26,7 +28,7 @@ export default {
             this.$emit("confirm");
         }
     }
-};
+});
 </script>
 <template>
     <el-dialog destroyOnClose class="cly-vue-message-dialog" v-on="$listeners" v-bind="$attrs" :title="title">

@@ -1,5 +1,8 @@
 <script>
-export default {
+import Vue from 'vue';
+export default Vue.extend({
+    name: "ClyDialog",
+    components: {},
     props: {
         title: {
             type: String,
@@ -27,7 +30,7 @@ export default {
             return "";
         }
     }
-};
+});
 </script>
 <template>
     <el-dialog :destroy-on-close="true" class="cly-vue-dialog" :class="topClasses" v-on="$listeners" v-bind="$attrs" :title="title" :append-to-body="true">

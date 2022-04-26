@@ -44,7 +44,7 @@ const MultiStepFormMixin = {
         requiresAsyncSubmit: {type: Boolean, default: false, required: false},
         setStepCallbackFn: {type: Function, default: null, required: false}
     },
-    data: function() {
+    data() {
         return {
             currentStepIndex: 0,
             stepContents: [],
