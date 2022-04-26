@@ -1,6 +1,8 @@
 <script>
 import ELEMENT from 'element-ui';
-export default {
+import countlyVue from '../../compat/vue-core';
+
+export default countlyVue.components.BaseComponent.extend({
     componentName: 'ElDropdown',
     mixins: [ELEMENT.utils.Emitter],
     props: {
@@ -43,7 +45,7 @@ export default {
     beforeDestroy: function() {
         this.$off();
     }
-};
+});
 </script>
 <template>
 <cly-dropdown class="cly-vue-more-options" ref="dropdown" :placement="placement" :disabled="disabled" v-on="$listeners">

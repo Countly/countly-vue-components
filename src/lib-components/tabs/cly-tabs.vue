@@ -1,5 +1,6 @@
 <script>
-export default {
+import countlyVue from '../../compat/vue-core';
+export default countlyVue.components.BaseComponent.extend({
     props: {
         value: String,
         routePattern: String,
@@ -9,7 +10,7 @@ export default {
             default: true
         }
     }
-};
+});
 </script>
 <template>
     <div class="cly-vue-tabs">

@@ -678,7 +678,7 @@ var ExportHandlerMixin = {
     }
 };
 
-export default {
+export default countlyVue.components.BaseComponent.extend({
     name: 'ClyDatatable',
     components: {
         'cly-dropdown': ClyDropdown,
@@ -785,7 +785,7 @@ export default {
             };
         }
     }
-};
+});
 </script>
 <template>
     <div class="cly-vue-eldatatable" :class="classes">

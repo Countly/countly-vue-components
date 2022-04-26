@@ -1,7 +1,7 @@
 <script>
 import countlyVue from '../../compat/vue-core';
 
-export default {
+export default countlyVue.components.BaseComponent.extend({
     mixins: [countlyVue.mixins.i18n],
     props: {
         cancelLabel: {type: String, default: countlyVue.i18n("events.general.cancel")},
@@ -132,7 +132,7 @@ export default {
             this.save();
         }
     }
-};
+});
 </script>
     <template>
     <cly-dropdown ref="dropdown" v-on="$listeners" class="cly-multi-select__dropdown">

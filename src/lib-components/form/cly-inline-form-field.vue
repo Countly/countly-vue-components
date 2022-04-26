@@ -1,5 +1,7 @@
 <script>
-export default {
+import countlyVue from '../../compat/vue-core';
+
+export default countlyVue.components.BaseComponent.extend({
     props: {
         label: String,
         help: String,
@@ -12,7 +14,7 @@ export default {
             return Object.keys(this.$attrs.rules).indexOf('required') !== -1;
         }
     }
-};
+});
 </script>
 <template>
     <div class="cly-vue-form-field cly-vue-form-step__section bu-columns bu-is-vcentered bu-px-1 bu-mx-1">

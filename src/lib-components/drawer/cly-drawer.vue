@@ -2,7 +2,7 @@
 import FormCommons from '../form/commons';
 import countlyVue from '../../compat/vue-core';
 
-export default {
+export default countlyVue.components.BaseComponent.extend({
     inheritAttrs: false,
     mixins: [
         countlyVue.mixins.i18n,
@@ -82,7 +82,7 @@ export default {
             this.$refs.rootEl.focus();
         }
     }
-};
+});
 </script>
 <template>
     <transition :name="toggleTransition" @enter="onViewEntered">

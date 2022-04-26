@@ -1,5 +1,6 @@
 <script>
-export default {
+import countlyVue from '../../compat/vue-core';
+export default countlyVue.components.BaseComponent.extend({
     props: {
         label: String,
         highlight: {
@@ -26,7 +27,7 @@ export default {
             return "";
         }
     }
-};
+});
 </script>
 <template>
     <div class='cly-vue-form-step__auto-group'>

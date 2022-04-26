@@ -6,7 +6,7 @@ const REGEX_EMAIL = '([a-z0-9!#$%&\'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&\'*+/=?^_`{
     SIMPLE_EMAIL = new RegExp('^' + REGEX_EMAIL + '$', 'i'),
     NAMED_EMAIL = new RegExp('^([^<]*)\<' + REGEX_EMAIL + '\>$', 'i');
 
-export default {
+export default countlyVue.components.BaseComponent.extend({
     mixins: [
         countlyVue.mixins.i18n
     ],
@@ -79,7 +79,7 @@ export default {
             this.updateDropdown();
         }
     }
-};
+});
 </script>
 <template>
     <cly-select-x

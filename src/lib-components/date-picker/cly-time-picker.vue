@@ -1,5 +1,6 @@
 <script>
-export default {
+import countlyVue from '../../compat/vue-core';
+export default countlyVue.components.BaseComponent.extend({
     name: 'ClyTimePicker',
     props: {
         width: {
@@ -23,7 +24,7 @@ export default {
             required: false
         }
     }
-};
+});
 </script>
 <template>
     <el-time-picker :append-to-body="appendToBody" :style="{'width': width + 'px'}" class="cly-vue-time-picker" v-bind="$attrs" v-on="$listeners" :format="format" :clearable="clearable"></el-time-picker>

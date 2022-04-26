@@ -1,5 +1,6 @@
 <script>
-export default {
+import countlyVue from '../../compat/vue-core';
+export default countlyVue.components.BaseComponent.extend({
     props: {
         value: {
             type: Array
@@ -24,7 +25,7 @@ export default {
             this.handleInput(copy);
         }
     }
-};
+});
 </script>
 <template>
     <div class="cly-vue-draggable" :class="rootClasses">

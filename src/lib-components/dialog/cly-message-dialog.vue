@@ -1,7 +1,7 @@
 <script>
 import Vue from 'vue';
 import countlyVue from '../../compat/vue-core';
-export default Vue.extend({
+export default countlyVue.components.BaseComponent.extend({
     name: "ClyMessageDialog",
     props: {
         title: {type: String, required: true},

@@ -1,5 +1,6 @@
 <script>
-export default {
+import countlyVue from '../../compat/vue-core';
+export default countlyVue.components.BaseComponent.extend({
     props: {
         validatorFn: {type: Function},
         id: { type: String, required: true },
@@ -44,7 +45,7 @@ export default {
     beforeDestroy: function() {
         this.watchHandle(); // unwatch
     }
-};
+});
 </script>
 <template>
     <div class="cly-vue-content" :id="elementId" v-if="isActive || alwaysMounted">

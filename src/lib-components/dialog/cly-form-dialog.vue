@@ -3,7 +3,7 @@ import Vue from 'vue';
 import countlyVue from '../../compat/vue-core';
 import FormCommons from '../form/commons';
 
-export default Vue.extend({
+export default countlyVue.components.BaseComponent.extend({
     name: "ClyFormDialog",
     inheritAttrs: false,
     mixins: [

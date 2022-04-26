@@ -2,7 +2,7 @@
 import countlyVue from '../../compat/vue-core';
 import {SearchableOptionsMixin, TabbedOptionsMixin} from './commons';
 
-export default {
+export default countlyVue.components.BaseComponent.extend({
     name: 'ClySelectX',
     mixins: [TabbedOptionsMixin, SearchableOptionsMixin, countlyVue.mixins.i18n],
     props: {
@@ -209,7 +209,7 @@ export default {
             this.uncommittedValue = null;
         }
     }
-};
+});
 </script>
 <template>
     <cly-dropdown

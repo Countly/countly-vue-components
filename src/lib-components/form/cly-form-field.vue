@@ -1,7 +1,7 @@
 <script>
 import countlyVue from '../../compat/vue-core';
 
-export default {
+export default countlyVue.components.BaseComponent.extend({
     props: {
         subheading: {required: false},
         label: {required: false},
@@ -35,7 +35,7 @@ export default {
         }
     },
     mixins: [countlyVue.mixins.i18n]
-};
+});
 </script>
 <template>
     <div class="cly-vue-form-field" :class="topClasses">

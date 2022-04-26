@@ -1,8 +1,8 @@
 <script>
 import Vue from 'vue';
-export default Vue.extend({
+import countlyVue from '../../compat/vue-core';
+export default countlyVue.components.BaseComponent.extend({
     name: "ClyDialog",
-    components: {},
     props: {
         title: {
             type: String,
