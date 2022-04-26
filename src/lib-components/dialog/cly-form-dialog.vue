@@ -1,7 +1,7 @@
 <script>
 import Vue from 'vue';
 import countlyVue from '../../compat/vue-core';
-import FormCommons from './commons';
+import FormCommons from '../form/commons';
 
 export default Vue.extend({
     name: "ClyFormDialog",

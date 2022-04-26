@@ -1,6 +1,6 @@
 import countlyVue from '../../compat/vue-core';
 
-const BufferedObjectMixin = {
+const BufferedObject = {
     props: {
         initialEditedObject: {
             type: Object,
@@ -38,8 +38,8 @@ const BufferedObjectMixin = {
     }
 };
 
-const MultiStepFormMixin = {
-    mixins: [BufferedObjectMixin],
+const MultiStepForm = {
+    mixins: [BufferedObject],
     props: {
         requiresAsyncSubmit: {type: Boolean, default: false, required: false},
         setStepCallbackFn: {type: Function, default: null, required: false}
@@ -239,7 +239,7 @@ const BaseStep = countlyVue.mixins.BaseContent.extend({
 });
 
 export default {
-    BufferedObjectMixin,
-    MultiStepFormMixin,
+    BufferedObject,
+    MultiStepForm,
     BaseStep
 };
