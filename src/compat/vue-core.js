@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import countlyCommon from './countly.common'
 
 var _i18n = function(key) {
     return key;
@@ -112,6 +113,15 @@ export default {
     i18nM: _i18nM,
     components: _components,
     mixins: {
+        commonFormatters: {
+            methods: {
+                parseTimeAgo: countlyCommon.formatTimeAgoText,
+                formatTimeAgo: countlyCommon.formatTimeAgo,
+                formatNumber: countlyCommon.formatNumber,
+                formatNumberSafe: countlyCommon.formatNumberSafe,
+                getShortNumber: countlyCommon.getShortNumber
+            }
+        },
         Modal: {
             methods: {
                 setModalState: function(state) {

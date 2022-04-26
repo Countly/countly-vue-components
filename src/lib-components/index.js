@@ -17,7 +17,7 @@ Vue.directive("click-outside", ELEMENT.utils.Clickoutside);
 
 Vue.use(vuescroll);
 
-//export { default as ClyDataTable } from './datatable/cly-datatable.vue';
+export { default as ClyDatatable } from './datatable/cly-datatable.vue';
 //
 export { default as ClyDatePicker } from './date-picker/cly-date-picker.vue';
 export { default as ClyTimePicker } from './date-picker/cly-time-picker.vue';

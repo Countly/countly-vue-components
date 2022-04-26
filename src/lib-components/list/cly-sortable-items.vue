@@ -1,6 +1,10 @@
 <script>
 import countlyVue from '../../compat/vue-core';
+import draggable from 'vuedraggable';
 export default countlyVue.components.BaseComponent.extend({
+    components: {
+        draggable
+    },
     props: {
         value: {
             type: Array

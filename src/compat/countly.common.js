@@ -256,4 +256,20 @@ countlyCommon.formatNumber = function(x) {
     return parts.join(".");
 };
 
+countlyCommon.formatTimeAgoText = function(x) {
+    return x;
+}
+countlyCommon.formatTimeAgo = function(x) {
+    return x;
+}
+countlyCommon.formatNumber = function(x) {
+    return x;
+}
+countlyCommon.formatNumberSafe = function(x) {
+    return x;
+}
+countlyCommon.getShortNumber = function(x) {
+    return x;
+}
+
 export default countlyCommon;

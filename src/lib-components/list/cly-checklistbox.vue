@@ -1,7 +1,11 @@
 <script>
 import {AbstractListBox} from './commons';
+import draggable from 'vuedraggable';
 
 export default AbstractListBox.extend({
+    components: {
+        draggable
+    },
     name: 'ClyChecklistbox',
     props: {
         value: {
