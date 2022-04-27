@@ -52629,7 +52629,7 @@ function initCompat() {
   }
 }
 
-var script$k = {
+var script$H = {
   name: 'ResizeObserver',
   props: {
     emitOnMount: {
@@ -52794,10 +52794,10 @@ function normalizeComponent$2(template, style, script, scopeId, isFunctionalTemp
 }
 
 /* script */
-var __vue_script__$k = script$k;
+var __vue_script__$H = script$H;
 /* template */
 
-var __vue_render__$k = function __vue_render__() {
+var __vue_render__$H = function __vue_render__() {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -52812,35 +52812,35 @@ var __vue_render__$k = function __vue_render__() {
   });
 };
 
-var __vue_staticRenderFns__$k = [];
-__vue_render__$k._withStripped = true;
+var __vue_staticRenderFns__$H = [];
+__vue_render__$H._withStripped = true;
 /* style */
 
-var __vue_inject_styles__$k = undefined;
+var __vue_inject_styles__$H = undefined;
 /* scoped */
 
-var __vue_scope_id__$k = "data-v-8859cc6c";
+var __vue_scope_id__$H = "data-v-8859cc6c";
 /* module identifier */
 
-var __vue_module_identifier__$k = undefined;
+var __vue_module_identifier__$H = undefined;
 /* functional template */
 
-var __vue_is_functional_template__$k = false;
+var __vue_is_functional_template__$H = false;
 /* style inject */
 
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-var __vue_component__$z = /*#__PURE__*/normalizeComponent$2({
-  render: __vue_render__$k,
-  staticRenderFns: __vue_staticRenderFns__$k
-}, __vue_inject_styles__$k, __vue_script__$k, __vue_scope_id__$k, __vue_is_functional_template__$k, __vue_module_identifier__$k, false, undefined, undefined, undefined);
+var __vue_component__$1h = /*#__PURE__*/normalizeComponent$2({
+  render: __vue_render__$H,
+  staticRenderFns: __vue_staticRenderFns__$H
+}, __vue_inject_styles__$H, __vue_script__$H, __vue_scope_id__$H, __vue_is_functional_template__$H, __vue_module_identifier__$H, false, undefined, undefined, undefined);
 
 function install$4(Vue) {
   // eslint-disable-next-line vue/component-definition-name-casing
-  Vue.component('resize-observer', __vue_component__$z);
-  Vue.component('ResizeObserver', __vue_component__$z);
+  Vue.component('resize-observer', __vue_component__$1h);
+  Vue.component('ResizeObserver', __vue_component__$1h);
 }
 
 var plugin$1 = {
@@ -54901,10 +54901,10 @@ if (typeof window !== 'undefined') {
   Element$1 = window.Element;
 }
 
-var script$j = {
+var script$G = {
   name: 'VPopover',
   components: {
-    ResizeObserver: __vue_component__$z
+    ResizeObserver: __vue_component__$1h
   },
   props: {
     open: {
@@ -55651,10 +55651,10 @@ function normalizeComponent$1(template, style, script, scopeId, isFunctionalTemp
 }
 
 /* script */
-var __vue_script__$j = script$j;
+var __vue_script__$G = script$G;
 /* template */
 
-var __vue_render__$j = function __vue_render__() {
+var __vue_render__$G = function __vue_render__() {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -55714,30 +55714,30 @@ var __vue_render__$j = function __vue_render__() {
   })])])]);
 };
 
-var __vue_staticRenderFns__$j = [];
-__vue_render__$j._withStripped = true;
+var __vue_staticRenderFns__$G = [];
+__vue_render__$G._withStripped = true;
 /* style */
 
-var __vue_inject_styles__$j = undefined;
+var __vue_inject_styles__$G = undefined;
 /* scoped */
 
-var __vue_scope_id__$j = undefined;
+var __vue_scope_id__$G = undefined;
 /* module identifier */
 
-var __vue_module_identifier__$j = undefined;
+var __vue_module_identifier__$G = undefined;
 /* functional template */
 
-var __vue_is_functional_template__$j = false;
+var __vue_is_functional_template__$G = false;
 /* style inject */
 
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-var __vue_component__$y = /*#__PURE__*/normalizeComponent$1({
-  render: __vue_render__$j,
-  staticRenderFns: __vue_staticRenderFns__$j
-}, __vue_inject_styles__$j, __vue_script__$j, __vue_scope_id__$j, __vue_is_functional_template__$j, __vue_module_identifier__$j, false, undefined, undefined, undefined);
+var __vue_component__$1g = /*#__PURE__*/normalizeComponent$1({
+  render: __vue_render__$G,
+  staticRenderFns: __vue_staticRenderFns__$G
+}, __vue_inject_styles__$G, __vue_script__$G, __vue_scope_id__$G, __vue_is_functional_template__$G, __vue_module_identifier__$G, false, undefined, undefined, undefined);
 
 function styleInject(css, ref) {
   if ( ref === void 0 ) ref = {};
@@ -55779,7 +55779,7 @@ function install$3(Vue) {
   directive.options = finalOptions;
   Vue.directive('tooltip', directive);
   Vue.directive('close-popover', vclosepopover);
-  Vue.component('VPopover', __vue_component__$y);
+  Vue.component('VPopover', __vue_component__$1g);
 }
 var plugin = {
   install: install$3,
@@ -67006,7 +67006,7 @@ var countlyVue = {
   }
 };
 
-var script$i = countlyVue.components.BaseComponent.extend({
+var script$F = countlyVue.components.BaseComponent.extend({
   "name": 'TriggerProxy'
 });
 
@@ -67086,10 +67086,10 @@ function normalizeComponent(template, style, script, scopeId, isFunctionalTempla
 }
 
 /* script */
-const __vue_script__$i = script$i;
+const __vue_script__$F = script$F;
 /* template */
 
-var __vue_render__$i = function () {
+var __vue_render__$F = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -67103,33 +67103,33 @@ var __vue_render__$i = function () {
   }, [_vm._t("default")], 2);
 };
 
-var __vue_staticRenderFns__$i = [];
+var __vue_staticRenderFns__$F = [];
 /* style */
 
-const __vue_inject_styles__$i = undefined;
+const __vue_inject_styles__$F = undefined;
 /* scoped */
 
-const __vue_scope_id__$i = undefined;
+const __vue_scope_id__$F = undefined;
 /* module identifier */
 
-const __vue_module_identifier__$i = undefined;
+const __vue_module_identifier__$F = undefined;
 /* functional template */
 
-const __vue_is_functional_template__$i = false;
+const __vue_is_functional_template__$F = false;
 /* style inject */
 
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-const __vue_component__$x = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$i,
-  staticRenderFns: __vue_staticRenderFns__$i
-}, __vue_inject_styles__$i, __vue_script__$i, __vue_scope_id__$i, __vue_is_functional_template__$i, __vue_module_identifier__$i, false, undefined, undefined, undefined);
+const __vue_component__$1f = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$F,
+  staticRenderFns: __vue_staticRenderFns__$F
+}, __vue_inject_styles__$F, __vue_script__$F, __vue_scope_id__$F, __vue_is_functional_template__$F, __vue_module_identifier__$F, false, undefined, undefined, undefined);
 
-var triggerProxy = __vue_component__$x;
+var triggerProxy = __vue_component__$1f;
 
-var script$h = countlyVue.components.BaseComponent.extend({
+var script$E = countlyVue.components.BaseComponent.extend({
   name: 'ClyDropdown',
   components: {
     'trigger-proxy': triggerProxy,
@@ -67290,10 +67290,10 @@ function addStyle(id, css) {
 }
 
 /* script */
-const __vue_script__$h = script$h;
+const __vue_script__$E = script$E;
 /* template */
 
-var __vue_render__$h = function () {
+var __vue_render__$E = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -67378,10 +67378,10 @@ var __vue_render__$h = function () {
   }, [_vm._t("default")], 2)])], 1);
 };
 
-var __vue_staticRenderFns__$h = [];
+var __vue_staticRenderFns__$E = [];
 /* style */
 
-const __vue_inject_styles__$h = function (inject) {
+const __vue_inject_styles__$E = function (inject) {
   if (!inject) return;
   inject("data-v-ed11e612_0", {
     source: ".cly-vue-dropdown__pop{padding:0;width:fit-content}.cly-vue-dropdown__pop-container{word-break:initial}",
@@ -67392,23 +67392,23 @@ const __vue_inject_styles__$h = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__$h = undefined;
+const __vue_scope_id__$E = undefined;
 /* module identifier */
 
-const __vue_module_identifier__$h = undefined;
+const __vue_module_identifier__$E = undefined;
 /* functional template */
 
-const __vue_is_functional_template__$h = false;
+const __vue_is_functional_template__$E = false;
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-const __vue_component__$w = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$h,
-  staticRenderFns: __vue_staticRenderFns__$h
-}, __vue_inject_styles__$h, __vue_script__$h, __vue_scope_id__$h, __vue_is_functional_template__$h, __vue_module_identifier__$h, false, createInjector, undefined, undefined);
+const __vue_component__$1e = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$E,
+  staticRenderFns: __vue_staticRenderFns__$E
+}, __vue_inject_styles__$E, __vue_script__$E, __vue_scope_id__$E, __vue_is_functional_template__$E, __vue_module_identifier__$E, false, createInjector, undefined, undefined);
 
-var ClyDropdown = __vue_component__$w;
+var ClyDropdown = __vue_component__$1e;
 
 var underscore = createCommonjsModule(function (module, exports) {
 //     Underscore.js 1.4.0
@@ -85786,7 +85786,6 @@ var lodash = createCommonjsModule(function (module, exports) {
 }.call(commonjsGlobal));
 });
 
-var _mixins = countlyVue.mixins;
 var TableExtensionsMixin = {
   props: {
     persistKey: {
@@ -86493,12 +86492,12 @@ var ExportHandlerMixin = {
     }
   }
 };
-var script$g = countlyVue.components.BaseComponent.extend({
+var script$D = countlyVue.components.BaseComponent.extend({
   name: 'ClyDatatable',
   components: {
     'cly-dropdown': ClyDropdown
   },
-  mixins: [_mixins.commonFormatters, _mixins.i18n, TableExtensionsMixin, MutationTrackerMixin, OverlayRowMixin, ExportHandlerMixin],
+  mixins: [countlyVue.commonFormatters, countlyVue.mixins.i18n, TableExtensionsMixin, MutationTrackerMixin, OverlayRowMixin, ExportHandlerMixin],
   props: {
     keyFn: {
       type: Function,
@@ -86604,10 +86603,10 @@ var script$g = countlyVue.components.BaseComponent.extend({
 });
 
 /* script */
-const __vue_script__$g = script$g;
+const __vue_script__$D = script$D;
 /* template */
 
-var __vue_render__$g = function () {
+var __vue_render__$D = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -86995,12 +86994,12 @@ var __vue_render__$g = function () {
   })])])], 2)]), _vm._v(" "), _c('div', [_vm._t("bottomline", null, null, _vm.commonScope)], 2)], 1)]);
 };
 
-var __vue_staticRenderFns__$g = [];
+var __vue_staticRenderFns__$D = [];
 /* style */
 
-const __vue_inject_styles__$g = function (inject) {
+const __vue_inject_styles__$D = function (inject) {
   if (!inject) return;
-  inject("data-v-c4f40da0_0", {
+  inject("data-v-62217692_0", {
     source: ".cly-vue-eldatatable.silent-loading .el-loading-spinner{visibility:hidden}.cly-vue-eldatatable.silent-loading .el-loading-mask{display:none!important}.cly-vue-eldatatable__header{height:56px;border-left:none;border-right:none;box-sizing:border-box;padding:12px;border-top:1px solid #ececec}.cly-vue-eldatatable__header--white{background-color:#fff;color:#333c48;font-size:13px}.cly-vue-eldatatable__export--extended::after{content:\"\";position:absolute;width:100%;height:12px;background:linear-gradient(180deg,#333c48 0,rgba(51,60,72,.0001) 100%);top:185px;left:0;opacity:.12}.cly-vue-eldatatable__export--search input[type=text]{background-color:#f6f6f6}.cly-vue-eldatatable__search--grey input{background-color:#fbfdfe}.cly-vue-eldatatable__footer{height:40px;box-shadow:0 2px 0 #eef2f5;border-left:none;border-right:none;box-sizing:border-box;padding:0 12px}.cly-vue-eldatatable__footer--white{background-color:#fff;color:#808a9d;font-size:13px}.cly-vue-eldatatable .undo-row{position:absolute;left:0;padding:9px 0;background-color:#ffd7d6;color:#2b2b2b;width:100%;height:100%;top:0;z-index:999;vertical-align:middle;display:flex;align-items:center;justify-content:center}.cly-vue-eldatatable .undo-row a{color:#017aff;cursor:pointer}.cly-vue-eldatatable .el-table-column--options .cly-vue-more-options{position:absolute;top:calc(50% - 16px);right:calc(50% - 20px)}.cly-vue-eldatatable div.cell{padding-left:16px;padding-right:8px}.cly-vue-eldatatable__empty-slot{height:200px}",
     map: undefined,
     media: undefined
@@ -87009,25 +87008,88 @@ const __vue_inject_styles__$g = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__$g = undefined;
+const __vue_scope_id__$D = undefined;
 /* module identifier */
 
-const __vue_module_identifier__$g = undefined;
+const __vue_module_identifier__$D = undefined;
 /* functional template */
 
-const __vue_is_functional_template__$g = false;
+const __vue_is_functional_template__$D = false;
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-const __vue_component__$u = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$g,
-  staticRenderFns: __vue_staticRenderFns__$g
-}, __vue_inject_styles__$g, __vue_script__$g, __vue_scope_id__$g, __vue_is_functional_template__$g, __vue_module_identifier__$g, false, createInjector, undefined, undefined);
+const __vue_component__$1c = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$D,
+  staticRenderFns: __vue_staticRenderFns__$D
+}, __vue_inject_styles__$D, __vue_script__$D, __vue_scope_id__$D, __vue_is_functional_template__$D, __vue_module_identifier__$D, false, createInjector, undefined, undefined);
 
-var __vue_component__$v = __vue_component__$u;
+var __vue_component__$1d = __vue_component__$1c;
 
-var script$f = countlyVue.components.BaseComponent.extend({
+var script$C = countlyVue.components.BaseComponent.extend({
+  name: 'ClyDatatableUndoRow',
+  props: {
+    delayedAction: {
+      type: Object
+    }
+  }
+});
+
+/* script */
+const __vue_script__$C = script$C;
+/* template */
+
+var __vue_render__$C = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _vm.delayedAction ? _c('div', {
+    staticClass: "undo-row",
+    on: {
+      "click": function ($event) {
+        $event.stopPropagation();
+      }
+    }
+  }, [_vm._t("default"), _vm._v(" "), _c('a', {
+    on: {
+      "click": function ($event) {
+        $event.stopPropagation();
+        return _vm.delayedAction.abort();
+      }
+    }
+  }, [_vm._v("Undo.")])], 2) : _vm._e();
+};
+
+var __vue_staticRenderFns__$C = [];
+/* style */
+
+const __vue_inject_styles__$C = undefined;
+/* scoped */
+
+const __vue_scope_id__$C = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$C = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$C = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$1a = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$C,
+  staticRenderFns: __vue_staticRenderFns__$C
+}, __vue_inject_styles__$C, __vue_script__$C, __vue_scope_id__$C, __vue_is_functional_template__$C, __vue_module_identifier__$C, false, undefined, undefined, undefined);
+
+var __vue_component__$1b = __vue_component__$1a;
+
+var script$B = countlyVue.components.BaseComponent.extend({
   name: 'ClyInputDropdownTrigger',
   props: {
     focused: {
@@ -87101,10 +87163,10 @@ var script$f = countlyVue.components.BaseComponent.extend({
 });
 
 /* script */
-const __vue_script__$f = script$f;
+const __vue_script__$B = script$B;
 /* template */
 
-var __vue_render__$f = function () {
+var __vue_render__$B = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -87140,31 +87202,31 @@ var __vue_render__$f = function () {
   })]) : _vm._e()], 2);
 };
 
-var __vue_staticRenderFns__$f = [];
+var __vue_staticRenderFns__$B = [];
 /* style */
 
-const __vue_inject_styles__$f = undefined;
+const __vue_inject_styles__$B = undefined;
 /* scoped */
 
-const __vue_scope_id__$f = undefined;
+const __vue_scope_id__$B = undefined;
 /* module identifier */
 
-const __vue_module_identifier__$f = undefined;
+const __vue_module_identifier__$B = undefined;
 /* functional template */
 
-const __vue_is_functional_template__$f = false;
+const __vue_is_functional_template__$B = false;
 /* style inject */
 
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-const __vue_component__$t = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$f,
-  staticRenderFns: __vue_staticRenderFns__$f
-}, __vue_inject_styles__$f, __vue_script__$f, __vue_scope_id__$f, __vue_is_functional_template__$f, __vue_module_identifier__$f, false, undefined, undefined, undefined);
+const __vue_component__$19 = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$B,
+  staticRenderFns: __vue_staticRenderFns__$B
+}, __vue_inject_styles__$B, __vue_script__$B, __vue_scope_id__$B, __vue_is_functional_template__$B, __vue_module_identifier__$B, false, undefined, undefined, undefined);
 
-var ClyInputDropdownTrigger = __vue_component__$t;
+var ClyInputDropdownTrigger = __vue_component__$19;
 
 var vueInViewportMixin = createCommonjsModule(function (module, exports) {
 
@@ -87388,7 +87450,7 @@ var _default2 = {
 exports.default = _default2;
 });
 
-var script$e = {
+var script$A = {
   props: {
     dateMeta: Object
   },
@@ -87408,10 +87470,10 @@ var script$e = {
 };
 
 /* script */
-const __vue_script__$e = script$e;
+const __vue_script__$A = script$A;
 /* template */
 
-var __vue_render__$e = function () {
+var __vue_render__$A = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -87430,31 +87492,31 @@ var __vue_render__$e = function () {
   }) : _vm._e()], 1);
 };
 
-var __vue_staticRenderFns__$e = [];
+var __vue_staticRenderFns__$A = [];
 /* style */
 
-const __vue_inject_styles__$e = undefined;
+const __vue_inject_styles__$A = undefined;
 /* scoped */
 
-const __vue_scope_id__$e = undefined;
+const __vue_scope_id__$A = undefined;
 /* module identifier */
 
-const __vue_module_identifier__$e = undefined;
+const __vue_module_identifier__$A = undefined;
 /* functional template */
 
-const __vue_is_functional_template__$e = false;
+const __vue_is_functional_template__$A = false;
 /* style inject */
 
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-const __vue_component__$s = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$e,
-  staticRenderFns: __vue_staticRenderFns__$e
-}, __vue_inject_styles__$e, __vue_script__$e, __vue_scope_id__$e, __vue_is_functional_template__$e, __vue_module_identifier__$e, false, undefined, undefined, undefined);
+const __vue_component__$18 = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$A,
+  staticRenderFns: __vue_staticRenderFns__$A
+}, __vue_inject_styles__$A, __vue_script__$A, __vue_scope_id__$A, __vue_is_functional_template__$A, __vue_module_identifier__$A, false, undefined, undefined, undefined);
 
-var AbstractTableComponent = __vue_component__$s;
+var AbstractTableComponent = __vue_component__$18;
 
 const availableShortcuts = {
   yesterday: {
@@ -88054,7 +88116,7 @@ const CalendarsMixin = {
 
   }
 };
-var script$d = countlyVue.components.BaseComponent.extend({
+var script$z = countlyVue.components.BaseComponent.extend({
   name: 'ClyDatePicker',
   mixins: [countlyVue.mixins.i18n, InputControlsMixin, CalendarsMixin, elementUi_common.utils.Emitter],
   components: {
@@ -88515,10 +88577,10 @@ var script$d = countlyVue.components.BaseComponent.extend({
 });
 
 /* script */
-const __vue_script__$d = script$d;
+const __vue_script__$z = script$z;
 /* template */
 
-var __vue_render__$d = function () {
+var __vue_render__$z = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -88907,10 +88969,10 @@ var __vue_render__$d = function () {
   }, [_vm._v(_vm._s(!_vm.isRange ? _vm.i18n("common.apply") : _vm.i18n("common.apply-range")))])], 1)]) : _vm._e()])]);
 };
 
-var __vue_staticRenderFns__$d = [];
+var __vue_staticRenderFns__$z = [];
 /* style */
 
-const __vue_inject_styles__$d = function (inject) {
+const __vue_inject_styles__$z = function (inject) {
   if (!inject) return;
   inject("data-v-f541aed2_0", {
     source: ".cly-vue-daterp{background:#fff;border-radius:4px;color:#333c48;display:inline-block}.cly-vue-daterp__shortcuts-col{width:144px;padding:8px;vertical-align:top}.cly-vue-daterp__calendars-col{width:341px}.cly-vue-daterp__shortcuts-col+.cly-vue-daterp__calendars-col{border-left:1px #ebebef solid;margin-left:-5px}.cly-vue-daterp__calendars-wrapper{background-color:#f9f9f9;position:relative}.cly-vue-daterp__calendars-wrapper::before{content:\"\";position:absolute;width:100%;height:12px;background:linear-gradient(180deg,rgba(51,60,72,.8) 0,rgba(51,60,72,.00008) 100%);mix-blend-mode:normal;opacity:.1;top:0;z-index:2000}.cly-vue-daterp__calendars-wrapper::after{content:\"\";position:absolute;width:100%;height:12px;background:linear-gradient(180deg,rgba(51,60,72,.6) 0,rgba(51,60,72,.00006) 100%);mix-blend-mode:normal;opacity:.1;transform:rotate(-180deg);bottom:0}.cly-vue-daterp__date-table-wrapper{margin:0 14px 4px 14px;padding-top:12px}.cly-vue-daterp__calendars-col,.cly-vue-daterp__shortcuts-col{display:inline-block}.cly-vue-daterp__calendars-col .el-tabs__active-bar,.cly-vue-daterp__shortcuts-col .el-tabs__active-bar{background-color:#0166d6}.cly-vue-daterp__shortcut{padding:8px;cursor:pointer;line-height:16px}.cly-vue-daterp__shortcut--active{background:#f9f9f9;border-radius:4px;color:#0166d6}.cly-vue-daterp__shortcut--custom{margin-bottom:24px}.cly-vue-daterp__shortcut i{color:#808081;float:right;margin-top:1px;margin-right:-2px}.cly-vue-daterp__input-wrapper,.cly-vue-daterp__time-picker-section{width:308px;display:flex;margin:0;padding:16px;align-items:center}.cly-vue-daterp__time-picker-section{border-bottom:1px solid #ececec}.cly-vue-daterp__in-between-conj{padding:0 11px}.cly-vue-daterp__commit-section{float:right;margin:16px}.cly-vue-daterp__cancel-button{padding:8px 12px;border:none;font-weight:500}.cly-vue-daterp__confirm-button{margin-left:8px;border:none}.cly-vue-daterp__day-names-wrapper{margin:0 14px 9px 14px}.cly-vue-daterp__day-names{text-align:center}.cly-vue-daterp__day-names th{font-size:13px;line-height:13px;font-weight:500;color:#858a91;width:42px}.cly-vue-daterp .el-tabs__nav-scroll{justify-content:center;display:flex}.cly-vue-daterp .el-tabs__header{margin:0}.cly-vue-daterp .el-tabs__item{height:44px;line-height:44px}.cly-vue-daterp__hidden-tabs .el-tabs__header{display:none}.cly-vue-daterp .el-date-table{margin-top:2px}.cly-vue-daterp .el-date-table tr:first-of-type{display:none}.cly-vue-daterp .el-date-table td{width:44px;height:36px;padding:0}.cly-vue-daterp .el-date-table td>div{padding:0;height:32px}.cly-vue-daterp .el-date-table td>div span{width:40px;height:32px;background:#fff;border-radius:4px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;border:2px solid transparent;padding:5px 0 0 15px}.cly-vue-daterp .el-date-table td.in-range>div span{background:#ccdbf2;mix-blend-mode:normal}.cly-vue-daterp .el-date-table td.end-date>div span,.cly-vue-daterp .el-date-table td.start-date>div span{background:#1967d2}.cly-vue-daterp .el-date-table td.next-month,.cly-vue-daterp .el-date-table td.prev-month{visibility:hidden;height:0}.cly-vue-daterp .el-date-table td.next-month div,.cly-vue-daterp .el-date-table td.next-month span,.cly-vue-daterp .el-date-table td.prev-month div,.cly-vue-daterp .el-date-table td.prev-month span{display:none;height:0}.cly-vue-daterp .el-month-table{margin-top:2px;margin-bottom:14px}.cly-vue-daterp .el-month-table td{width:78px;height:66px;padding:0}.cly-vue-daterp .el-month-table td>div{padding:0}.cly-vue-daterp .el-month-table td>div a{width:68px;height:46px;background:#fff;border-radius:4px;font-size:14px;padding-top:10px;border:2px solid transparent}.cly-vue-daterp .el-month-table td.in-range>div a{background:#ccdbf2;mix-blend-mode:normal}.cly-vue-daterp .el-month-table td.end-date>div a,.cly-vue-daterp .el-month-table td.start-date>div a{background:#1967d2}.cly-vue-daterp__table-wrap.is-start-focused .el-date-table .start-date>div span{background:#fff;border:2px solid #0166d6;color:#333c48}.cly-vue-daterp__table-wrap.is-start-focused .el-month-table .start-date>div a{background:#fff;border:2px solid #0166d6;color:#333c48}.cly-vue-daterp__table-wrap.is-end-focused .el-date-table .end-date>div span{background:#fff;border:2px solid #0166d6;color:#333c48}.cly-vue-daterp__table-wrap.is-end-focused .el-month-table .end-date>div a{background:#fff;border:2px solid #0166d6;color:#333c48}.cly-vue-daterp__table-wrap.is-point .el-date-table .available:not(.in-range)>div:hover span{background:#fff;border:2px solid #0166d6;color:#333c48}.cly-vue-daterp__table-wrap.is-point .el-month-table td:not(.in-range)>div:hover a{background:#fff;border:2px solid #0166d6;color:#333c48}",
@@ -88921,25 +88983,25 @@ const __vue_inject_styles__$d = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__$d = undefined;
+const __vue_scope_id__$z = undefined;
 /* module identifier */
 
-const __vue_module_identifier__$d = undefined;
+const __vue_module_identifier__$z = undefined;
 /* functional template */
 
-const __vue_is_functional_template__$d = false;
+const __vue_is_functional_template__$z = false;
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-const __vue_component__$q = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$d,
-  staticRenderFns: __vue_staticRenderFns__$d
-}, __vue_inject_styles__$d, __vue_script__$d, __vue_scope_id__$d, __vue_is_functional_template__$d, __vue_module_identifier__$d, false, createInjector, undefined, undefined);
+const __vue_component__$16 = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$z,
+  staticRenderFns: __vue_staticRenderFns__$z
+}, __vue_inject_styles__$z, __vue_script__$z, __vue_scope_id__$z, __vue_is_functional_template__$z, __vue_module_identifier__$z, false, createInjector, undefined, undefined);
 
-var __vue_component__$r = __vue_component__$q;
+var __vue_component__$17 = __vue_component__$16;
 
-var script$c = countlyVue.components.BaseComponent.extend({
+var script$y = countlyVue.components.BaseComponent.extend({
   name: 'ClyTimePicker',
   props: {
     width: {
@@ -88966,10 +89028,10 @@ var script$c = countlyVue.components.BaseComponent.extend({
 });
 
 /* script */
-const __vue_script__$c = script$c;
+const __vue_script__$y = script$y;
 /* template */
 
-var __vue_render__$c = function () {
+var __vue_render__$y = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -88989,33 +89051,3460 @@ var __vue_render__$c = function () {
   }, 'el-time-picker', _vm.$attrs, false), _vm.$listeners));
 };
 
-var __vue_staticRenderFns__$c = [];
+var __vue_staticRenderFns__$y = [];
 /* style */
 
-const __vue_inject_styles__$c = undefined;
+const __vue_inject_styles__$y = undefined;
 /* scoped */
 
-const __vue_scope_id__$c = undefined;
+const __vue_scope_id__$y = undefined;
 /* module identifier */
 
-const __vue_module_identifier__$c = undefined;
+const __vue_module_identifier__$y = undefined;
 /* functional template */
 
-const __vue_is_functional_template__$c = false;
+const __vue_is_functional_template__$y = false;
 /* style inject */
 
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-const __vue_component__$o = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$c,
-  staticRenderFns: __vue_staticRenderFns__$c
-}, __vue_inject_styles__$c, __vue_script__$c, __vue_scope_id__$c, __vue_is_functional_template__$c, __vue_module_identifier__$c, false, undefined, undefined, undefined);
+const __vue_component__$14 = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$y,
+  staticRenderFns: __vue_staticRenderFns__$y
+}, __vue_inject_styles__$y, __vue_script__$y, __vue_scope_id__$y, __vue_is_functional_template__$y, __vue_module_identifier__$y, false, undefined, undefined, undefined);
 
-var __vue_component__$p = __vue_component__$o;
+var __vue_component__$15 = __vue_component__$14;
 
-var script$b = countlyVue.components.BaseComponent.extend({
+var script$x = countlyVue.components.BaseComponent.extend({
+  name: "ClyConfirmDialog",
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    saveButtonLabel: {
+      type: String,
+      required: false,
+      default: countlyVue.i18n("common.save")
+    },
+    cancelButtonLabel: {
+      type: String,
+      required: false,
+      default: countlyVue.i18n("common.cancel")
+    },
+    dialogType: {
+      type: String,
+      required: false,
+      default: "success"
+    }
+  },
+  computed: {
+    forwardedSlots: function () {
+      var self = this;
+      return Object.keys(this.$scopedSlots).reduce(function (slots, slotKey) {
+        slots[slotKey] = self.$scopedSlots[slotKey];
+        return slots;
+      }, {});
+    },
+    saveLabel: function () {
+      return this.$attrs.saveButtonLabel || this.saveButtonLabel;
+    },
+    cancelLabel: function () {
+      return this.$attrs.cancelButtonLabel || this.cancelButtonLabel;
+    },
+    confirmStyle: function () {
+      if (this.dialogType === "success" || this.dialogType === "danger") {
+        return this.dialogType;
+      }
+
+      return "success";
+    }
+  },
+  methods: {
+    confirmClicked: function () {
+      this.$emit("confirm");
+    },
+    cancelClicked: function () {
+      this.$emit("cancel");
+    }
+  }
+});
+
+/* script */
+const __vue_script__$x = script$x;
+/* template */
+
+var __vue_render__$x = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('el-dialog', _vm._g(_vm._b({
+    staticClass: "cly-vue-confirm-dialog",
+    attrs: {
+      "destroyOnClose": "",
+      "title": _vm.title
+    },
+    scopedSlots: _vm._u([{
+      key: "title",
+      fn: function () {
+        return [_c('h3', {
+          staticClass: "color-cool-gray-100"
+        }, [_vm._v(_vm._s(_vm.title))])];
+      },
+      proxy: true
+    }, _vm._l(_vm.forwardedSlots, function (_, name) {
+      return {
+        key: name,
+        fn: function () {
+          return [_vm._t(name)];
+        },
+        proxy: true
+      };
+    }), {
+      key: "footer",
+      fn: function () {
+        return [_c('div', {
+          staticClass: "cly-vue-formdialog__buttons is-single-step bu-is-justify-content-flex-end bu-is-flex"
+        }, [_c('el-button', {
+          attrs: {
+            "size": "small",
+            "type": "secondary"
+          },
+          on: {
+            "click": _vm.cancelClicked
+          }
+        }, [_vm._v(_vm._s(_vm.cancelLabel))]), _vm._v(" "), _vm.confirmStyle == 'success' ? _c('el-button', {
+          attrs: {
+            "size": "small",
+            "type": "success"
+          },
+          on: {
+            "click": _vm.confirmClicked
+          }
+        }, [_vm._v(_vm._s(_vm.saveLabel))]) : _c('el-button', {
+          attrs: {
+            "size": "small",
+            "type": "danger"
+          },
+          on: {
+            "click": _vm.confirmClicked
+          }
+        }, [_vm._v(_vm._s(_vm.saveLabel))])], 1)];
+      },
+      proxy: true
+    }], null, true)
+  }, 'el-dialog', _vm.$attrs, false), _vm.$listeners));
+};
+
+var __vue_staticRenderFns__$x = [];
+/* style */
+
+const __vue_inject_styles__$x = undefined;
+/* scoped */
+
+const __vue_scope_id__$x = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$x = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$x = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$12 = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$x,
+  staticRenderFns: __vue_staticRenderFns__$x
+}, __vue_inject_styles__$x, __vue_script__$x, __vue_scope_id__$x, __vue_is_functional_template__$x, __vue_module_identifier__$x, false, undefined, undefined, undefined);
+
+var __vue_component__$13 = __vue_component__$12;
+
+var script$w = countlyVue.components.BaseComponent.extend({
+  name: "ClyDialog",
+  props: {
+    title: {
+      type: String,
+      required: false,
+      default: ''
+    },
+    autoCentered: {
+      type: Boolean,
+      required: false,
+      default: false
+    }
+  },
+  computed: {
+    forwardedSlots: function () {
+      var self = this;
+      return Object.keys(this.$scopedSlots).reduce(function (slots, slotKey) {
+        slots[slotKey] = self.$scopedSlots[slotKey];
+        return slots;
+      }, {});
+    },
+    topClasses: function () {
+      if (this.autoCentered) {
+        return "is-auto-centered";
+      }
+
+      return "";
+    }
+  }
+});
+
+/* script */
+const __vue_script__$w = script$w;
+/* template */
+
+var __vue_render__$w = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('el-dialog', _vm._g(_vm._b({
+    staticClass: "cly-vue-dialog",
+    class: _vm.topClasses,
+    attrs: {
+      "destroy-on-close": true,
+      "title": _vm.title,
+      "append-to-body": true
+    },
+    scopedSlots: _vm._u([{
+      key: "title",
+      fn: function () {
+        return [_c('h3', {
+          staticClass: "color-cool-gray-100"
+        }, [_vm._v(_vm._s(_vm.title))])];
+      },
+      proxy: true
+    }, _vm._l(_vm.forwardedSlots, function (_, name) {
+      return {
+        key: name,
+        fn: function () {
+          return [_vm._t(name)];
+        },
+        proxy: true
+      };
+    })], null, true)
+  }, 'el-dialog', _vm.$attrs, false), _vm.$listeners));
+};
+
+var __vue_staticRenderFns__$w = [];
+/* style */
+
+const __vue_inject_styles__$w = undefined;
+/* scoped */
+
+const __vue_scope_id__$w = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$w = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$w = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$10 = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$w,
+  staticRenderFns: __vue_staticRenderFns__$w
+}, __vue_inject_styles__$w, __vue_script__$w, __vue_scope_id__$w, __vue_is_functional_template__$w, __vue_module_identifier__$w, false, undefined, undefined, undefined);
+
+var __vue_component__$11 = __vue_component__$10;
+
+const BufferedObject = {
+  props: {
+    initialEditedObject: {
+      type: Object,
+      default: function () {
+        return {};
+      }
+    },
+    beforeCopyFn: {
+      type: Function
+    }
+  },
+  data: function () {
+    return {
+      editedObject: this.copyOfEdited()
+    };
+  },
+  watch: {
+    initialEditedObject: function () {
+      this.reload();
+    }
+  },
+  methods: {
+    reload: function () {
+      this.editedObject = this.copyOfEdited();
+      this.reset();
+      this.$emit("copy", this.editedObject);
+    },
+    copyOfEdited: function () {
+      var copied = JSON.parse(JSON.stringify(this.initialEditedObject));
+
+      if (this.beforeCopyFn) {
+        return this.beforeCopyFn(copied);
+      } else {
+        return copied;
+      }
+    }
+  }
+};
+const MultiStepForm = {
+  mixins: [BufferedObject],
+  props: {
+    requiresAsyncSubmit: {
+      type: Boolean,
+      default: false,
+      required: false
+    },
+    setStepCallbackFn: {
+      type: Function,
+      default: null,
+      required: false
+    }
+  },
+
+  data() {
+    return {
+      currentStepIndex: 0,
+      stepContents: [],
+      isMounted: false,
+      isSubmissionAllowed: true,
+      isSubmitPending: false
+    };
+  },
+
+  computed: {
+    lastValidIndex: function () {
+      if (!this.isMounted) {
+        return -1;
+      }
+
+      for (var i = 0; i < this.stepContents.length; i++) {
+        if (this.stepContents[i].isStep && !this.stepContents[i].isValid) {
+          return i;
+        }
+      }
+
+      return i;
+    },
+    activeContentId: function () {
+      if (this.activeContent) {
+        return this.activeContent.tId;
+      }
+
+      return null;
+    },
+    currentScreenMode: function () {
+      if (this.activeContent && this.activeContent.screen) {
+        return this.activeContent.screen;
+      }
+
+      return "half";
+    },
+    currentStepId: function () {
+      return this.activeContentId;
+    },
+    isCurrentStepValid: function () {
+      if (this.activeContent.isStep) {
+        return this.activeContent.isValid;
+      }
+
+      return true;
+    },
+    isLastStep: function () {
+      return this.stepContents.length > 1 && this.currentStepIndex === this.stepContents.length - 1;
+    },
+    activeContent: function () {
+      if (this.currentStepIndex > this.stepContents.length - 1) {
+        return null;
+      }
+
+      return this.stepContents[this.currentStepIndex];
+    },
+    isMultiStep: function () {
+      return this.stepContents.length > 1;
+    },
+    isValid: function () {
+      if (!this.isMounted) {
+        return true;
+      }
+
+      return this.stepContents.reduce(function (item, current) {
+        if (current.isStep) {
+          return item && current.isValid;
+        }
+
+        return item;
+      }, true);
+    },
+    passedScope: function () {
+      var defaultKeys = ["editedObject", "currentStepId", "isSubmissionAllowed", "submit", "reset", "validate"],
+          self = this;
+      var passed = defaultKeys.reduce(function (acc, val) {
+        acc[val] = self[val];
+        return acc;
+      }, {});
+      return passed;
+    }
+  },
+  watch: {
+    isValid: function (newValue) {
+      var self = this;
+      this.$nextTick(function () {
+        self.isSubmissionAllowed = newValue;
+      });
+    }
+  },
+  mounted: function () {
+    this.stepContents = this.$children.filter(function (child) {
+      return child.isContent && child.role === "default";
+    });
+    this.isMounted = true;
+  },
+  methods: {
+    setStep: function (newIndex, originator, internalValidationFailed) {
+      var self = this;
+
+      var defaultAction = function () {
+        if (!internalValidationFailed && newIndex >= 0 && newIndex < self.stepContents.length) {
+          self.currentStepIndex = newIndex;
+        }
+      };
+
+      if (this.setStepCallbackFn) {
+        // .resolve() handles non-Promise return values as well
+        Promise.resolve(this.setStepCallbackFn(newIndex, self.currentStepIndex, originator)).then(function (value) {
+          if (value) {
+            defaultAction();
+          }
+        }).catch(function () {//err
+          // TODO: handle error
+        });
+      } else {
+        defaultAction();
+      }
+    },
+    setStepSafe: function (newIndex, originator) {
+      this.beforeLeavingStep(newIndex < this.currentStepIndex ? "skip" : "onlyCurrent");
+      this.setStep(newIndex, originator, newIndex > this.lastValidIndex);
+    },
+    prevStep: function () {
+      this.setStep(this.currentStepIndex - 1, 'prev');
+    },
+    nextStep: function () {
+      this.beforeLeavingStep("onlyCurrent");
+      this.setStep(this.currentStepIndex + 1, 'next', !this.isCurrentStepValid);
+    },
+    reset: function () {
+      var self = this; // this.callValidators("reset");
+
+      this.setStep(0, 'reset');
+      this.$nextTick(function () {
+        self.callValidators("reset");
+      });
+    },
+    submit: function (force) {
+      this.beforeLeavingStep();
+
+      if (this.isSubmissionAllowed || force === true) {
+        if (this.requiresAsyncSubmit) {
+          this.isSubmitPending = true;
+          var self = this;
+
+          var callback = function (err) {
+            self.isSubmitPending = false;
+
+            if (!err && self.doClose) {
+              self.doClose();
+            }
+          };
+
+          this.$emit("submit", JSON.parse(JSON.stringify(this.editedObject)), callback);
+        } else {
+          this.$emit("submit", JSON.parse(JSON.stringify(this.editedObject)));
+
+          if (this.doClose) {
+            this.doClose();
+          }
+        }
+      }
+    },
+    validate: function () {
+      this.callValidators("touch");
+    },
+    beforeLeavingStep: function (touchPolicy) {
+      if (touchPolicy === "onlyCurrent") {
+        this.callValidators("touch", true);
+      } else if (touchPolicy !== "skip") {
+        this.callValidators("touch");
+      }
+
+      this.$emit("before-leaving-step");
+    },
+    callValidators: function (command, onlyCurrent) {
+      if (onlyCurrent) {
+        var target = this.stepContents[this.currentStepIndex];
+
+        if (target && target[command]) {
+          target[command]();
+        }
+      } else {
+        this.stepContents.forEach(function (current) {
+          if (current[command]) {
+            current[command]();
+          }
+        });
+      }
+    }
+  }
+};
+const BaseStep = countlyVue.mixins.BaseContent.extend({
+  data: function () {
+    return {
+      isValid: true,
+      isStep: true
+    };
+  }
+});
+var FormCommons = {
+  BufferedObject,
+  MultiStepForm,
+  BaseStep
+};
+
+var script$v = countlyVue.components.BaseComponent.extend({
+  name: "ClyFormDialog",
+  inheritAttrs: false,
+  mixins: [countlyVue.mixins.i18n, FormCommons.MultiStepForm, countlyVue.mixins.Modal],
+  props: {
+    isOpened: {
+      type: Boolean,
+      required: true
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    title: {
+      type: String,
+      required: true
+    },
+    saveButtonLabel: {
+      type: String,
+      required: true,
+      default: ""
+    },
+    cancelButtonLabel: {
+      type: String,
+      required: false,
+      default: countlyVue.i18n("common.cancel")
+    },
+    closeFn: {
+      type: Function
+    },
+    hasCancelButton: {
+      type: Boolean,
+      required: false,
+      default: true
+    },
+    toggleTransition: {
+      type: String,
+      default: 'stdt-fade'
+    }
+  },
+  computed: {
+    rootClasses: function () {
+      return {
+        'is-mounted': this.isMounted,
+        'is-open': this.isOpened
+      };
+    }
+  },
+  data: function () {
+    return {
+      isToggleable: true
+    };
+  },
+  watch: {
+    isOpened: function (newState) {
+      if (!newState) {
+        this.reset();
+      } else {
+        this.$emit("open");
+      }
+
+      this.setModalState(newState);
+    }
+  },
+  methods: {
+    doClose: function () {
+      this.$emit("close", this.name);
+
+      if (this.closeFn) {
+        this.closeFn();
+      }
+    },
+    onClickOutside: function () {
+      this.doClose();
+    },
+    escKeyEvent: function () {
+      this.doClose();
+    },
+    onViewEntered: function () {
+      this.$refs.rootEl.focus();
+    }
+  }
+});
+
+/* script */
+const __vue_script__$v = script$v;
+/* template */
+
+var __vue_render__$v = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('transition', {
+    attrs: {
+      "name": _vm.toggleTransition
+    },
+    on: {
+      "enter": _vm.onViewEntered
+    }
+  }, [_c('div', {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.isOpened,
+      expression: "isOpened"
+    }, {
+      name: "click-outside",
+      rawName: "v-click-outside",
+      value: _vm.onClickOutside,
+      expression: "onClickOutside"
+    }],
+    ref: "rootEl",
+    staticClass: "cly-vue-formdialog",
+    class: _vm.rootClasses,
+    attrs: {
+      "tabindex": "0"
+    },
+    on: {
+      "keydown": function ($event) {
+        if (!$event.type.indexOf('key') && _vm._k($event.keyCode, "esc", 27, $event.key, ["Esc", "Escape"])) {
+          return null;
+        }
+
+        return _vm.escKeyEvent.apply(null, arguments);
+      }
+    }
+  }, [_c('div', {
+    staticClass: "cly-vue-formdialog__header bu-p-4"
+  }, [_c('h3', {
+    staticClass: "color-cool-gray-100"
+  }, [_vm._v(_vm._s(_vm.title))])]), _vm._v(" "), _c('div', {
+    directives: [{
+      name: "scroll-shadow",
+      rawName: "v-scroll-shadow"
+    }],
+    staticClass: "cly-vue-formdialog__steps-container bu-px-4 bg-warm-gray-10",
+    class: {
+      'is-multi-step': _vm.isMultiStep
+    }
+  }, [_c('div', {
+    staticClass: "bu-columns bu-is-gapless bu-is-mobile"
+  }, [_c('div', {
+    staticClass: "bu-column bu-is-12"
+  }, [_vm._t("default", null, null, _vm.passedScope)], 2)])]), _vm._v(" "), _c('div', {
+    staticClass: "cly-vue-formdialog__footer bu-p-4"
+  }, [_c('div', {
+    staticClass: "cly-vue-formdialog__controls-left-pc"
+  }, [_vm._t("controls-left", null, null, _vm.passedScope)], 2), _vm._v(" "), _vm.isMultiStep ? _c('div', {
+    staticClass: "cly-vue-formdialog__buttons is-multi-step bu-is-justify-content-flex-end bu-is-flex"
+  }, [_vm.hasCancelButton && _vm.currentStepIndex === 0 ? _c('el-button', {
+    attrs: {
+      "type": "secondary",
+      "size": "small",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.doClose
+    }
+  }, [_vm._v(_vm._s(_vm.cancelButtonLabel))]) : _vm._e(), _vm._v(" "), _vm.currentStepIndex > 0 ? _c('el-button', {
+    attrs: {
+      "type": "secondary",
+      "size": "small",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.prevStep
+    }
+  }, [_vm._v(_vm._s(_vm.i18n('common.drawer.previous-step')))]) : _vm._e(), _vm._v(" "), !_vm.isLastStep ? _c('el-button', {
+    class: {
+      'is-disabled': !_vm.isCurrentStepValid
+    },
+    attrs: {
+      "size": "small",
+      "type": "success",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.nextStep
+    }
+  }, [_vm._v(_vm._s(_vm.i18n('common.drawer.next-step')))]) : _vm._e(), _vm._v(" "), _vm.isLastStep ? _c('el-button', {
+    class: {
+      'is-disabled': !_vm.isSubmissionAllowed
+    },
+    attrs: {
+      "loading": _vm.isSubmitPending,
+      "size": "small",
+      "type": "success",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.submit
+    }
+  }, [_vm._v(_vm._s(_vm.saveButtonLabel))]) : _vm._e()], 1) : _vm._e(), _vm._v(" "), !_vm.isMultiStep ? _c('div', {
+    staticClass: "cly-vue-formdialog__buttons is-single-step bu-is-justify-content-flex-end bu-is-flex"
+  }, [_vm.hasCancelButton ? _c('el-button', {
+    attrs: {
+      "type": "secondary",
+      "size": "small",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.doClose
+    }
+  }, [_vm._v(_vm._s(_vm.cancelButtonLabel))]) : _vm._e(), _vm._v(" "), _c('el-button', {
+    class: {
+      'is-disabled': !_vm.isSubmissionAllowed
+    },
+    attrs: {
+      "loading": _vm.isSubmitPending,
+      "size": "small",
+      "type": "success",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.submit
+    }
+  }, [_vm._v(_vm._s(_vm.saveButtonLabel))])], 1) : _vm._e()])])]);
+};
+
+var __vue_staticRenderFns__$v = [];
+/* style */
+
+const __vue_inject_styles__$v = undefined;
+/* scoped */
+
+const __vue_scope_id__$v = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$v = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$v = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$_ = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$v,
+  staticRenderFns: __vue_staticRenderFns__$v
+}, __vue_inject_styles__$v, __vue_script__$v, __vue_scope_id__$v, __vue_is_functional_template__$v, __vue_module_identifier__$v, false, undefined, undefined, undefined);
+
+var __vue_component__$$ = __vue_component__$_;
+
+var script$u = countlyVue.components.BaseComponent.extend({
+  name: "ClyMessageDialog",
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    confirmButtonLabel: {
+      type: String,
+      required: false,
+      default: countlyVue.i18n("common.confirm")
+    },
+    dialogType: {
+      type: String,
+      required: false,
+      default: "secondary"
+    }
+  },
+  computed: {
+    forwardedSlots: function () {
+      var self = this;
+      return Object.keys(this.$scopedSlots).reduce(function (slots, slotKey) {
+        slots[slotKey] = self.$scopedSlots[slotKey];
+        return slots;
+      }, {});
+    },
+    buttonStyle: function () {
+      if (this.dialogType === "success" || this.dialogType === "secondary") {
+        return this.dialogType;
+      }
+
+      return "success";
+    }
+  },
+  methods: {
+    confirmClicked: function () {
+      this.$emit("confirm");
+    }
+  }
+});
+
+/* script */
+const __vue_script__$u = script$u;
+/* template */
+
+var __vue_render__$u = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('el-dialog', _vm._g(_vm._b({
+    staticClass: "cly-vue-message-dialog",
+    attrs: {
+      "destroyOnClose": "",
+      "title": _vm.title
+    },
+    scopedSlots: _vm._u([{
+      key: "title",
+      fn: function () {
+        return [_c('h3', {
+          staticClass: "color-cool-gray-100"
+        }, [_vm._v(_vm._s(_vm.title))])];
+      },
+      proxy: true
+    }, _vm._l(_vm.forwardedSlots, function (_, name) {
+      return {
+        key: name,
+        fn: function () {
+          return [_vm._t(name)];
+        },
+        proxy: true
+      };
+    }), {
+      key: "footer",
+      fn: function () {
+        return [_c('div', {
+          staticClass: "cly-vue-formdialog__buttons is-single-step bu-is-justify-content-flex-end bu-is-flex"
+        }, [_c('el-button', {
+          attrs: {
+            "size": "small",
+            "type": _vm.buttonStyle
+          },
+          on: {
+            "click": _vm.confirmClicked
+          }
+        }, [_vm._v(_vm._s(_vm.confirmButtonLabel))])], 1)];
+      },
+      proxy: true
+    }], null, true)
+  }, 'el-dialog', _vm.$attrs, false), _vm.$listeners));
+};
+
+var __vue_staticRenderFns__$u = [];
+/* style */
+
+const __vue_inject_styles__$u = undefined;
+/* scoped */
+
+const __vue_scope_id__$u = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$u = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$u = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$Y = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$u,
+  staticRenderFns: __vue_staticRenderFns__$u
+}, __vue_inject_styles__$u, __vue_script__$u, __vue_scope_id__$u, __vue_is_functional_template__$u, __vue_module_identifier__$u, false, undefined, undefined, undefined);
+
+var __vue_component__$Z = __vue_component__$Y;
+
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+/* global Reflect, Promise */
+
+var extendStatics = function(d, b) {
+    extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+    return extendStatics(d, b);
+};
+
+function __extends(d, b) {
+    if (typeof b !== "function" && b !== null)
+        throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+    extendStatics(d, b);
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+}
+
+var __assign = function() {
+    __assign = Object.assign || function __assign(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+
+function __values(o) {
+    var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
+    if (m) return m.call(o);
+    if (o && typeof o.length === "number") return {
+        next: function () {
+            if (o && i >= o.length) o = void 0;
+            return { value: o && o[i++], done: !o };
+        }
+    };
+    throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
+}
+
+function __read(o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+}
+
+function __spreadArray(to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+}
+
+var activeEffectScope;
+var effectScopeStack = [];
+var EffectScopeImpl = /** @class */ (function () {
+    function EffectScopeImpl(vm) {
+        this.active = true;
+        this.effects = [];
+        this.cleanups = [];
+        this.vm = vm;
+    }
+    EffectScopeImpl.prototype.run = function (fn) {
+        if (this.active) {
+            try {
+                this.on();
+                return fn();
+            }
+            finally {
+                this.off();
+            }
+        }
+        return;
+    };
+    EffectScopeImpl.prototype.on = function () {
+        if (this.active) {
+            effectScopeStack.push(this);
+            activeEffectScope = this;
+        }
+    };
+    EffectScopeImpl.prototype.off = function () {
+        if (this.active) {
+            effectScopeStack.pop();
+            activeEffectScope = effectScopeStack[effectScopeStack.length - 1];
+        }
+    };
+    EffectScopeImpl.prototype.stop = function () {
+        if (this.active) {
+            this.vm.$destroy();
+            this.effects.forEach(function (e) { return e.stop(); });
+            this.cleanups.forEach(function (cleanup) { return cleanup(); });
+            this.active = false;
+        }
+    };
+    return EffectScopeImpl;
+}());
+var EffectScope = /** @class */ (function (_super) {
+    __extends(EffectScope, _super);
+    function EffectScope(detached) {
+        if (detached === void 0) { detached = false; }
+        var _this = this;
+        var vm = undefined;
+        withCurrentInstanceTrackingDisabled(function () {
+            vm = defineComponentInstance(getVueConstructor());
+        });
+        _this = _super.call(this, vm) || this;
+        if (!detached) {
+            recordEffectScope(_this);
+        }
+        return _this;
+    }
+    return EffectScope;
+}(EffectScopeImpl));
+function recordEffectScope(effect, scope) {
+    var _a;
+    scope = scope || activeEffectScope;
+    if (scope && scope.active) {
+        scope.effects.push(effect);
+        return;
+    }
+    // destory on parent component unmounted
+    var vm = (_a = getCurrentInstance()) === null || _a === void 0 ? void 0 : _a.proxy;
+    vm && vm.$on('hook:destroyed', function () { return effect.stop(); });
+}
+function effectScope(detached) {
+    return new EffectScope(detached);
+}
+function getCurrentScope() {
+    return activeEffectScope;
+}
+/**
+ * @internal
+ **/
+function getCurrentScopeVM() {
+    var _a, _b;
+    return ((_a = getCurrentScope()) === null || _a === void 0 ? void 0 : _a.vm) || ((_b = getCurrentInstance()) === null || _b === void 0 ? void 0 : _b.proxy);
+}
+/**
+ * @internal
+ **/
+function bindCurrentScopeToVM(vm) {
+    if (!vm.scope) {
+        var scope_1 = new EffectScopeImpl(vm.proxy);
+        vm.scope = scope_1;
+        vm.proxy.$on('hook:destroyed', function () { return scope_1.stop(); });
+    }
+    return vm.scope;
+}
+
+var vueDependency = undefined;
+try {
+    var requiredVue = require('vue');
+    if (requiredVue && isVue(requiredVue)) {
+        vueDependency = requiredVue;
+    }
+    else if (requiredVue &&
+        'default' in requiredVue &&
+        isVue(requiredVue.default)) {
+        vueDependency = requiredVue.default;
+    }
+}
+catch (_a) {
+    // not available
+}
+var vueConstructor = null;
+var currentInstance = null;
+var currentInstanceTracking = true;
+var PluginInstalledFlag = '__composition_api_installed__';
+function isVue(obj) {
+    return obj && isFunction(obj) && obj.name === 'Vue';
+}
+function isVueRegistered(Vue) {
+    // resolve issue: https://github.com/vuejs/composition-api/issues/876#issue-1087619365
+    return vueConstructor && hasOwn(Vue, PluginInstalledFlag);
+}
+function getVueConstructor() {
+    return vueConstructor;
+}
+// returns registered vue or `vue` dependency
+function getRegisteredVueOrDefault() {
+    var constructor = vueConstructor || vueDependency;
+    return constructor;
+}
+function setVueConstructor(Vue) {
+    vueConstructor = Vue;
+    Object.defineProperty(Vue, PluginInstalledFlag, {
+        configurable: true,
+        writable: true,
+        value: true,
+    });
+}
+/**
+ * For `effectScope` to create instance without populate the current instance
+ * @internal
+ **/
+function withCurrentInstanceTrackingDisabled(fn) {
+    var prev = currentInstanceTracking;
+    currentInstanceTracking = false;
+    try {
+        fn();
+    }
+    finally {
+        currentInstanceTracking = prev;
+    }
+}
+function setCurrentInstance(instance) {
+    if (!currentInstanceTracking)
+        return;
+    var prev = currentInstance;
+    prev === null || prev === void 0 ? void 0 : prev.scope.off();
+    currentInstance = instance;
+    currentInstance === null || currentInstance === void 0 ? void 0 : currentInstance.scope.on();
+}
+function getCurrentInstance() {
+    return currentInstance;
+}
+var instanceMapCache = new WeakMap();
+function toVue3ComponentInstance(vm) {
+    if (instanceMapCache.has(vm)) {
+        return instanceMapCache.get(vm);
+    }
+    var instance = {
+        proxy: vm,
+        update: vm.$forceUpdate,
+        type: vm.$options,
+        uid: vm._uid,
+        // $emit is defined on prototype and it expected to be bound
+        emit: vm.$emit.bind(vm),
+        parent: null,
+        root: null, // to be immediately set
+    };
+    bindCurrentScopeToVM(instance);
+    // map vm.$props =
+    var instanceProps = [
+        'data',
+        'props',
+        'attrs',
+        'refs',
+        'vnode',
+        'slots',
+    ];
+    instanceProps.forEach(function (prop) {
+        proxy(instance, prop, {
+            get: function () {
+                return vm["$".concat(prop)];
+            },
+        });
+    });
+    proxy(instance, 'isMounted', {
+        get: function () {
+            // @ts-expect-error private api
+            return vm._isMounted;
+        },
+    });
+    proxy(instance, 'isUnmounted', {
+        get: function () {
+            // @ts-expect-error private api
+            return vm._isDestroyed;
+        },
+    });
+    proxy(instance, 'isDeactivated', {
+        get: function () {
+            // @ts-expect-error private api
+            return vm._inactive;
+        },
+    });
+    proxy(instance, 'emitted', {
+        get: function () {
+            // @ts-expect-error private api
+            return vm._events;
+        },
+    });
+    instanceMapCache.set(vm, instance);
+    if (vm.$parent) {
+        instance.parent = toVue3ComponentInstance(vm.$parent);
+    }
+    if (vm.$root) {
+        instance.root = toVue3ComponentInstance(vm.$root);
+    }
+    return instance;
+}
+
+var toString = function (x) { return Object.prototype.toString.call(x); };
+function isNative(Ctor) {
+    return typeof Ctor === 'function' && /native code/.test(Ctor.toString());
+}
+var hasSymbol = typeof Symbol !== 'undefined' &&
+    isNative(Symbol) &&
+    typeof Reflect !== 'undefined' &&
+    isNative(Reflect.ownKeys);
+var noopFn = function (_) { return _; };
+function proxy(target, key, _a) {
+    var get = _a.get, set = _a.set;
+    Object.defineProperty(target, key, {
+        enumerable: true,
+        configurable: true,
+        get: get || noopFn,
+        set: set || noopFn,
+    });
+}
+function def(obj, key, val, enumerable) {
+    Object.defineProperty(obj, key, {
+        value: val,
+        enumerable: !!enumerable,
+        writable: true,
+        configurable: true,
+    });
+}
+function hasOwn(obj, key) {
+    return Object.hasOwnProperty.call(obj, key);
+}
+function assert(condition, msg) {
+    if (!condition) {
+        throw new Error("[vue-composition-api] ".concat(msg));
+    }
+}
+function isArray(x) {
+    return Array.isArray(x);
+}
+var objectToString = Object.prototype.toString;
+var toTypeString = function (value) {
+    return objectToString.call(value);
+};
+var isMap = function (val) {
+    return toTypeString(val) === '[object Map]';
+};
+var isSet = function (val) {
+    return toTypeString(val) === '[object Set]';
+};
+var MAX_VALID_ARRAY_LENGTH = 4294967295; // Math.pow(2, 32) - 1
+function isValidArrayIndex(val) {
+    var n = parseFloat(String(val));
+    return (n >= 0 &&
+        Math.floor(n) === n &&
+        isFinite(val) &&
+        n <= MAX_VALID_ARRAY_LENGTH);
+}
+function isObject(val) {
+    return val !== null && typeof val === 'object';
+}
+function isPlainObject$1(x) {
+    return toString(x) === '[object Object]';
+}
+function isFunction(x) {
+    return typeof x === 'function';
+}
+function warn(msg, vm) {
+    var Vue = getRegisteredVueOrDefault();
+    if (!Vue || !Vue.util)
+        console.warn("[vue-composition-api] ".concat(msg));
+    else
+        Vue.util.warn(msg, vm);
+}
+function logError(err, vm, info) {
+    if (typeof window !== 'undefined' && typeof console !== 'undefined') {
+        console.error(err);
+    }
+    else {
+        throw err;
+    }
+}
+/**
+ * Object.is polyfill
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+ * */
+function isSame(value1, value2) {
+    if (value1 === value2) {
+        return value1 !== 0 || 1 / value1 === 1 / value2;
+    }
+    else {
+        return value1 !== value1 && value2 !== value2;
+    }
+}
+
+function getCurrentInstanceForFn(hook, target) {
+    target = target || getCurrentInstance();
+    return target;
+}
+function defineComponentInstance(Ctor, options) {
+    if (options === void 0) { options = {}; }
+    var silent = Ctor.config.silent;
+    Ctor.config.silent = true;
+    var vm = new Ctor(options);
+    Ctor.config.silent = silent;
+    return vm;
+}
+function isComponentInstance(obj) {
+    var Vue = getVueConstructor();
+    return Vue && obj instanceof Vue;
+}
+function createSlotProxy(vm, slotName) {
+    return (function () {
+        var args = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            args[_i] = arguments[_i];
+        }
+        if (!vm.$scopedSlots[slotName]) {
+            return;
+        }
+        return vm.$scopedSlots[slotName].apply(vm, args);
+    });
+}
+function resolveSlots(slots, normalSlots) {
+    var res;
+    if (!slots) {
+        res = {};
+    }
+    else if (slots._normalized) {
+        // fast path 1: child component re-render only, parent did not change
+        return slots._normalized;
+    }
+    else {
+        res = {};
+        for (var key in slots) {
+            if (slots[key] && key[0] !== '$') {
+                res[key] = true;
+            }
+        }
+    }
+    // expose normal slots on scopedSlots
+    for (var key in normalSlots) {
+        if (!(key in res)) {
+            res[key] = true;
+        }
+    }
+    return res;
+}
+var vueInternalClasses;
+var getVueInternalClasses = function () {
+    if (!vueInternalClasses) {
+        var vm = defineComponentInstance(getVueConstructor(), {
+            computed: {
+                value: function () {
+                    return 0;
+                },
+            },
+        });
+        // to get Watcher class
+        var Watcher = vm._computedWatchers.value.constructor;
+        // to get Dep class
+        var Dep = vm._data.__ob__.dep.constructor;
+        vueInternalClasses = {
+            Watcher: Watcher,
+            Dep: Dep,
+        };
+        vm.$destroy();
+    }
+    return vueInternalClasses;
+};
+
+function createSymbol(name) {
+    return hasSymbol ? Symbol.for(name) : name;
+}
+var WatcherPreFlushQueueKey = createSymbol('composition-api.preFlushQueue');
+var WatcherPostFlushQueueKey = createSymbol('composition-api.postFlushQueue');
+// must be a string, symbol key is ignored in reactive
+var RefKey = 'composition-api.refKey';
+
+var accessModifiedSet = new WeakMap();
+var rawSet = new WeakMap();
+var readonlySet = new WeakMap();
+
+/**
+ * Set a property on an object. Adds the new property, triggers change
+ * notification and intercept it's subsequent access if the property doesn't
+ * already exist.
+ */
+function set$1(target, key, val) {
+    var Vue = getVueConstructor();
+    // @ts-expect-error https://github.com/vuejs/vue/pull/12132
+    var _a = Vue.util; _a.warn; var defineReactive = _a.defineReactive;
+    var ob = target.__ob__;
+    function ssrMockReactivity() {
+        // in SSR, there is no __ob__. Mock for reactivity check
+        if (ob && isObject(val) && !hasOwn(val, '__ob__')) {
+            mockReactivityDeep(val);
+        }
+    }
+    if (isArray(target)) {
+        if (isValidArrayIndex(key)) {
+            target.length = Math.max(target.length, key);
+            target.splice(key, 1, val);
+            ssrMockReactivity();
+            return val;
+        }
+        else if (key === 'length' && val !== target.length) {
+            target.length = val;
+            ob === null || ob === void 0 ? void 0 : ob.dep.notify();
+            return val;
+        }
+    }
+    if (key in target && !(key in Object.prototype)) {
+        target[key] = val;
+        ssrMockReactivity();
+        return val;
+    }
+    if (target._isVue || (ob && ob.vmCount)) {
+        return val;
+    }
+    if (!ob) {
+        target[key] = val;
+        return val;
+    }
+    defineReactive(ob.value, key, val);
+    // IMPORTANT: define access control before trigger watcher
+    defineAccessControl(target, key, val);
+    ssrMockReactivity();
+    ob.dep.notify();
+    return val;
+}
+
+var RefImpl = /** @class */ (function () {
+    function RefImpl(_a) {
+        var get = _a.get, set = _a.set;
+        proxy(this, 'value', {
+            get: get,
+            set: set,
+        });
+    }
+    return RefImpl;
+}());
+function createRef(options, isReadonly, isComputed) {
+    if (isReadonly === void 0) { isReadonly = false; }
+    if (isComputed === void 0) { isComputed = false; }
+    var r = new RefImpl(options);
+    // add effect to differentiate refs from computed
+    if (isComputed)
+        r.effect = true;
+    // seal the ref, this could prevent ref from being observed
+    // It's safe to seal the ref, since we really shouldn't extend it.
+    // related issues: #79
+    var sealed = Object.seal(r);
+    if (isReadonly)
+        readonlySet.set(sealed, true);
+    return sealed;
+}
+function ref(raw) {
+    var _a;
+    if (isRef(raw)) {
+        return raw;
+    }
+    var value = reactive((_a = {}, _a[RefKey] = raw, _a));
+    return createRef({
+        get: function () { return value[RefKey]; },
+        set: function (v) { return (value[RefKey] = v); },
+    });
+}
+function isRef(value) {
+    return value instanceof RefImpl;
+}
+function toRefs(obj) {
+    if (!isPlainObject$1(obj))
+        return obj;
+    var ret = {};
+    for (var key in obj) {
+        ret[key] = toRef(obj, key);
+    }
+    return ret;
+}
+function toRef(object, key) {
+    if (!(key in object))
+        set$1(object, key, undefined);
+    var v = object[key];
+    if (isRef(v))
+        return v;
+    return createRef({
+        get: function () { return object[key]; },
+        set: function (v) { return (object[key] = v); },
+    });
+}
+
+var SKIPFLAG = '__v_skip';
+function isRaw(obj) {
+    var _a;
+    return Boolean(obj &&
+        hasOwn(obj, '__ob__') &&
+        typeof obj.__ob__ === 'object' &&
+        ((_a = obj.__ob__) === null || _a === void 0 ? void 0 : _a[SKIPFLAG]));
+}
+function isReactive(obj) {
+    var _a;
+    return Boolean(obj &&
+        hasOwn(obj, '__ob__') &&
+        typeof obj.__ob__ === 'object' &&
+        !((_a = obj.__ob__) === null || _a === void 0 ? void 0 : _a[SKIPFLAG]));
+}
+/**
+ * Proxing property access of target.
+ * We can do unwrapping and other things here.
+ */
+function setupAccessControl(target) {
+    if (!isPlainObject$1(target) ||
+        isRaw(target) ||
+        isArray(target) ||
+        isRef(target) ||
+        isComponentInstance(target) ||
+        accessModifiedSet.has(target))
+        return;
+    accessModifiedSet.set(target, true);
+    var keys = Object.keys(target);
+    for (var i = 0; i < keys.length; i++) {
+        defineAccessControl(target, keys[i]);
+    }
+}
+/**
+ * Auto unwrapping when access property
+ */
+function defineAccessControl(target, key, val) {
+    if (key === '__ob__')
+        return;
+    if (isRaw(target[key]))
+        return;
+    var getter;
+    var setter;
+    var property = Object.getOwnPropertyDescriptor(target, key);
+    if (property) {
+        if (property.configurable === false) {
+            return;
+        }
+        getter = property.get;
+        setter = property.set;
+        if ((!getter || setter) /* not only have getter */ &&
+            arguments.length === 2) {
+            val = target[key];
+        }
+    }
+    setupAccessControl(val);
+    proxy(target, key, {
+        get: function getterHandler() {
+            var value = getter ? getter.call(target) : val;
+            // if the key is equal to RefKey, skip the unwrap logic
+            if (key !== RefKey && isRef(value)) {
+                return value.value;
+            }
+            else {
+                return value;
+            }
+        },
+        set: function setterHandler(newVal) {
+            if (getter && !setter)
+                return;
+            // If the key is equal to RefKey, skip the unwrap logic
+            // If and only if "value" is ref and "newVal" is not a ref,
+            // the assignment should be proxied to "value" ref.
+            if (key !== RefKey && isRef(val) && !isRef(newVal)) {
+                val.value = newVal;
+            }
+            else if (setter) {
+                setter.call(target, newVal);
+                val = newVal;
+            }
+            else {
+                val = newVal;
+            }
+            setupAccessControl(newVal);
+        },
+    });
+}
+function observe(obj) {
+    var Vue = getRegisteredVueOrDefault();
+    var observed;
+    if (Vue.observable) {
+        observed = Vue.observable(obj);
+    }
+    else {
+        var vm = defineComponentInstance(Vue, {
+            data: {
+                $$state: obj,
+            },
+        });
+        observed = vm._data.$$state;
+    }
+    // in SSR, there is no __ob__. Mock for reactivity check
+    if (!hasOwn(observed, '__ob__')) {
+        mockReactivityDeep(observed);
+    }
+    return observed;
+}
+/**
+ * Mock __ob__ for object recursively
+ */
+function mockReactivityDeep(obj, seen) {
+    var e_1, _a;
+    if (seen === void 0) { seen = new Set(); }
+    if (seen.has(obj) || hasOwn(obj, '__ob__') || !Object.isExtensible(obj))
+        return;
+    def(obj, '__ob__', mockObserver(obj));
+    seen.add(obj);
+    try {
+        for (var _b = __values(Object.keys(obj)), _c = _b.next(); !_c.done; _c = _b.next()) {
+            var key = _c.value;
+            var value = obj[key];
+            if (!(isPlainObject$1(value) || isArray(value)) ||
+                isRaw(value) ||
+                !Object.isExtensible(value)) {
+                continue;
+            }
+            mockReactivityDeep(value, seen);
+        }
+    }
+    catch (e_1_1) { e_1 = { error: e_1_1 }; }
+    finally {
+        try {
+            if (_c && !_c.done && (_a = _b.return)) _a.call(_b);
+        }
+        finally { if (e_1) throw e_1.error; }
+    }
+}
+function mockObserver(value) {
+    if (value === void 0) { value = {}; }
+    return {
+        value: value,
+        dep: {
+            notify: noopFn,
+            depend: noopFn,
+            addSub: noopFn,
+            removeSub: noopFn,
+        },
+    };
+}
+function createObserver() {
+    return observe({}).__ob__;
+}
+/**
+ * Make obj reactivity
+ */
+function reactive(obj) {
+    if (!isObject(obj)) {
+        return obj;
+    }
+    if (!(isPlainObject$1(obj) || isArray(obj)) ||
+        isRaw(obj) ||
+        !Object.isExtensible(obj)) {
+        return obj;
+    }
+    var observed = observe(obj);
+    setupAccessControl(observed);
+    return observed;
+}
+/**
+ * Make sure obj can't be a reactive
+ */
+function markRaw(obj) {
+    if (!(isPlainObject$1(obj) || isArray(obj)) || !Object.isExtensible(obj)) {
+        return obj;
+    }
+    // set the vue observable flag at obj
+    var ob = createObserver();
+    ob[SKIPFLAG] = true;
+    def(obj, '__ob__', ob);
+    // mark as Raw
+    rawSet.set(obj, true);
+    return obj;
+}
+
+var genName = function (name) { return "on".concat(name[0].toUpperCase() + name.slice(1)); };
+function createLifeCycle(lifeCyclehook) {
+    return function (callback, target) {
+        var instance = getCurrentInstanceForFn(genName(lifeCyclehook), target);
+        return (instance &&
+            injectHookOption(getVueConstructor(), instance, lifeCyclehook, callback));
+    };
+}
+function injectHookOption(Vue, instance, hook, val) {
+    var options = instance.proxy.$options;
+    var mergeFn = Vue.config.optionMergeStrategies[hook];
+    var wrappedHook = wrapHookCall(instance, val);
+    options[hook] = mergeFn(options[hook], wrappedHook);
+    return wrappedHook;
+}
+function wrapHookCall(instance, fn) {
+    return function () {
+        var args = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            args[_i] = arguments[_i];
+        }
+        var prev = getCurrentInstance();
+        setCurrentInstance(instance);
+        try {
+            return fn.apply(void 0, __spreadArray([], __read(args), false));
+        }
+        finally {
+            setCurrentInstance(prev);
+        }
+    };
+}
+var onUnmounted = createLifeCycle('destroyed');
+
+var fallbackVM;
+function flushPreQueue() {
+    flushQueue(this, WatcherPreFlushQueueKey);
+}
+function flushPostQueue() {
+    flushQueue(this, WatcherPostFlushQueueKey);
+}
+function hasWatchEnv(vm) {
+    return vm[WatcherPreFlushQueueKey] !== undefined;
+}
+function installWatchEnv(vm) {
+    vm[WatcherPreFlushQueueKey] = [];
+    vm[WatcherPostFlushQueueKey] = [];
+    vm.$on('hook:beforeUpdate', flushPreQueue);
+    vm.$on('hook:updated', flushPostQueue);
+}
+function getWatcherOption(options) {
+    return __assign({
+        immediate: false,
+        deep: false,
+        flush: 'pre',
+    }, options);
+}
+function getWatcherVM() {
+    var vm = getCurrentScopeVM();
+    if (!vm) {
+        if (!fallbackVM) {
+            fallbackVM = defineComponentInstance(getVueConstructor());
+        }
+        vm = fallbackVM;
+    }
+    else if (!hasWatchEnv(vm)) {
+        installWatchEnv(vm);
+    }
+    return vm;
+}
+function flushQueue(vm, key) {
+    var queue = vm[key];
+    for (var index = 0; index < queue.length; index++) {
+        queue[index]();
+    }
+    queue.length = 0;
+}
+function queueFlushJob(vm, fn, mode) {
+    // flush all when beforeUpdate and updated are not fired
+    var fallbackFlush = function () {
+        vm.$nextTick(function () {
+            if (vm[WatcherPreFlushQueueKey].length) {
+                flushQueue(vm, WatcherPreFlushQueueKey);
+            }
+            if (vm[WatcherPostFlushQueueKey].length) {
+                flushQueue(vm, WatcherPostFlushQueueKey);
+            }
+        });
+    };
+    switch (mode) {
+        case 'pre':
+            fallbackFlush();
+            vm[WatcherPreFlushQueueKey].push(fn);
+            break;
+        case 'post':
+            fallbackFlush();
+            vm[WatcherPostFlushQueueKey].push(fn);
+            break;
+        default:
+            assert(false, "flush must be one of [\"post\", \"pre\", \"sync\"], but got ".concat(mode));
+            break;
+    }
+}
+function createVueWatcher(vm, getter, callback, options) {
+    var index = vm._watchers.length;
+    // @ts-ignore: use undocumented options
+    vm.$watch(getter, callback, {
+        immediate: options.immediateInvokeCallback,
+        deep: options.deep,
+        lazy: options.noRun,
+        sync: options.sync,
+        before: options.before,
+    });
+    return vm._watchers[index];
+}
+// We have to monkeypatch the teardown function so Vue will run
+// runCleanup() when it tears down the watcher on unmounted.
+function patchWatcherTeardown(watcher, runCleanup) {
+    var _teardown = watcher.teardown;
+    watcher.teardown = function () {
+        var args = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            args[_i] = arguments[_i];
+        }
+        _teardown.apply(watcher, args);
+        runCleanup();
+    };
+}
+function createWatcher(vm, source, cb, options) {
+    var _a;
+    var flushMode = options.flush;
+    var isSync = flushMode === 'sync';
+    var cleanup;
+    var registerCleanup = function (fn) {
+        cleanup = function () {
+            try {
+                fn();
+            }
+            catch (
+            // FIXME: remove any
+            error) {
+                logError(error);
+            }
+        };
+    };
+    // cleanup before running getter again
+    var runCleanup = function () {
+        if (cleanup) {
+            cleanup();
+            cleanup = null;
+        }
+    };
+    var createScheduler = function (fn) {
+        if (isSync ||
+            /* without a current active instance, ignore pre|post mode */ vm ===
+                fallbackVM) {
+            return fn;
+        }
+        return (function () {
+            var args = [];
+            for (var _i = 0; _i < arguments.length; _i++) {
+                args[_i] = arguments[_i];
+            }
+            return queueFlushJob(vm, function () {
+                fn.apply(void 0, __spreadArray([], __read(args), false));
+            }, flushMode);
+        });
+    };
+    // effect watch
+    if (cb === null) {
+        var running_1 = false;
+        var getter_1 = function () {
+            // preventing the watch callback being call in the same execution
+            if (running_1) {
+                return;
+            }
+            try {
+                running_1 = true;
+                source(registerCleanup);
+            }
+            finally {
+                running_1 = false;
+            }
+        };
+        var watcher_1 = createVueWatcher(vm, getter_1, noopFn, {
+            deep: options.deep || false,
+            sync: isSync,
+            before: runCleanup,
+        });
+        patchWatcherTeardown(watcher_1, runCleanup);
+        // enable the watcher update
+        watcher_1.lazy = false;
+        var originGet = watcher_1.get.bind(watcher_1);
+        // always run watchEffect
+        watcher_1.get = createScheduler(originGet);
+        return function () {
+            watcher_1.teardown();
+        };
+    }
+    var deep = options.deep;
+    var isMultiSource = false;
+    var getter;
+    if (isRef(source)) {
+        getter = function () { return source.value; };
+    }
+    else if (isReactive(source)) {
+        getter = function () { return source; };
+        deep = true;
+    }
+    else if (isArray(source)) {
+        isMultiSource = true;
+        getter = function () {
+            return source.map(function (s) {
+                if (isRef(s)) {
+                    return s.value;
+                }
+                else if (isReactive(s)) {
+                    return traverse(s);
+                }
+                else if (isFunction(s)) {
+                    return s();
+                }
+                else {
+                    return noopFn;
+                }
+            });
+        };
+    }
+    else if (isFunction(source)) {
+        getter = source;
+    }
+    else {
+        getter = noopFn;
+    }
+    if (deep) {
+        var baseGetter_1 = getter;
+        getter = function () { return traverse(baseGetter_1()); };
+    }
+    var applyCb = function (n, o) {
+        if (!deep &&
+            isMultiSource &&
+            n.every(function (v, i) { return isSame(v, o[i]); }))
+            return;
+        // cleanup before running cb again
+        runCleanup();
+        return cb(n, o, registerCleanup);
+    };
+    var callback = createScheduler(applyCb);
+    if (options.immediate) {
+        var originalCallback_1 = callback;
+        // `shiftCallback` is used to handle the first sync effect run.
+        // The subsequent callbacks will redirect to `callback`.
+        var shiftCallback_1 = function (n, o) {
+            shiftCallback_1 = originalCallback_1;
+            // o is undefined on the first call
+            return applyCb(n, isArray(n) ? [] : o);
+        };
+        callback = function (n, o) {
+            return shiftCallback_1(n, o);
+        };
+    }
+    // @ts-ignore: use undocumented option "sync"
+    var stop = vm.$watch(getter, callback, {
+        immediate: options.immediate,
+        deep: deep,
+        sync: isSync,
+    });
+    // Once again, we have to hack the watcher for proper teardown
+    var watcher = vm._watchers[vm._watchers.length - 1];
+    // if the return value is reactive and deep:true
+    // watch for changes, this might happen when new key is added
+    if (isReactive(watcher.value) && ((_a = watcher.value.__ob__) === null || _a === void 0 ? void 0 : _a.dep) && deep) {
+        watcher.value.__ob__.dep.addSub({
+            update: function () {
+                // this will force the source to be revaluated and the callback
+                // executed if needed
+                watcher.run();
+            },
+        });
+    }
+    patchWatcherTeardown(watcher, runCleanup);
+    return function () {
+        stop();
+    };
+}
+// implementation
+function watch(source, cb, options) {
+    var callback = null;
+    if (isFunction(cb)) {
+        // source watch
+        callback = cb;
+    }
+    else {
+        options = cb;
+        callback = null;
+    }
+    var opts = getWatcherOption(options);
+    var vm = getWatcherVM();
+    return createWatcher(vm, source, callback, opts);
+}
+function traverse(value, seen) {
+    if (seen === void 0) { seen = new Set(); }
+    if (!isObject(value) || seen.has(value) || rawSet.has(value)) {
+        return value;
+    }
+    seen.add(value);
+    if (isRef(value)) {
+        traverse(value.value, seen);
+    }
+    else if (isArray(value)) {
+        for (var i = 0; i < value.length; i++) {
+            traverse(value[i], seen);
+        }
+    }
+    else if (isSet(value) || isMap(value)) {
+        value.forEach(function (v) {
+            traverse(v, seen);
+        });
+    }
+    else if (isPlainObject$1(value)) {
+        for (var key in value) {
+            traverse(value[key], seen);
+        }
+    }
+    return value;
+}
+
+// implement
+function computed(getterOrOptions) {
+    var vm = getCurrentScopeVM();
+    var getter;
+    var setter;
+    if (isFunction(getterOrOptions)) {
+        getter = getterOrOptions;
+    }
+    else {
+        getter = getterOrOptions.get;
+        setter = getterOrOptions.set;
+    }
+    var computedSetter;
+    var computedGetter;
+    if (vm && !vm.$isServer) {
+        var _a = getVueInternalClasses(), Watcher_1 = _a.Watcher, Dep_1 = _a.Dep;
+        var watcher_1;
+        computedGetter = function () {
+            if (!watcher_1) {
+                watcher_1 = new Watcher_1(vm, getter, noopFn, { lazy: true });
+            }
+            if (watcher_1.dirty) {
+                watcher_1.evaluate();
+            }
+            if (Dep_1.target) {
+                watcher_1.depend();
+            }
+            return watcher_1.value;
+        };
+        computedSetter = function (v) {
+            if (setter) {
+                setter(v);
+            }
+        };
+    }
+    else {
+        // fallback
+        var computedHost_1 = defineComponentInstance(getVueConstructor(), {
+            computed: {
+                $$state: {
+                    get: getter,
+                    set: setter,
+                },
+            },
+        });
+        vm && vm.$on('hook:destroyed', function () { return computedHost_1.$destroy(); });
+        computedGetter = function () { return computedHost_1.$$state; };
+        computedSetter = function (v) {
+            computedHost_1.$$state = v;
+        };
+    }
+    return createRef({
+        get: computedGetter,
+        set: computedSetter,
+    }, !setter, true);
+}
+
+var NOT_FOUND = {};
+function resolveInject(provideKey, vm) {
+    var source = vm;
+    while (source) {
+        // @ts-ignore
+        if (source._provided && hasOwn(source._provided, provideKey)) {
+            //@ts-ignore
+            return source._provided[provideKey];
+        }
+        source = source.$parent;
+    }
+    return NOT_FOUND;
+}
+function inject(key, defaultValue, treatDefaultAsFactory) {
+    var _a;
+    if (treatDefaultAsFactory === void 0) { treatDefaultAsFactory = false; }
+    var vm = (_a = getCurrentInstance()) === null || _a === void 0 ? void 0 : _a.proxy;
+    if (!vm) {
+        return;
+    }
+    if (!key) {
+        return defaultValue;
+    }
+    var val = resolveInject(key, vm);
+    if (val !== NOT_FOUND) {
+        return val;
+    }
+    if (defaultValue === undefined && ("production" !== 'production')) {
+        warn("Injection \"".concat(String(key), "\" not found"), vm);
+    }
+    return treatDefaultAsFactory && isFunction(defaultValue)
+        ? defaultValue()
+        : defaultValue;
+}
+
+var nextTick = function nextTick() {
+    var _a;
+    var args = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        args[_i] = arguments[_i];
+    }
+    return (_a = getVueConstructor()) === null || _a === void 0 ? void 0 : _a.nextTick.apply(this, args);
+};
+
+function set(vm, key, value) {
+    var state = (vm.__composition_api_state__ =
+        vm.__composition_api_state__ || {});
+    state[key] = value;
+}
+function get(vm, key) {
+    return (vm.__composition_api_state__ || {})[key];
+}
+var vmStateManager = {
+    set: set,
+    get: get,
+};
+
+function asVmProperty(vm, propName, propValue) {
+    var props = vm.$options.props;
+    if (!(propName in vm) && !(props && hasOwn(props, propName))) {
+        if (isRef(propValue)) {
+            proxy(vm, propName, {
+                get: function () { return propValue.value; },
+                set: function (val) {
+                    propValue.value = val;
+                },
+            });
+        }
+        else {
+            proxy(vm, propName, {
+                get: function () {
+                    if (isReactive(propValue)) {
+                        propValue.__ob__.dep.depend();
+                    }
+                    return propValue;
+                },
+                set: function (val) {
+                    propValue = val;
+                },
+            });
+        }
+    }
+}
+function updateTemplateRef(vm) {
+    var rawBindings = vmStateManager.get(vm, 'rawBindings') || {};
+    if (!rawBindings || !Object.keys(rawBindings).length)
+        return;
+    var refs = vm.$refs;
+    var oldRefKeys = vmStateManager.get(vm, 'refs') || [];
+    for (var index = 0; index < oldRefKeys.length; index++) {
+        var key = oldRefKeys[index];
+        var setupValue = rawBindings[key];
+        if (!refs[key] && setupValue && isRef(setupValue)) {
+            setupValue.value = null;
+        }
+    }
+    var newKeys = Object.keys(refs);
+    var validNewKeys = [];
+    for (var index = 0; index < newKeys.length; index++) {
+        var key = newKeys[index];
+        var setupValue = rawBindings[key];
+        if (refs[key] && setupValue && isRef(setupValue)) {
+            setupValue.value = refs[key];
+            validNewKeys.push(key);
+        }
+    }
+    vmStateManager.set(vm, 'refs', validNewKeys);
+}
+function afterRender(vm) {
+    var stack = [vm._vnode];
+    while (stack.length) {
+        var vnode = stack.pop();
+        if (vnode.context)
+            updateTemplateRef(vnode.context);
+        if (vnode.children) {
+            for (var i = 0; i < vnode.children.length; ++i) {
+                stack.push(vnode.children[i]);
+            }
+        }
+    }
+}
+function updateVmAttrs(vm, ctx) {
+    var e_1, _a;
+    if (!vm) {
+        return;
+    }
+    var attrBindings = vmStateManager.get(vm, 'attrBindings');
+    if (!attrBindings && !ctx) {
+        // fix 840
+        return;
+    }
+    if (!attrBindings) {
+        var observedData = reactive({});
+        attrBindings = { ctx: ctx, data: observedData };
+        vmStateManager.set(vm, 'attrBindings', attrBindings);
+        proxy(ctx, 'attrs', {
+            get: function () {
+                return attrBindings === null || attrBindings === void 0 ? void 0 : attrBindings.data;
+            },
+            set: function () {
+            },
+        });
+    }
+    var source = vm.$attrs;
+    var _loop_1 = function (attr) {
+        if (!hasOwn(attrBindings.data, attr)) {
+            proxy(attrBindings.data, attr, {
+                get: function () {
+                    // to ensure it always return the latest value
+                    return vm.$attrs[attr];
+                },
+            });
+        }
+    };
+    try {
+        for (var _b = __values(Object.keys(source)), _c = _b.next(); !_c.done; _c = _b.next()) {
+            var attr = _c.value;
+            _loop_1(attr);
+        }
+    }
+    catch (e_1_1) { e_1 = { error: e_1_1 }; }
+    finally {
+        try {
+            if (_c && !_c.done && (_a = _b.return)) _a.call(_b);
+        }
+        finally { if (e_1) throw e_1.error; }
+    }
+}
+function resolveScopedSlots(vm, slotsProxy) {
+    var parentVNode = vm.$options._parentVnode;
+    if (!parentVNode)
+        return;
+    var prevSlots = vmStateManager.get(vm, 'slots') || [];
+    var curSlots = resolveSlots(parentVNode.data.scopedSlots, vm.$slots);
+    // remove staled slots
+    for (var index = 0; index < prevSlots.length; index++) {
+        var key = prevSlots[index];
+        if (!curSlots[key]) {
+            delete slotsProxy[key];
+        }
+    }
+    // proxy fresh slots
+    var slotNames = Object.keys(curSlots);
+    for (var index = 0; index < slotNames.length; index++) {
+        var key = slotNames[index];
+        if (!slotsProxy[key]) {
+            slotsProxy[key] = createSlotProxy(vm, key);
+        }
+    }
+    vmStateManager.set(vm, 'slots', slotNames);
+}
+function activateCurrentInstance(instance, fn, onError) {
+    var preVm = getCurrentInstance();
+    setCurrentInstance(instance);
+    try {
+        return fn(instance);
+    }
+    catch (
+    // FIXME: remove any
+    err) {
+        if (onError) {
+            onError(err);
+        }
+        else {
+            throw err;
+        }
+    }
+    finally {
+        setCurrentInstance(preVm);
+    }
+}
+
+function mixin(Vue) {
+    Vue.mixin({
+        beforeCreate: functionApiInit,
+        mounted: function () {
+            afterRender(this);
+        },
+        beforeUpdate: function () {
+            updateVmAttrs(this);
+        },
+        updated: function () {
+            afterRender(this);
+        },
+    });
+    /**
+     * Vuex init hook, injected into each instances init hooks list.
+     */
+    function functionApiInit() {
+        var vm = this;
+        var $options = vm.$options;
+        var setup = $options.setup, render = $options.render;
+        if (render) {
+            // keep currentInstance accessible for createElement
+            $options.render = function () {
+                var _this = this;
+                var args = [];
+                for (var _i = 0; _i < arguments.length; _i++) {
+                    args[_i] = arguments[_i];
+                }
+                return activateCurrentInstance(toVue3ComponentInstance(vm), function () {
+                    return render.apply(_this, args);
+                });
+            };
+        }
+        if (!setup) {
+            return;
+        }
+        if (!isFunction(setup)) {
+            return;
+        }
+        var data = $options.data;
+        // wrapper the data option, so we can invoke setup before data get resolved
+        $options.data = function wrappedData() {
+            initSetup(vm, vm.$props);
+            return isFunction(data)
+                ? data.call(vm, vm)
+                : data || {};
+        };
+    }
+    function initSetup(vm, props) {
+        if (props === void 0) { props = {}; }
+        var setup = vm.$options.setup;
+        var ctx = createSetupContext(vm);
+        var instance = toVue3ComponentInstance(vm);
+        instance.setupContext = ctx;
+        // fake reactive for `toRefs(props)`
+        def(props, '__ob__', createObserver());
+        // resolve scopedSlots and slots to functions
+        resolveScopedSlots(vm, ctx.slots);
+        var binding;
+        activateCurrentInstance(instance, function () {
+            // make props to be fake reactive, this is for `toRefs(props)`
+            binding = setup(props, ctx);
+        });
+        if (!binding)
+            return;
+        if (isFunction(binding)) {
+            // keep typescript happy with the binding type.
+            var bindingFunc_1 = binding;
+            // keep currentInstance accessible for createElement
+            vm.$options.render = function () {
+                resolveScopedSlots(vm, ctx.slots);
+                return activateCurrentInstance(instance, function () { return bindingFunc_1(); });
+            };
+            return;
+        }
+        else if (isObject(binding)) {
+            if (isReactive(binding)) {
+                binding = toRefs(binding);
+            }
+            vmStateManager.set(vm, 'rawBindings', binding);
+            var bindingObj_1 = binding;
+            Object.keys(bindingObj_1).forEach(function (name) {
+                var bindingValue = bindingObj_1[name];
+                if (!isRef(bindingValue)) {
+                    if (!isReactive(bindingValue)) {
+                        if (isFunction(bindingValue)) {
+                            var copy_1 = bindingValue;
+                            bindingValue = bindingValue.bind(vm);
+                            Object.keys(copy_1).forEach(function (ele) {
+                                bindingValue[ele] = copy_1[ele];
+                            });
+                        }
+                        else if (!isObject(bindingValue)) {
+                            bindingValue = ref(bindingValue);
+                        }
+                        else if (hasReactiveArrayChild(bindingValue)) {
+                            // creates a custom reactive properties without make the object explicitly reactive
+                            // NOTE we should try to avoid this, better implementation needed
+                            customReactive(bindingValue);
+                        }
+                    }
+                    else if (isArray(bindingValue)) {
+                        bindingValue = ref(bindingValue);
+                    }
+                }
+                asVmProperty(vm, name, bindingValue);
+            });
+            return;
+        }
+    }
+    function customReactive(target, seen) {
+        if (seen === void 0) { seen = new Set(); }
+        if (seen.has(target))
+            return;
+        if (!isPlainObject$1(target) ||
+            isRef(target) ||
+            isReactive(target) ||
+            isRaw(target))
+            return;
+        var Vue = getVueConstructor();
+        // @ts-expect-error https://github.com/vuejs/vue/pull/12132
+        var defineReactive = Vue.util.defineReactive;
+        Object.keys(target).forEach(function (k) {
+            var val = target[k];
+            defineReactive(target, k, val);
+            if (val) {
+                seen.add(val);
+                customReactive(val, seen);
+            }
+            return;
+        });
+    }
+    function hasReactiveArrayChild(target, visited) {
+        if (visited === void 0) { visited = new Map(); }
+        if (visited.has(target)) {
+            return visited.get(target);
+        }
+        visited.set(target, false);
+        if (isArray(target) && isReactive(target)) {
+            visited.set(target, true);
+            return true;
+        }
+        if (!isPlainObject$1(target) || isRaw(target) || isRef(target)) {
+            return false;
+        }
+        return Object.keys(target).some(function (x) {
+            return hasReactiveArrayChild(target[x], visited);
+        });
+    }
+    function createSetupContext(vm) {
+        var ctx = { slots: {} };
+        var propsPlain = [
+            'root',
+            'parent',
+            'refs',
+            'listeners',
+            'isServer',
+            'ssrContext',
+        ];
+        var methodReturnVoid = ['emit'];
+        propsPlain.forEach(function (key) {
+            var srcKey = "$".concat(key);
+            proxy(ctx, key, {
+                get: function () { return vm[srcKey]; },
+                set: function () {
+                },
+            });
+        });
+        updateVmAttrs(vm, ctx);
+        methodReturnVoid.forEach(function (key) {
+            var srcKey = "$".concat(key);
+            proxy(ctx, key, {
+                get: function () {
+                    return function () {
+                        var args = [];
+                        for (var _i = 0; _i < arguments.length; _i++) {
+                            args[_i] = arguments[_i];
+                        }
+                        var fn = vm[srcKey];
+                        fn.apply(vm, args);
+                    };
+                },
+            });
+        });
+        return ctx;
+    }
+}
+
+/**
+ * Helper that recursively merges two data objects together.
+ */
+function mergeData(from, to) {
+    if (!from)
+        return to;
+    if (!to)
+        return from;
+    var key;
+    var toVal;
+    var fromVal;
+    var keys = hasSymbol ? Reflect.ownKeys(from) : Object.keys(from);
+    for (var i = 0; i < keys.length; i++) {
+        key = keys[i];
+        // in case the object is already observed...
+        if (key === '__ob__')
+            continue;
+        toVal = to[key];
+        fromVal = from[key];
+        if (!hasOwn(to, key)) {
+            to[key] = fromVal;
+        }
+        else if (toVal !== fromVal &&
+            isPlainObject$1(toVal) &&
+            !isRef(toVal) &&
+            isPlainObject$1(fromVal) &&
+            !isRef(fromVal)) {
+            mergeData(fromVal, toVal);
+        }
+    }
+    return to;
+}
+function install$2(Vue) {
+    if (isVueRegistered(Vue)) {
+        return;
+    }
+    Vue.config.optionMergeStrategies.setup = function (parent, child) {
+        return function mergedSetupFn(props, context) {
+            return mergeData(isFunction(parent) ? parent(props, context) || {} : undefined, isFunction(child) ? child(props, context) || {} : undefined);
+        };
+    };
+    setVueConstructor(Vue);
+    mixin(Vue);
+}
+var Plugin = {
+    install: function (Vue) { return install$2(Vue); },
+};
+// auto install when using CDN
+if (typeof window !== 'undefined' && window.Vue) {
+    window.Vue.use(Plugin);
+}
+
+function install$1(_vue) {
+  _vue = _vue || Vue;
+  if (_vue && !_vue['__composition_api_installed__'])
+    Vue.use(Plugin);
+}
+
+install$1(Vue);
+Vue.version;
+
+/*!
+  * pinia v2.0.13
+  * (c) 2022 Eduardo San Martin Morote
+  * @license MIT
+  */
+
+/**
+ * setActivePinia must be called to handle SSR at the top of functions like
+ * `fetch`, `setup`, `serverPrefetch` and others
+ */
+let activePinia;
+/**
+ * Sets or unsets the active pinia. Used in SSR and internally when calling
+ * actions and getters
+ *
+ * @param pinia - Pinia instance
+ */
+const setActivePinia = (pinia) => (activePinia = pinia);
+const piniaSymbol = (/* istanbul ignore next */ Symbol());
+
+function isPlainObject(
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+o) {
+    return (o &&
+        typeof o === 'object' &&
+        Object.prototype.toString.call(o) === '[object Object]' &&
+        typeof o.toJSON !== 'function');
+}
+// type DeepReadonly<T> = { readonly [P in keyof T]: DeepReadonly<T[P]> }
+// TODO: can we change these to numbers?
+/**
+ * Possible types for SubscriptionCallback
+ */
+var MutationType;
+(function (MutationType) {
+    /**
+     * Direct mutation of the state:
+     *
+     * - `store.name = 'new name'`
+     * - `store.$state.name = 'new name'`
+     * - `store.list.push('new item')`
+     */
+    MutationType["direct"] = "direct";
+    /**
+     * Mutated the state with `$patch` and an object
+     *
+     * - `store.$patch({ name: 'newName' })`
+     */
+    MutationType["patchObject"] = "patch object";
+    /**
+     * Mutated the state with `$patch` and a function
+     *
+     * - `store.$patch(state => state.name = 'newName')`
+     */
+    MutationType["patchFunction"] = "patch function";
+    // maybe reset? for $state = {} and $reset
+})(MutationType || (MutationType = {}));
+
+const noop = () => { };
+function addSubscription(subscriptions, callback, detached, onCleanup = noop) {
+    subscriptions.push(callback);
+    const removeSubscription = () => {
+        const idx = subscriptions.indexOf(callback);
+        if (idx > -1) {
+            subscriptions.splice(idx, 1);
+            onCleanup();
+        }
+    };
+    if (!detached && getCurrentInstance()) {
+        onUnmounted(removeSubscription);
+    }
+    return removeSubscription;
+}
+function triggerSubscriptions(subscriptions, ...args) {
+    subscriptions.slice().forEach((callback) => {
+        callback(...args);
+    });
+}
+
+function mergeReactiveObjects(target, patchToApply) {
+    // no need to go through symbols because they cannot be serialized anyway
+    for (const key in patchToApply) {
+        if (!patchToApply.hasOwnProperty(key))
+            continue;
+        const subPatch = patchToApply[key];
+        const targetValue = target[key];
+        if (isPlainObject(targetValue) &&
+            isPlainObject(subPatch) &&
+            target.hasOwnProperty(key) &&
+            !isRef(subPatch) &&
+            !isReactive(subPatch)) {
+            target[key] = mergeReactiveObjects(targetValue, subPatch);
+        }
+        else {
+            // @ts-expect-error: subPatch is a valid value
+            target[key] = subPatch;
+        }
+    }
+    return target;
+}
+const skipHydrateMap = /*#__PURE__*/ new WeakMap();
+function shouldHydrate(obj) {
+    return /* istanbul ignore next */ !skipHydrateMap.has(obj)
+        ;
+}
+const { assign } = Object;
+function isComputed(o) {
+    return !!(isRef(o) && o.effect);
+}
+function createOptionsStore(id, options, pinia, hot) {
+    const { state, actions, getters } = options;
+    const initialState = pinia.state.value[id];
+    let store;
+    function setup() {
+        if (!initialState && (!("production" !== 'production') )) {
+            /* istanbul ignore if */
+            {
+                set$1(pinia.state.value, id, state ? state() : {});
+            }
+        }
+        // avoid creating a state in pinia.state.value
+        const localState = toRefs(pinia.state.value[id]);
+        return assign(localState, actions, Object.keys(getters || {}).reduce((computedGetters, name) => {
+            computedGetters[name] = markRaw(computed(() => {
+                setActivePinia(pinia);
+                // it was created just before
+                const store = pinia._s.get(id);
+                // allow cross using stores
+                /* istanbul ignore next */
+                if (!store._r)
+                    return;
+                // @ts-expect-error
+                // return getters![name].call(context, context)
+                // TODO: avoid reading the getter while assigning with a global variable
+                return getters[name].call(store, store);
+            }));
+            return computedGetters;
+        }, {}));
+    }
+    store = createSetupStore(id, setup, options, pinia);
+    store.$reset = function $reset() {
+        const newState = state ? state() : {};
+        // we use a patch to group all changes into one single subscription
+        this.$patch(($state) => {
+            assign($state, newState);
+        });
+    };
+    return store;
+}
+function createSetupStore($id, setup, options = {}, pinia, hot) {
+    let scope;
+    const buildState = options.state;
+    const optionsForPlugin = assign({ actions: {} }, options);
+    // watcher options for $subscribe
+    const $subscribeOptions = {
+        deep: true,
+        // flush: 'post',
+    };
+    // internal state
+    let isListening; // set to true at the end
+    let isSyncListening; // set to true at the end
+    let subscriptions = markRaw([]);
+    let actionSubscriptions = markRaw([]);
+    let debuggerEvents;
+    const initialState = pinia.state.value[$id];
+    // avoid setting the state for option stores are it is set
+    // by the setup
+    if (!buildState && !initialState && (!("production" !== 'production') )) {
+        /* istanbul ignore if */
+        {
+            set$1(pinia.state.value, $id, {});
+        }
+    }
+    ref({});
+    function $patch(partialStateOrMutator) {
+        let subscriptionMutation;
+        isListening = isSyncListening = false;
+        if (typeof partialStateOrMutator === 'function') {
+            partialStateOrMutator(pinia.state.value[$id]);
+            subscriptionMutation = {
+                type: MutationType.patchFunction,
+                storeId: $id,
+                events: debuggerEvents,
+            };
+        }
+        else {
+            mergeReactiveObjects(pinia.state.value[$id], partialStateOrMutator);
+            subscriptionMutation = {
+                type: MutationType.patchObject,
+                payload: partialStateOrMutator,
+                storeId: $id,
+                events: debuggerEvents,
+            };
+        }
+        nextTick().then(() => {
+            isListening = true;
+        });
+        isSyncListening = true;
+        // because we paused the watcher, we need to manually call the subscriptions
+        triggerSubscriptions(subscriptions, subscriptionMutation, pinia.state.value[$id]);
+    }
+    /* istanbul ignore next */
+    const $reset = noop;
+    function $dispose() {
+        scope.stop();
+        subscriptions = [];
+        actionSubscriptions = [];
+        pinia._s.delete($id);
+    }
+    /**
+     * Wraps an action to handle subscriptions.
+     *
+     * @param name - name of the action
+     * @param action - action to wrap
+     * @returns a wrapped action to handle subscriptions
+     */
+    function wrapAction(name, action) {
+        return function () {
+            setActivePinia(pinia);
+            const args = Array.from(arguments);
+            const afterCallbackList = [];
+            const onErrorCallbackList = [];
+            function after(callback) {
+                afterCallbackList.push(callback);
+            }
+            function onError(callback) {
+                onErrorCallbackList.push(callback);
+            }
+            // @ts-expect-error
+            triggerSubscriptions(actionSubscriptions, {
+                args,
+                name,
+                store,
+                after,
+                onError,
+            });
+            let ret;
+            try {
+                ret = action.apply(this && this.$id === $id ? this : store, args);
+                // handle sync errors
+            }
+            catch (error) {
+                triggerSubscriptions(onErrorCallbackList, error);
+                throw error;
+            }
+            if (ret instanceof Promise) {
+                return ret
+                    .then((value) => {
+                    triggerSubscriptions(afterCallbackList, value);
+                    return value;
+                })
+                    .catch((error) => {
+                    triggerSubscriptions(onErrorCallbackList, error);
+                    return Promise.reject(error);
+                });
+            }
+            // allow the afterCallback to override the return value
+            triggerSubscriptions(afterCallbackList, ret);
+            return ret;
+        };
+    }
+    const partialStore = {
+        _p: pinia,
+        // _s: scope,
+        $id,
+        $onAction: addSubscription.bind(null, actionSubscriptions),
+        $patch,
+        $reset,
+        $subscribe(callback, options = {}) {
+            const removeSubscription = addSubscription(subscriptions, callback, options.detached, () => stopWatcher());
+            const stopWatcher = scope.run(() => watch(() => pinia.state.value[$id], (state) => {
+                if (options.flush === 'sync' ? isSyncListening : isListening) {
+                    callback({
+                        storeId: $id,
+                        type: MutationType.direct,
+                        events: debuggerEvents,
+                    }, state);
+                }
+            }, assign({}, $subscribeOptions, options)));
+            return removeSubscription;
+        },
+        $dispose,
+    };
+    /* istanbul ignore if */
+    {
+        // start as non ready
+        partialStore._r = false;
+    }
+    const store = reactive(assign({}, partialStore
+    // must be added later
+    // setupStore
+    ));
+    // store the partial store now so the setup of stores can instantiate each other before they are finished without
+    // creating infinite loops.
+    pinia._s.set($id, store);
+    // TODO: idea create skipSerialize that marks properties as non serializable and they are skipped
+    const setupStore = pinia._e.run(() => {
+        scope = effectScope();
+        return scope.run(() => setup());
+    });
+    // overwrite existing actions to support $onAction
+    for (const key in setupStore) {
+        const prop = setupStore[key];
+        if ((isRef(prop) && !isComputed(prop)) || isReactive(prop)) {
+            // mark it as a piece of state to be serialized
+            if (!buildState) {
+                // in setup stores we must hydrate the state and sync pinia state tree with the refs the user just created
+                if (initialState && shouldHydrate(prop)) {
+                    if (isRef(prop)) {
+                        prop.value = initialState[key];
+                    }
+                    else {
+                        // probably a reactive object, lets recursively assign
+                        mergeReactiveObjects(prop, initialState[key]);
+                    }
+                }
+                // transfer the ref to the pinia state to keep everything in sync
+                /* istanbul ignore if */
+                {
+                    set$1(pinia.state.value[$id], key, prop);
+                }
+            }
+            // action
+        }
+        else if (typeof prop === 'function') {
+            // @ts-expect-error: we are overriding the function we avoid wrapping if
+            const actionValue = wrapAction(key, prop);
+            // this a hot module replacement store because the hotUpdate method needs
+            // to do it with the right context
+            /* istanbul ignore if */
+            {
+                set$1(setupStore, key, actionValue);
+            }
+            // list actions so they can be used in plugins
+            // @ts-expect-error
+            optionsForPlugin.actions[key] = prop;
+        }
+        else ;
+    }
+    // add the state, getters, and action properties
+    /* istanbul ignore if */
+    {
+        Object.keys(setupStore).forEach((key) => {
+            set$1(store, key, 
+            // @ts-expect-error: valid key indexing
+            setupStore[key]);
+        });
+    }
+    // use this instead of a computed with setter to be able to create it anywhere
+    // without linking the computed lifespan to wherever the store is first
+    // created.
+    Object.defineProperty(store, '$state', {
+        get: () => (pinia.state.value[$id]),
+        set: (state) => {
+            $patch(($state) => {
+                assign($state, state);
+            });
+        },
+    });
+    /* istanbul ignore if */
+    {
+        // mark the store as ready before plugins
+        store._r = true;
+    }
+    // apply all plugins
+    pinia._p.forEach((extender) => {
+        /* istanbul ignore else */
+        {
+            assign(store, scope.run(() => extender({
+                store,
+                app: pinia._a,
+                pinia,
+                options: optionsForPlugin,
+            })));
+        }
+    });
+    // only apply hydrate to option stores with an initial state in pinia
+    if (initialState &&
+        buildState &&
+        options.hydrate) {
+        options.hydrate(store.$state, initialState);
+    }
+    isListening = true;
+    isSyncListening = true;
+    return store;
+}
+function defineStore(
+// TODO: add proper types from above
+idOrOptions, setup, setupOptions) {
+    let id;
+    let options;
+    const isSetupStore = typeof setup === 'function';
+    if (typeof idOrOptions === 'string') {
+        id = idOrOptions;
+        // the option store setup will contain the actual options in this case
+        options = isSetupStore ? setupOptions : setup;
+    }
+    else {
+        options = idOrOptions;
+        id = idOrOptions.id;
+    }
+    function useStore(pinia, hot) {
+        const currentInstance = getCurrentInstance();
+        pinia =
+            // in test mode, ignore the argument provided as we can always retrieve a
+            // pinia instance with getActivePinia()
+            (pinia) ||
+                (currentInstance && inject(piniaSymbol));
+        if (pinia)
+            setActivePinia(pinia);
+        pinia = activePinia;
+        if (!pinia._s.has(id)) {
+            // creating the store registers it in `pinia._s`
+            if (isSetupStore) {
+                createSetupStore(id, setup, options, pinia);
+            }
+            else {
+                createOptionsStore(id, options, pinia);
+            }
+        }
+        const store = pinia._s.get(id);
+        // StoreGeneric cannot be casted towards Store
+        return store;
+    }
+    useStore.$id = id;
+    return useStore;
+}
+
+var store = defineStore('globalDialogs', {
+  state: () => {
+    return {
+      dialogs: [],
+      id: 0
+    };
+  },
+  getters: {
+    messageDialogs: function (state) {
+      return state.dialogs.filter(function (item) {
+        return item.intent === "message";
+      });
+    },
+    confirmDialogs: function (state) {
+      return state.dialogs.filter(function (item) {
+        return item.intent === "confirm";
+      });
+    }
+  },
+  actions: {
+    addDialog(payload) {
+      payload.id = this.id++;
+      this.dialogs.unshift(payload);
+    },
+
+    removeDialog(id) {
+      this.dialogs = this.dialogs.filter(function (item) {
+        return item.id !== id;
+      });
+    }
+
+  }
+});
+
+var commons$1 = {
+  hasFormDialogsMixin(names) {
+    if (!Array.isArray(names)) {
+      names = [names];
+    }
+
+    return {
+      data: function () {
+        return {
+          formDialogs: names.reduce(function (acc, val) {
+            acc[val] = {
+              name: val,
+              isOpened: false,
+              initialEditedObject: {}
+            };
+
+            acc[val].closeFn = function () {
+              acc[val].isOpened = false;
+            };
+
+            return acc;
+          }, {})
+        };
+      },
+      methods: {
+        openFormDialog: function (name, initialEditedObject) {
+          if (this.formDialogs[name].isOpened) {
+            return;
+          }
+
+          this.loadFormDialog(name, initialEditedObject);
+          this.formDialogs[name].isOpened = true;
+        },
+        loadFormDialog: function (name, initialEditedObject) {
+          this.formDialogs[name].initialEditedObject = initialEditedObject || {};
+        },
+        closeFormDialog: function (name) {
+          this.formDialogs[name].isOpened = false;
+        }
+      }
+    };
+  }
+
+};
+
+var script$t = countlyVue.components.BaseComponent.extend({
+  inheritAttrs: false,
+  mixins: [countlyVue.mixins.i18n, FormCommons.MultiStepForm, countlyVue.mixins.Modal],
+  props: {
+    isOpened: {
+      type: Boolean,
+      required: true
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    title: {
+      type: String,
+      required: true
+    },
+    saveButtonLabel: {
+      type: String,
+      required: false,
+      default: ""
+    },
+    cancelButtonLabel: {
+      type: String,
+      required: false,
+      default: countlyVue.i18n("common.cancel")
+    },
+    closeFn: {
+      type: Function
+    },
+    hasCancelButton: {
+      type: Boolean,
+      required: false,
+      default: true
+    },
+    toggleTransition: {
+      type: String,
+      default: 'stdt-slide-right'
+    },
+    size: {
+      type: Number,
+      default: 6,
+      validator: function (value) {
+        return value >= 1 && value <= 12;
+      }
+    }
+  },
+  data: function () {
+    return {
+      isToggleable: true,
+      sidecarContents: []
+    };
+  },
+  computed: {
+    hasSidecars: function () {
+      return this.sidecarContents.length > 0;
+    },
+    rootClasses: function () {
+      var classes = {
+        'is-mounted': this.isMounted,
+        'is-open': this.isOpened,
+        'has-sidecars': this.hasSidecars
+      };
+      classes["cly-vue-drawer--" + this.currentScreenMode + "-screen"] = true;
+
+      if (this.currentScreenMode === 'half') {
+        classes["cly-vue-drawer--half-screen-" + this.size] = true;
+      }
+
+      return classes;
+    }
+  },
+  watch: {
+    isOpened: function (newState) {
+      if (!newState) {
+        this.reset();
+      } else {
+        this.$emit("open");
+      }
+
+      this.setModalState(newState);
+    }
+  },
+  mounted: function () {
+    this.sidecarContents = this.$children.filter(function (child) {
+      return child.isContent && child.role === "sidecar";
+    });
+  },
+  methods: {
+    doClose: function () {
+      this.$emit("close", this.name);
+
+      if (this.closeFn) {
+        this.closeFn();
+      }
+    },
+    escKeyEvent: function () {
+      this.doClose();
+    },
+    onViewEntered: function () {
+      this.$refs.rootEl.focus();
+    }
+  }
+});
+
+/* script */
+const __vue_script__$t = script$t;
+/* template */
+
+var __vue_render__$t = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('transition', {
+    attrs: {
+      "name": _vm.toggleTransition
+    },
+    on: {
+      "enter": _vm.onViewEntered
+    }
+  }, [_c('div', {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.isOpened,
+      expression: "isOpened"
+    }],
+    ref: "rootEl",
+    staticClass: "cly-vue-drawer",
+    class: _vm.rootClasses,
+    attrs: {
+      "tabindex": "0"
+    },
+    on: {
+      "keydown": function ($event) {
+        if (!$event.type.indexOf('key') && _vm._k($event.keyCode, "esc", 27, $event.key, ["Esc", "Escape"])) {
+          return null;
+        }
+
+        return _vm.escKeyEvent.apply(null, arguments);
+      }
+    }
+  }, [_c('div', {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.hasSidecars,
+      expression: "hasSidecars"
+    }],
+    staticClass: "cly-vue-drawer__sidecars-view"
+  }, [_vm._t("sidecars", null, null, _vm.passedScope)], 2), _vm._v(" "), _c('div', {
+    staticClass: "cly-vue-drawer__steps-view"
+  }, [_c('div', {
+    staticClass: "cly-vue-drawer__steps-wrapper"
+  }, [_vm.currentScreenMode === 'full' ? _c('div', {
+    staticClass: "bu-container bu-pt-3 bu-is-fluid bu-p-0"
+  }, [_c('div', {
+    staticClass: "bu-columns bu-is-gapless"
+  }, [_c('div', {
+    staticClass: "bu-column bu-is-12 bu-is-flex bu-is-justify-content-flex-end"
+  }, [_c('span', {
+    staticClass: "cly-vue-drawer__close-button",
+    on: {
+      "click": _vm.doClose
+    }
+  }, [_c('i', {
+    staticClass: "ion-ios-close-empty"
+  })])])])]) : _vm._e(), _vm._v(" "), _c('div', {
+    staticClass: "cly-vue-drawer__header",
+    class: {
+      'is-full-screen': _vm.currentScreenMode === 'full'
+    }
+  }, [_c('div', {
+    staticClass: "cly-vue-drawer__title"
+  }, [_vm.currentScreenMode !== 'full' ? _c('div', [_c('div', {
+    staticClass: "cly-vue-drawer__title-container bu-is-flex bu-is-justify-content-space-between"
+  }, [_c('h3', {
+    staticClass: "cly-vue-drawer__title-header"
+  }, [_vm._v(_vm._s(_vm.title))]), _vm._v(" "), _c('span', {
+    staticClass: "cly-vue-drawer__close-button bu-p-1 bu-mr-5",
+    on: {
+      "click": _vm.doClose
+    }
+  }, [_c('i', {
+    staticClass: "ion-ios-close-empty"
+  })])])]) : _vm._e(), _vm._v(" "), _vm.isMultiStep ? _c('div', {
+    staticClass: "bu-columns bu-is-gapless bu-is-mobile cly-vue-drawer__subtitle"
+  }, [_c('div', {
+    staticClass: "bu-column bu-is-12 bu-is-flex bu-is-align-items-center bu-is-justify-content-left"
+  }, [_c('div', {
+    staticClass: "cly-vue-drawer__steps-header"
+  }, [_vm._l(_vm.stepContents, function (currentContent, i) {
+    return [_c('div', {
+      key: 'label_' + i,
+      staticClass: "cly-vue-drawer__step-label",
+      class: {
+        'is-locked': i > _vm.lastValidIndex,
+        'is-active': i === _vm.currentStepIndex,
+        'is-passed': i < _vm.currentStepIndex
+      },
+      on: {
+        "click": function ($event) {
+          return _vm.setStepSafe(i, 'header-click');
+        }
+      }
+    }, [_c('div', {
+      staticClass: "bu-is-flex"
+    }, [_c('div', {
+      staticClass: "cly-vue-drawer__step-sign"
+    }, [_c('span', {
+      staticClass: "index text-small",
+      class: {
+        'color-white': i === _vm.currentStepIndex
+      }
+    }, [_vm._v(_vm._s(i + 1))]), _vm._v(" "), _c('span', {
+      staticClass: "done-icon text-small color-white bu-pt-0"
+    }, [_c('img', {
+      attrs: {
+        "src": "images/icons/check-icon.svg"
+      }
+    })])]), _vm._v(" "), _c('div', {
+      staticClass: "cly-vue-drawer__step-title text-small font-weight-bold color-cool-gray-40"
+    }, [_vm._v(_vm._s(currentContent.name))])])]), _vm._v(" "), i < _vm.stepContents.length - 1 ? _c('div', {
+      key: 'sep_' + i,
+      staticClass: "cly-vue-drawer__step-separator"
+    }) : _vm._e()];
+  })], 2)])]) : _vm._e()])]), _vm._v(" "), _c('div', {
+    directives: [{
+      name: "scroll-shadow",
+      rawName: "v-scroll-shadow"
+    }],
+    staticClass: "cly-vue-drawer__steps-container",
+    class: {
+      'is-multi-step': _vm.isMultiStep
+    }
+  }, [_vm.currentScreenMode === 'full' ? _c('div', {
+    staticClass: "bu-columns bu-is-gapless bu-is-mobile"
+  }, [_c('div', {
+    staticClass: "bu-column bu-is-12"
+  }, [_c('h3', [_vm._v(_vm._s(_vm.title))])])]) : _vm._e(), _vm._v(" "), _c('div', {
+    staticClass: "bu-columns bu-is-gapless bu-is-mobile cly-vue-drawer__body-container",
+    class: {
+      'bu-pb-5 bu-pt-4 bu-mb-2 bu-mt-1': _vm.currentScreenMode !== 'full'
+    }
+  }, [_c('div', {
+    staticClass: "bu-column bu-is-12"
+  }, [_vm._t("default", null, null, _vm.passedScope)], 2)])]), _vm._v(" "), _vm.isMultiStep || _vm.hasCancelButton || _vm.saveButtonLabel ? _c('div', {
+    staticClass: "cly-vue-drawer__footer"
+  }, [_c('div', {
+    staticClass: "cly-vue-drawer__controls-left-pc"
+  }, [_vm._t("controls-left", null, null, _vm.passedScope)], 2), _vm._v(" "), _vm.isMultiStep ? _c('div', {
+    staticClass: "cly-vue-drawer__buttons is-multi-step is-single-step bu-is-justify-content-flex-end bu-is-flex"
+  }, [_vm.currentStepIndex === 0 && _vm.hasCancelButton ? _c('el-button', {
+    attrs: {
+      "type": "secondary",
+      "size": "small",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.doClose
+    }
+  }, [_vm._v(_vm._s(_vm.cancelButtonLabel))]) : _vm._e(), _vm._v(" "), _vm.currentStepIndex > 0 ? _c('el-button', {
+    attrs: {
+      "type": "secondary",
+      "size": "small",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.prevStep
+    }
+  }, [_vm._v(_vm._s(_vm.i18n('common.drawer.previous-step')))]) : _vm._e(), _vm._v(" "), !_vm.isLastStep ? _c('el-button', {
+    class: {
+      'is-disabled': !_vm.isCurrentStepValid
+    },
+    attrs: {
+      "type": "success",
+      "size": "small",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.nextStep
+    }
+  }, [_vm._v(_vm._s(_vm.i18n('common.drawer.next-step')))]) : _vm._e(), _vm._v(" "), _vm.isLastStep ? _c('el-button', {
+    class: {
+      'is-disabled': !_vm.isSubmissionAllowed
+    },
+    attrs: {
+      "type": "success",
+      "loading": _vm.isSubmitPending,
+      "size": "small",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.submit
+    }
+  }, [_vm._v(_vm._s(_vm.saveButtonLabel))]) : _vm._e()], 1) : _vm._e(), _vm._v(" "), !_vm.isMultiStep ? _c('div', {
+    staticClass: "cly-vue-drawer__buttons is-single-step is-single-step bu-is-justify-content-flex-end bu-is-flex"
+  }, [_vm.hasCancelButton ? _c('el-button', {
+    attrs: {
+      "type": "secondary",
+      "size": "small",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.doClose
+    }
+  }, [_vm._v(_vm._s(_vm.cancelButtonLabel))]) : _vm._e(), _vm._v(" "), _vm.saveButtonLabel ? _c('el-button', {
+    class: {
+      'is-disabled': !_vm.isSubmissionAllowed
+    },
+    attrs: {
+      "type": "success",
+      "loading": _vm.isSubmitPending,
+      "size": "small",
+      "disabled": _vm.isSubmitPending
+    },
+    on: {
+      "click": _vm.submit
+    }
+  }, [_vm._v(_vm._s(_vm.saveButtonLabel))]) : _vm._e()], 1) : _vm._e()]) : _vm._e()])])])]);
+};
+
+var __vue_staticRenderFns__$t = [];
+/* style */
+
+const __vue_inject_styles__$t = undefined;
+/* scoped */
+
+const __vue_scope_id__$t = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$t = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$t = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$W = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$t,
+  staticRenderFns: __vue_staticRenderFns__$t
+}, __vue_inject_styles__$t, __vue_script__$t, __vue_scope_id__$t, __vue_is_functional_template__$t, __vue_module_identifier__$t, false, undefined, undefined, undefined);
+
+var __vue_component__$X = __vue_component__$W;
+
+function hasDrawersMethodsMixin() {
+  return {
+    methods: {
+      openDrawer: function (name, initialEditedObject) {
+        /**
+         * Delete the hover key as its set by the data table on hovering a row
+         * and we don't want to pass it to the drawer.
+         */
+        delete initialEditedObject.hover;
+
+        if (this.drawers[name].isOpened) {
+          return;
+        }
+
+        this.loadDrawer(name, initialEditedObject);
+        this.drawers[name].isOpened = true;
+      },
+      loadDrawer: function (name, initialEditedObject) {
+        /**
+         * Delete the hover key as its set by the data table on hovering a row
+         * and we don't want to pass it to the drawer.
+         */
+        delete initialEditedObject.hover;
+        this.drawers[name].initialEditedObject = initialEditedObject || {};
+      },
+      closeDrawer: function (name) {
+        this.drawers[name].isOpened = false;
+      }
+    }
+  };
+}
+
+function hasDrawersMixin(names) {
+  if (!Array.isArray(names)) {
+    names = [names];
+  }
+
+  var result = {
+    data: function () {
+      return {
+        drawers: names.reduce(function (acc, val) {
+          acc[val] = {
+            name: val,
+            isOpened: false,
+            initialEditedObject: {}
+          };
+
+          acc[val].closeFn = function () {
+            acc[val].isOpened = false;
+          };
+
+          return acc;
+        }, {})
+      };
+    }
+  };
+  Object.assign(result, hasDrawersMethodsMixin());
+  return result;
+}
+
+var commons = {
+  hasDrawersMethodsMixin,
+  hasDrawersMixin
+};
+
+var script$s = countlyVue.components.BaseComponent.extend({
   componentName: 'ElDropdown',
   mixins: [elementUi_common.utils.Emitter],
   props: {
@@ -89061,10 +92550,10 @@ var script$b = countlyVue.components.BaseComponent.extend({
 });
 
 /* script */
-const __vue_script__$b = script$b;
+const __vue_script__$s = script$s;
 /* template */
 
-var __vue_render__$b = function () {
+var __vue_render__$s = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -89102,33 +92591,33 @@ var __vue_render__$b = function () {
   }, _vm.$listeners));
 };
 
-var __vue_staticRenderFns__$b = [];
+var __vue_staticRenderFns__$s = [];
 /* style */
 
-const __vue_inject_styles__$b = undefined;
+const __vue_inject_styles__$s = undefined;
 /* scoped */
 
-const __vue_scope_id__$b = undefined;
+const __vue_scope_id__$s = undefined;
 /* module identifier */
 
-const __vue_module_identifier__$b = undefined;
+const __vue_module_identifier__$s = undefined;
 /* functional template */
 
-const __vue_is_functional_template__$b = false;
+const __vue_is_functional_template__$s = false;
 /* style inject */
 
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-const __vue_component__$m = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$b,
-  staticRenderFns: __vue_staticRenderFns__$b
-}, __vue_inject_styles__$b, __vue_script__$b, __vue_scope_id__$b, __vue_is_functional_template__$b, __vue_module_identifier__$b, false, undefined, undefined, undefined);
+const __vue_component__$U = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$s,
+  staticRenderFns: __vue_staticRenderFns__$s
+}, __vue_inject_styles__$s, __vue_script__$s, __vue_scope_id__$s, __vue_is_functional_template__$s, __vue_module_identifier__$s, false, undefined, undefined, undefined);
 
-var __vue_component__$n = __vue_component__$m;
+var __vue_component__$V = __vue_component__$U;
 
-var script$a = countlyVue.components.BaseComponent.extend({
+var script$r = countlyVue.components.BaseComponent.extend({
   mixins: [countlyVue.mixins.i18n],
   props: {
     cancelLabel: {
@@ -89289,10 +92778,10 @@ var script$a = countlyVue.components.BaseComponent.extend({
 });
 
 /* script */
-const __vue_script__$a = script$a;
+const __vue_script__$r = script$r;
 /* template */
 
-var __vue_render__$a = function () {
+var __vue_render__$r = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -89412,6 +92901,1856 @@ var __vue_render__$a = function () {
   }, 'el-button', _vm.$attrs, false), [_vm._v(_vm._s(_vm.confirmLabel))])], 1)])])]);
 };
 
+var __vue_staticRenderFns__$r = [];
+/* style */
+
+const __vue_inject_styles__$r = undefined;
+/* scoped */
+
+const __vue_scope_id__$r = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$r = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$r = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$S = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$r,
+  staticRenderFns: __vue_staticRenderFns__$r
+}, __vue_inject_styles__$r, __vue_script__$r, __vue_scope_id__$r, __vue_is_functional_template__$r, __vue_module_identifier__$r, false, undefined, undefined, undefined);
+
+var __vue_component__$T = __vue_component__$S;
+
+var script$q = countlyVue.components.BaseComponent.extend({
+  props: {
+    label: String,
+    highlight: {
+      type: Boolean,
+      default: false
+    },
+    tooltip: {
+      type: String,
+      default: null
+    },
+    description: {
+      type: String,
+      default: null
+    }
+  },
+  computed: {
+    groupingClasses: function () {
+      if (this.highlight) {
+        return ["cly-vue-form-step__section-group", "cly-vue-form-step__section-group--filled"];
+      }
+
+      return "";
+    },
+    labelClasses: function () {
+      if (this.highlight) {
+        return "bu-mb-4";
+      }
+
+      return "";
+    }
+  }
+});
+
+/* script */
+const __vue_script__$q = script$q;
+/* template */
+
+var __vue_render__$q = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    staticClass: "cly-vue-form-step__auto-group"
+  }, [_vm.label ? _c('h4', {
+    staticClass: "bu-is-flex bu-is-align-items-baseline",
+    class: _vm.labelClasses
+  }, [_vm._v("\n        " + _vm._s(_vm.label) + "\n        "), _vm.tooltip ? _c('cly-tooltip-icon', {
+    staticClass: "bu-is-flex-grow-1 bu-ml-2",
+    attrs: {
+      "tooltip": _vm.tooltip
+    }
+  }) : _vm._e()], 1) : _vm._e(), _vm._v(" "), _vm.description ? _c('span', {
+    staticClass: "color-cool-gray-50 text-small bu-mb-1"
+  }, [_vm._v(_vm._s(_vm.description))]) : _vm._e(), _vm._v(" "), _c('div', {
+    class: _vm.groupingClasses
+  }, [_vm._t("default")], 2)]);
+};
+
+var __vue_staticRenderFns__$q = [];
+/* style */
+
+const __vue_inject_styles__$q = undefined;
+/* scoped */
+
+const __vue_scope_id__$q = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$q = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$q = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$Q = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$q,
+  staticRenderFns: __vue_staticRenderFns__$q
+}, __vue_inject_styles__$q, __vue_script__$q, __vue_scope_id__$q, __vue_is_functional_template__$q, __vue_module_identifier__$q, false, undefined, undefined, undefined);
+
+var __vue_component__$R = __vue_component__$Q;
+
+var script$p = countlyVue.components.BaseComponent.extend({
+  props: {
+    subheading: {
+      required: false
+    },
+    label: {
+      required: false
+    },
+    optional: {
+      type: Boolean,
+      default: false
+    },
+    disableFormWrapping: {
+      type: Boolean,
+      default: false
+    },
+    inline: {
+      type: Boolean,
+      default: false,
+      required: false
+    },
+    tooltip: {
+      type: String,
+      default: null
+    }
+  },
+  computed: {
+    wrapperElement: function () {
+      if (this.disableFormWrapping) {
+        return "div";
+      }
+
+      return "form";
+    },
+    topClasses: function () {
+      if (this.inline) {
+        return null;
+      }
+
+      return "cly-vue-form-step__section";
+    }
+  },
+  mixins: [countlyVue.mixins.i18n]
+});
+
+/* script */
+const __vue_script__$p = script$p;
+/* template */
+
+var __vue_render__$p = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    staticClass: "cly-vue-form-field",
+    class: _vm.topClasses
+  }, [!_vm.inline || _vm.tooltip || _vm.label || _vm.optional ? _c('div', {
+    staticClass: "bu-is-flex bu-is-justify-content-space-between"
+  }, [_vm.label ? _c('div', {
+    staticClass: "text-smallish font-weight-bold bu-mb-1"
+  }, [_vm._v(_vm._s(_vm.label))]) : _vm._e(), _vm._v(" "), _vm.tooltip ? _c('cly-tooltip-icon', {
+    staticClass: "bu-is-flex-grow-1 bu-ml-2",
+    attrs: {
+      "tooltip": _vm.tooltip
+    }
+  }) : _vm._e(), _vm._v(" "), _c('div', {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.optional,
+      expression: "optional"
+    }],
+    staticClass: "text-small text-heading color-cool-gray-40"
+  }, [_vm._v(_vm._s(_vm.i18n("common.optional")))])], 1) : _vm._e(), _vm._v(" "), _vm.subheading ? _c('div', {
+    staticClass: "color-cool-gray-50 text-small bu-mb-1"
+  }, [_vm._v("\n        " + _vm._s(_vm.subheading) + "\n    ")]) : _vm._e(), _vm._v(" "), _c(_vm.wrapperElement, {
+    tag: "component",
+    on: {
+      "submit": function ($event) {
+        $event.preventDefault();
+      }
+    }
+  }, [_vm.$attrs.rules ? _c('validation-provider', _vm._g(_vm._b({
+    scopedSlots: _vm._u([{
+      key: "default",
+      fn: function (validation) {
+        return [_c('div', {
+          staticClass: "cly-vue-form-field__inner el-form-item",
+          class: {
+            'is-error': validation.errors.length > 0
+          }
+        }, [_vm._t("default", null, null, validation)], 2)];
+      }
+    }], null, true)
+  }, 'validation-provider', _vm.$attrs, false), _vm.$listeners)) : _c('div', {
+    staticClass: "cly-vue-form-field__inner el-form-item"
+  }, [_vm._t("default")], 2)], 1)], 1);
+};
+
+var __vue_staticRenderFns__$p = [];
+/* style */
+
+const __vue_inject_styles__$p = undefined;
+/* scoped */
+
+const __vue_scope_id__$p = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$p = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$p = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$O = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$p,
+  staticRenderFns: __vue_staticRenderFns__$p
+}, __vue_inject_styles__$p, __vue_script__$p, __vue_scope_id__$p, __vue_is_functional_template__$p, __vue_module_identifier__$p, false, undefined, undefined, undefined);
+
+var __vue_component__$P = __vue_component__$O;
+
+var script$o = countlyVue.components.BaseComponent.extend({
+  props: {
+    validatorFn: {
+      type: Function
+    },
+    id: {
+      type: String,
+      required: true
+    },
+    screen: {
+      type: String,
+      default: "half",
+      validator: function (value) {
+        return ['half', 'full'].indexOf(value) !== -1;
+      }
+    }
+  },
+  data: function () {
+    return {
+      watchHandle: null
+    };
+  },
+  mounted: function () {
+    var self = this;
+    this.watchHandle = this.$watch(function () {
+      return self.$refs.observer.flags.valid;
+    }, function (newVal) {
+      self.isValid = newVal;
+    });
+  },
+  methods: {
+    reset: function () {
+      this.$refs.observer.reset();
+    },
+    touch: function () {
+      this.$refs.observer.validate();
+    }
+  },
+  computed: {
+    isParentReady: function () {
+      if (this.$parent.isToggleable) {
+        return this.$parent.isOpened;
+      }
+
+      return true;
+    }
+  },
+  beforeDestroy: function () {
+    this.watchHandle(); // unwatch
+  }
+});
+
+/* script */
+const __vue_script__$o = script$o;
+/* template */
+
+var __vue_render__$o = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _vm.isActive || _vm.alwaysMounted ? _c('div', {
+    staticClass: "cly-vue-content",
+    attrs: {
+      "id": _vm.elementId
+    }
+  }, [_c('validation-observer', {
+    ref: "observer"
+  }, [_vm.isParentReady ? _c('div', {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.isActive,
+      expression: "isActive"
+    }]
+  }, [_vm._t("default")], 2) : _vm._e()])], 1) : _vm._e();
+};
+
+var __vue_staticRenderFns__$o = [];
+/* style */
+
+const __vue_inject_styles__$o = undefined;
+/* scoped */
+
+const __vue_scope_id__$o = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$o = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$o = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$M = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$o,
+  staticRenderFns: __vue_staticRenderFns__$o
+}, __vue_inject_styles__$o, __vue_script__$o, __vue_scope_id__$o, __vue_is_functional_template__$o, __vue_module_identifier__$o, false, undefined, undefined, undefined);
+
+var __vue_component__$N = __vue_component__$M;
+
+var script$n = countlyVue.components.BaseComponent.extend({
+  mixins: [FormCommons.MultiStepFormMixin]
+});
+
+/* script */
+const __vue_script__$n = script$n;
+/* template */
+
+var __vue_render__$n = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    staticClass: "cly-vue-form"
+  }, [_vm._t("default", null, null, _vm.passedScope)], 2);
+};
+
+var __vue_staticRenderFns__$n = [];
+/* style */
+
+const __vue_inject_styles__$n = undefined;
+/* scoped */
+
+const __vue_scope_id__$n = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$n = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$n = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$K = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$n,
+  staticRenderFns: __vue_staticRenderFns__$n
+}, __vue_inject_styles__$n, __vue_script__$n, __vue_scope_id__$n, __vue_is_functional_template__$n, __vue_module_identifier__$n, false, undefined, undefined, undefined);
+
+var __vue_component__$L = __vue_component__$K;
+
+var script$m = countlyVue.components.BaseComponent.extend({
+  props: {
+    label: String,
+    help: String
+  },
+  computed: {
+    hasRequiredRule: function () {
+      if (Array.isArray(this.$attrs.rules)) {
+        return this.$attrs.rules.indexOf('required') !== -1;
+      }
+
+      return Object.keys(this.$attrs.rules).indexOf('required') !== -1;
+    }
+  }
+});
+
+/* script */
+const __vue_script__$m = script$m;
+/* template */
+
+var __vue_render__$m = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    staticClass: "cly-vue-form-field cly-vue-form-step__section bu-columns bu-is-vcentered bu-px-1 bu-mx-1"
+  }, [_c('div', {
+    staticClass: "bu-column bu-is-4 bu-p-0"
+  }, [_c('p', {
+    staticClass: "bu-has-text-weight-medium"
+  }, [_vm._v(_vm._s(_vm.label) + " "), _vm.$attrs.rules && _vm.hasRequiredRule ? _c('span', [_vm._v("*")]) : _vm._e()]), _vm._v(" "), _vm.help ? _c('p', {
+    domProps: {
+      "innerHTML": _vm._s(_vm.help)
+    }
+  }) : _vm._e()]), _vm._v(" "), _c('div', {
+    staticClass: "bu-column bu-is-8 bu-has-text-left bu-p-0"
+  }, [_vm.$attrs.rules ? _c('validation-provider', _vm._g(_vm._b({
+    attrs: {
+      "name": _vm.label
+    },
+    scopedSlots: _vm._u([{
+      key: "default",
+      fn: function (validation) {
+        return [_c('div', {
+          staticClass: "cly-vue-form-field__inner el-form-item el-form-item__content",
+          class: {
+            'is-error': validation.errors.length > 0
+          }
+        }, [_vm._t("default", null, null, validation), _vm._v(" "), validation.errors.length ? _c('div', {
+          staticClass: "el-form-item__error"
+        }, [_vm._v(_vm._s(validation.errors[0]))]) : _vm._e()], 2)];
+      }
+    }], null, true)
+  }, 'validation-provider', _vm.$attrs, false), _vm.$listeners)) : _c('div', {
+    staticClass: "cly-vue-form-field__inner el-form-item el-form-item__content"
+  }, [_vm._t("default")], 2)], 1)]);
+};
+
+var __vue_staticRenderFns__$m = [];
+/* style */
+
+const __vue_inject_styles__$m = undefined;
+/* scoped */
+
+const __vue_scope_id__$m = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$m = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$m = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$I = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$m,
+  staticRenderFns: __vue_staticRenderFns__$m
+}, __vue_inject_styles__$m, __vue_script__$m, __vue_scope_id__$m, __vue_is_functional_template__$m, __vue_module_identifier__$m, false, undefined, undefined, undefined);
+
+var __vue_component__$J = __vue_component__$I;
+
+var script$l = countlyVue.components.BaseComponent.extend({
+  mixins: [countlyVue.mixins.i18n],
+  props: {
+    diff: {
+      type: Array
+    },
+    disabled: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+    emitSaveWhenDisabled: {
+      type: Boolean,
+      required: false,
+      default: false
+    }
+  },
+  computed: {
+    hasDiff: function () {
+      return this.diff.length > 0;
+    },
+    madeChanges: function () {
+      return this.i18n("common.diff-helper.changes", this.diff.length);
+    }
+  },
+  methods: {
+    save: function () {
+      if (this.disabled && !this.emitSaveWhenDisabled) {
+        return;
+      }
+
+      this.$emit("save");
+    },
+    discard: function () {
+      this.$emit("discard");
+    }
+  }
+});
+
+/* script */
+const __vue_script__$l = script$l;
+/* template */
+
+var __vue_render__$l = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _vm.hasDiff ? _c('div', {
+    staticClass: "cly-vue-diff-helper"
+  }, [_vm._t("main", function () {
+    return [_c('div', {
+      staticClass: "message"
+    }, [_c('span', {
+      staticClass: "text-dark"
+    }, [_vm._v(_vm._s(_vm.madeChanges))]), _vm._v(" "), _c('span', {
+      staticClass: "text-dark"
+    }, [_vm._v(_vm._s(_vm.i18n("common.diff-helper.keep")))])]), _vm._v(" "), _c('div', {
+      staticClass: "buttons"
+    }, [_c('el-button', {
+      staticClass: "discard-btn",
+      attrs: {
+        "skin": "light",
+        "type": "secondary"
+      },
+      on: {
+        "click": _vm.discard
+      }
+    }, [_vm._v(_vm._s(_vm.i18n('common.discard-changes')))]), _vm._v(" "), _c('el-button', {
+      staticClass: "save-btn",
+      attrs: {
+        "skin": "green",
+        "disabled": _vm.disabled,
+        "type": "success"
+      },
+      on: {
+        "click": _vm.save
+      }
+    }, [_vm._v(_vm._s(_vm.i18n('common.save-changes')))])], 1)];
+  })], 2) : _vm._e();
+};
+
+var __vue_staticRenderFns__$l = [];
+/* style */
+
+const __vue_inject_styles__$l = undefined;
+/* scoped */
+
+const __vue_scope_id__$l = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$l = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$l = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$G = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$l,
+  staticRenderFns: __vue_staticRenderFns__$l
+}, __vue_inject_styles__$l, __vue_script__$l, __vue_scope_id__$l, __vue_is_functional_template__$l, __vue_module_identifier__$l, false, undefined, undefined, undefined);
+
+var __vue_component__$H = __vue_component__$G;
+
+var script$k = countlyVue.mixins.BaseContent.extend({
+  props: {
+    image: {
+      default: 'images/icons/empty-view-icon.svg',
+      type: String
+    },
+    title: {
+      default: countlyVue.i18n('common.emtpy-view-title'),
+      type: String
+    },
+    subTitle: {
+      default: countlyVue.i18n('common.emtpy-view-subtitle'),
+      type: String
+    },
+    height: {
+      default: 0,
+      type: Number
+    },
+    classes: {
+      type: Object,
+      default: function () {
+        return {
+          'bu-py-6': true
+        };
+      }
+    }
+  },
+  data: function () {
+    return {};
+  },
+  computed: {
+    topStyle: function () {
+      if (this.height) {
+        return {
+          height: this.height + "px"
+        };
+      }
+    }
+  }
+});
+
+/* script */
+const __vue_script__$k = script$k;
+/* template */
+
+var __vue_render__$k = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    class: ['bu-is-flex bu-is-flex-direction-column bu-is-align-items-center bu-is-justify-content-center', _vm.classes],
+    staticStyle: {
+      "height": "100%",
+      "opacity": "0.6"
+    },
+    style: _vm.topStyle
+  }, [_vm._t("icon", function () {
+    return [_c('div', [_c('img', {
+      attrs: {
+        "src": _vm.image
+      }
+    })])];
+  }), _vm._v(" "), _c('div', {
+    staticClass: "bu-mt-2"
+  }, [_vm._t("title", function () {
+    return [_c('h4', {
+      staticClass: "color-cool-gray-100 bu-has-text-centered"
+    }, [_vm._v(_vm._s(_vm.title))])];
+  }), _vm._v(" "), _vm._t("subTitle", function () {
+    return [_c('div', {
+      staticClass: "bu-mt-1 text-small color-cool-gray-50 bu-has-text-centered"
+    }, [_vm._v(_vm._s(_vm.subTitle))])];
+  })], 2)], 2);
+};
+
+var __vue_staticRenderFns__$k = [];
+/* style */
+
+const __vue_inject_styles__$k = undefined;
+/* scoped */
+
+const __vue_scope_id__$k = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$k = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$k = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$E = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$k,
+  staticRenderFns: __vue_staticRenderFns__$k
+}, __vue_inject_styles__$k, __vue_script__$k, __vue_scope_id__$k, __vue_is_functional_template__$k, __vue_module_identifier__$k, false, undefined, undefined, undefined);
+
+var __vue_component__$F = __vue_component__$E;
+
+var script$j = countlyVue.components.BaseComponent.extend({
+  mixins: [countlyVue.mixins.i18n],
+  props: {
+    title: {
+      type: String,
+      required: false
+    },
+    link: {
+      type: String,
+      required: false
+    }
+  },
+  methods: {
+    back: function () {
+      if (this.link) {
+        app.navigate(this.link, true);
+      } else {
+        app.back();
+      }
+    }
+  },
+  computed: {
+    innerTitle: function () {
+      if (this.title) {
+        return this.title;
+      }
+
+      return this.i18n("common.back");
+    }
+  }
+});
+
+/* script */
+const __vue_script__$j = script$j;
+/* template */
+
+var __vue_render__$j = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('a', {
+    staticClass: "cly-vue-back-link",
+    on: {
+      "click": _vm.back
+    }
+  }, [_c('span', {
+    staticClass: "text-medium bu-is-capitalized"
+  }, [_c('i', {
+    staticClass: "fas fa-arrow-left bu-pr-3"
+  }), _vm._v(_vm._s(_vm.innerTitle))])]);
+};
+
+var __vue_staticRenderFns__$j = [];
+/* style */
+
+const __vue_inject_styles__$j = undefined;
+/* scoped */
+
+const __vue_scope_id__$j = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$j = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$j = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$C = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$j,
+  staticRenderFns: __vue_staticRenderFns__$j
+}, __vue_inject_styles__$j, __vue_script__$j, __vue_scope_id__$j, __vue_is_functional_template__$j, __vue_module_identifier__$j, false, undefined, undefined, undefined);
+
+var __vue_component__$D = __vue_component__$C;
+
+var script$i = countlyVue.components.BaseComponent.extend({
+  mixins: [countlyVue.mixins.i18n],
+  props: {
+    crumbs: {
+      type: Array,
+      default: function () {
+        return [];
+      }
+    }
+  }
+});
+
+/* script */
+const __vue_script__$i = script$i;
+/* template */
+
+var __vue_render__$i = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    staticClass: "bu-level cly-breadcrumbs bu-mb-5"
+  }, _vm._l(_vm.crumbs, function (crumb, index) {
+    return _c('div', {
+      class: ["bu-level-item text-medium bu-mr-0", {
+        "bu-ml-2": index !== 0
+      }, {
+        "color-cool-gray-40": index === _vm.crumbs.length - 1
+      }]
+    }, [_c('a', {
+      attrs: {
+        "href": crumb.url
+      }
+    }, [_vm._v(_vm._s(crumb.label))]), _vm._v(" "), index !== _vm.crumbs.length - 1 ? _c('span', {
+      staticClass: "bu-ml-2"
+    }, [_vm._v(">")]) : _vm._e()]);
+  }), 0);
+};
+
+var __vue_staticRenderFns__$i = [];
+/* style */
+
+const __vue_inject_styles__$i = undefined;
+/* scoped */
+
+const __vue_scope_id__$i = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$i = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$i = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$A = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$i,
+  staticRenderFns: __vue_staticRenderFns__$i
+}, __vue_inject_styles__$i, __vue_script__$i, __vue_scope_id__$i, __vue_is_functional_template__$i, __vue_module_identifier__$i, false, undefined, undefined, undefined);
+
+var __vue_component__$B = __vue_component__$A;
+
+var script$h = countlyVue.components.BaseComponent.extend({
+  data: function () {
+    return {
+      selectedTag: this.defaultTag
+    };
+  },
+  methods: {
+    click: function (tag) {
+      this.selectedTag = tag;
+      this.$emit("input", tag);
+    }
+  },
+  props: {
+    value: Object,
+    tags: {
+      type: Array,
+      default: function () {
+        return [];
+      }
+    },
+    defaultTag: {
+      type: Object,
+      default: function () {
+        return {};
+      }
+    }
+  }
+});
+
+/* script */
+const __vue_script__$h = script$h;
+/* template */
+
+var __vue_render__$h = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    staticClass: "bu-is-flex bu-is-flex-wrap-wrap bu-is-align-items-center"
+  }, _vm._l(_vm.tags, function (tag, idx) {
+    return _c('div', {
+      staticClass: "cly-vue-color-tag__color-tag-wrapper"
+    }, [tag.value == _vm.selectedTag.value ? _c('div', {
+      staticClass: "cly-vue-color-tag__color-tag cly-vue-color-tag__color-tag__selected bu-is-flex bu-is-align-items-center bu-is-justify-content-center",
+      style: {
+        backgroundColor: tag.label
+      },
+      on: {
+        "click": function ($event) {
+          return _vm.click(tag);
+        }
+      }
+    }, [_c('i', {
+      staticClass: "ion-checkmark cly-vue-color-tag__checkmark"
+    })]) : _c('div', {
+      staticClass: "cly-vue-color-tag__color-tag bu-is-flex bu-is-align-items-center bu-is-justify-content-center",
+      style: {
+        backgroundColor: tag.label
+      },
+      on: {
+        "click": function ($event) {
+          return _vm.click(tag);
+        }
+      }
+    })]);
+  }), 0);
+};
+
+var __vue_staticRenderFns__$h = [];
+/* style */
+
+const __vue_inject_styles__$h = undefined;
+/* scoped */
+
+const __vue_scope_id__$h = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$h = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$h = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$y = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$h,
+  staticRenderFns: __vue_staticRenderFns__$h
+}, __vue_inject_styles__$h, __vue_script__$h, __vue_scope_id__$h, __vue_is_functional_template__$h, __vue_module_identifier__$h, false, undefined, undefined, undefined);
+
+var __vue_component__$z = __vue_component__$y;
+
+var script$g = countlyVue.components.BaseComponent.extend({
+  template: '',
+  mixins: [countlyVue.mixins.i18n],
+  props: {
+    title: {
+      default: countlyVue.i18n('common.emtpy-view-title'),
+      type: String
+    },
+    subTitle: {
+      default: countlyVue.i18n('common.emtpy-view-subtitle'),
+      type: String
+    },
+    actionTitle: {
+      default: "Create",
+      type: String
+    },
+    actionFunc: {
+      default: null,
+      type: Function
+    },
+    hasAction: {
+      default: false,
+      type: Boolean
+    },
+    hasCreateRight: {
+      default: true,
+      type: Boolean
+    }
+  }
+});
+
+/* script */
+const __vue_script__$g = script$g;
+/* template */
+
+var __vue_render__$g = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    staticClass: "bu-mt-5 bu-pt-4 bu-is-flex bu-is-flex-direction-column bu-is-align-items-center cly-vue-empty-view"
+  }, [_vm._t("icon", function () {
+    return [_vm._m(0)];
+  }), _vm._v(" "), _c('div', {
+    staticClass: "bu-mt-2 bu-is-flex bu-is-flex-direction-column \tbu-is-align-items-center"
+  }, [_vm._t("title", function () {
+    return [_c('h3', {
+      staticClass: "color-cool-gray-100 bu-mt-4"
+    }, [_vm._v(_vm._s(_vm.title))])];
+  }), _vm._v(" "), _vm._t("subTitle", function () {
+    return [_c('div', {
+      staticClass: "bu-mt-4 bu-mb-5 text-medium color-cool-gray-50 bu-has-text-centered cly-vue-empty-view__subtitle"
+    }, [_c('span', {
+      domProps: {
+        "innerHTML": _vm._s(_vm.subTitle)
+      }
+    })])];
+  }), _vm._v(" "), _vm.hasCreateRight && _vm.hasAction ? _vm._t("action", function () {
+    return [_c('div', {
+      staticClass: "bu-is-clickable button bu-has-text-centered color-blue-100 pointer",
+      on: {
+        "click": _vm.actionFunc
+      }
+    }, [_vm._v(_vm._s(_vm.actionTitle))])];
+  }) : _vm._e()], 2)], 2);
+};
+
+var __vue_staticRenderFns__$g = [function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    staticClass: "bu-mt-6"
+  }, [_c('img', {
+    staticClass: "cly-vue-empty-view__img",
+    attrs: {
+      "src": "images/icons/empty-plugin.svg"
+    }
+  })]);
+}];
+/* style */
+
+const __vue_inject_styles__$g = undefined;
+/* scoped */
+
+const __vue_scope_id__$g = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$g = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$g = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$w = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$g,
+  staticRenderFns: __vue_staticRenderFns__$g
+}, __vue_inject_styles__$g, __vue_script__$g, __vue_scope_id__$g, __vue_is_functional_template__$g, __vue_module_identifier__$g, false, undefined, undefined, undefined);
+
+var __vue_component__$x = __vue_component__$w;
+
+var script$f = countlyVue.components.BaseComponent.extend({
+  props: {
+    text: {
+      type: String,
+      required: false
+    }
+  },
+  computed: {
+    innerText: function () {
+      if (this.text) {
+        return this.text;
+      }
+
+      return "";
+    }
+  }
+});
+
+/* script */
+const __vue_script__$f = script$f;
+/* template */
+
+var __vue_render__$f = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    staticClass: "cly-in-page-notification color-cool-gray-100 bg-red-10 text-medium bu-p-2 center"
+  }, [_vm._t("default", function () {
+    return [_c('span', {
+      domProps: {
+        "innerHTML": _vm._s(_vm.innerText)
+      }
+    })];
+  })], 2);
+};
+
+var __vue_staticRenderFns__$f = [];
+/* style */
+
+const __vue_inject_styles__$f = undefined;
+/* scoped */
+
+const __vue_scope_id__$f = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$f = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$f = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$u = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$f,
+  staticRenderFns: __vue_staticRenderFns__$f
+}, __vue_inject_styles__$f, __vue_script__$f, __vue_scope_id__$f, __vue_is_functional_template__$f, __vue_module_identifier__$f, false, undefined, undefined, undefined);
+
+var __vue_component__$v = __vue_component__$u;
+
+var script$e = countlyVue.components.BaseComponent.extend({
+  mixins: [countlyVue.mixins.i18n],
+  props: {
+    id: {
+      default: "",
+      type: [String, Number],
+      required: false
+    },
+    text: {
+      default: ""
+    },
+    color: {
+      default: "light-warning",
+      type: String
+    },
+    size: {
+      default: "full",
+      type: String
+    },
+    visible: {
+      default: true,
+      type: Boolean
+    },
+    closable: {
+      default: true,
+      type: Boolean
+    },
+    autoHide: {
+      default: false,
+      type: Boolean
+    }
+  },
+  data: function () {
+    return {
+      autoHideTimeout: null,
+      DEFAULT_STAY_TIME_IN_MS: 7000,
+      // 7 seconds
+      isModalVisible: true
+    };
+  },
+  watch: {
+    visible: {
+      immediate: true,
+      handler: function (newVisible) {
+        this.isModalVisible = newVisible;
+      }
+    },
+    isModalVisible: function (newVisible) {
+      this.$emit("update:visible", newVisible);
+    }
+  },
+  computed: {
+    dynamicClasses: function () {
+      return ["cly-vue-notification__alert-box__alert-text--" + this.color, "cly-vue-notification__alert-box--" + this.size];
+    },
+    image: function () {
+      if (this.color === "dark-informational" || this.color === "light-informational") {
+        return "images/icons/notification-toast-informational.svg";
+      } else if (this.color === "light-successful" || this.color === "dark-successful") {
+        return "images/icons/notification-toast-successful.svg";
+      } else if (this.color === "light-destructive" || this.color === "dark-destructive") {
+        return "images/icons/notification-toast-destructive.svg";
+      } else if (this.color === "light-warning" || this.color === "dark-warning") {
+        return "images/icons/notification-toast-warning.svg";
+      }
+    },
+    innerText: function () {
+      if (this.text) {
+        return this.text;
+      }
+
+      return "";
+    }
+  },
+  methods: {
+    closeModal: function () {
+      this.isModalVisible = false;
+      this.$emit('close', this.id);
+    }
+  },
+  mounted: function () {
+    if (this.autoHide) {
+      this.autoHideTimeout = setTimeout(this.closeModal, this.DEFAULT_STAY_TIME_IN_MS);
+    }
+  },
+  beforeDestroy: function () {
+    if (this.autoHide && this.autoHideTimeout) {
+      clearTimeout(this.autoHideTimeout);
+      this.autoHideTimeout = null;
+    }
+  }
+});
+
+/* script */
+const __vue_script__$e = script$e;
+/* template */
+
+var __vue_render__$e = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _vm.isModalVisible === true ? _c('div', {
+    staticClass: "cly-vue-notification__alert-box",
+    class: _vm.dynamicClasses
+  }, [_c('div', {
+    staticClass: "bu-is-flex bu-is-justify-content-space-between"
+  }, [_c('div', {
+    staticClass: "bu-is-flex"
+  }, [_c('img', {
+    staticClass: "alert-image bu-mr-4 bu-my-2 bu-ml-2",
+    attrs: {
+      "src": _vm.image
+    }
+  }), _vm._v(" "), _vm._t("default", function () {
+    return [_c('span', {
+      staticClass: "alert-text",
+      staticStyle: {
+        "margin-block": "auto"
+      },
+      domProps: {
+        "innerHTML": _vm._s(_vm.innerText)
+      }
+    }, [_vm._v(_vm._s(_vm.text))])];
+  })], 2), _vm._v(" "), _vm.closable ? _c('div', {
+    staticClass: "bu-mt-2"
+  }, [_vm.size == 'full' ? _c('div', {
+    staticClass: "bu-mr-2 bu-ml-2",
+    on: {
+      "click": _vm.closeModal
+    }
+  }, [_vm._t("close", function () {
+    return [_c('i', {
+      staticClass: "el-icon-close"
+    })];
+  })], 2) : _c('div', {
+    staticClass: "bu-mr-2 bu-ml-6",
+    on: {
+      "click": _vm.closeModal
+    }
+  }, [_vm._t("close", function () {
+    return [_c('i', {
+      staticClass: "el-icon-close"
+    })];
+  })], 2)]) : _c('div', {
+    staticClass: "bu-ml-5"
+  })])]) : _vm._e();
+};
+
+var __vue_staticRenderFns__$e = [];
+/* style */
+
+const __vue_inject_styles__$e = undefined;
+/* scoped */
+
+const __vue_scope_id__$e = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$e = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$e = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$s = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$e,
+  staticRenderFns: __vue_staticRenderFns__$e
+}, __vue_inject_styles__$e, __vue_script__$e, __vue_scope_id__$e, __vue_is_functional_template__$e, __vue_module_identifier__$e, false, undefined, undefined, undefined);
+
+var __vue_component__$t = __vue_component__$s;
+
+var script$d = countlyVue.components.BaseComponent.extend({
+  template: '',
+  watch: {
+    lastPage: function () {
+      this.checkPageBoundaries();
+    },
+    value: function (newVal) {
+      this.page = newVal;
+      this.checkPageBoundaries();
+    }
+  },
+  data: function () {
+    return {
+      page: 1
+    };
+  },
+  methods: {
+    setPage: function (target) {
+      this.$emit("input", target);
+      this.page = target;
+    },
+    checkPageBoundaries: function () {
+      if (this.lastPage > 0 && this.page > this.lastPage) {
+        this.goToLastPage();
+      }
+
+      if (this.page < 1) {
+        this.goToFirstPage();
+      }
+    },
+    goToFirstPage: function () {
+      this.setPage(1);
+    },
+    goToLastPage: function () {
+      this.setPage(this.lastPage);
+    },
+    goToPrevPage: function () {
+      if (this.prevAvailable) {
+        this.setPage(this.page - 1);
+      }
+    },
+    goToNextPage: function () {
+      if (this.nextAvailable) {
+        this.setPage(this.page + 1);
+      }
+    }
+  },
+  computed: {
+    currentItems: function () {
+      return this.items.slice((this.page - 1) * this.perPage, this.page * this.perPage);
+    },
+    totalPages: function () {
+      return Math.ceil(this.items.length / this.perPage);
+    },
+    lastPage: function () {
+      return this.totalPages;
+    },
+    hasMultiplePages: function () {
+      return this.totalPages > 1;
+    },
+    prevAvailable: function () {
+      return this.page > 1;
+    },
+    nextAvailable: function () {
+      return this.totalPages > this.page;
+    },
+    passedScope: function () {
+      return {
+        page: this.page,
+        currentItems: this.currentItems,
+        totalPages: this.totalPages,
+        prevAvailable: this.prevAvailable,
+        nextAvailable: this.nextAvailable
+      };
+    }
+  },
+  props: {
+    value: {
+      default: 1,
+      type: Number,
+      validator: function (value) {
+        return value > 0;
+      }
+    },
+    items: {
+      type: Array,
+      required: true
+    },
+    perPage: {
+      type: Number,
+      default: 10
+    }
+  }
+});
+
+/* script */
+const __vue_script__$d = script$d;
+/* template */
+
+var __vue_render__$d = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', [_vm._t("default", null, null, _vm.passedScope), _vm._v(" "), _vm._t("controls", function () {
+    return [_vm.hasMultiplePages ? _c('div', [_c('el-button-group', {
+      staticClass: "bu-p-4"
+    }, [_c('el-button', {
+      attrs: {
+        "size": "small",
+        "disabled": !_vm.prevAvailable,
+        "icon": "el-icon-caret-left"
+      },
+      on: {
+        "click": _vm.goToPrevPage
+      }
+    }), _vm._v(" "), _c('el-button', {
+      attrs: {
+        "size": "small",
+        "disabled": !_vm.nextAvailable,
+        "icon": "el-icon-caret-right"
+      },
+      on: {
+        "click": _vm.goToNextPage
+      }
+    })], 1)], 1) : _vm._e()];
+  })], 2);
+};
+
+var __vue_staticRenderFns__$d = [];
+/* style */
+
+const __vue_inject_styles__$d = undefined;
+/* scoped */
+
+const __vue_scope_id__$d = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$d = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$d = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$q = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$d,
+  staticRenderFns: __vue_staticRenderFns__$d
+}, __vue_inject_styles__$d, __vue_script__$d, __vue_scope_id__$d, __vue_is_functional_template__$d, __vue_module_identifier__$d, false, undefined, undefined, undefined);
+
+var __vue_component__$r = __vue_component__$q;
+
+var popoverSizes = {
+  "small": true,
+  "medium": true,
+  "auto": true,
+  "small-chart": true,
+  "medium-chart": true,
+  "auto-chart": true
+};
+var script$c = countlyVue.components.BaseComponent.extend({
+  props: {
+    size: {
+      type: String,
+      default: 'medium',
+      validator: function (val) {
+        return val in popoverSizes;
+      }
+    }
+  },
+  computed: {
+    contentClasses: function () {
+      return "cly-vue-popover__content cly-vue-popover__content--" + this.size;
+    }
+  }
+});
+
+/* script */
+const __vue_script__$c = script$c;
+/* template */
+
+var __vue_render__$c = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('v-popover', _vm._g(_vm._b({
+    staticClass: "cly-vue-popover",
+    attrs: {
+      "popoverInnerClass": _vm.contentClasses
+    },
+    scopedSlots: _vm._u([{
+      key: "popover",
+      fn: function () {
+        return [_vm._t("content")];
+      },
+      proxy: true
+    }], null, true)
+  }, 'v-popover', _vm.$attrs, false), _vm.$listeners), [_vm._t("default")], 2);
+};
+
+var __vue_staticRenderFns__$c = [];
+/* style */
+
+const __vue_inject_styles__$c = undefined;
+/* scoped */
+
+const __vue_scope_id__$c = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$c = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$c = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$o = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$c,
+  staticRenderFns: __vue_staticRenderFns__$c
+}, __vue_inject_styles__$c, __vue_script__$c, __vue_scope_id__$c, __vue_is_functional_template__$c, __vue_module_identifier__$c, false, undefined, undefined, undefined);
+
+var __vue_component__$p = __vue_component__$o;
+
+var script$b = countlyVue.mixins.BaseContent.extend({
+  data: function () {
+    return {
+      barWidthUnit: "%",
+      defaultRemainingBarStackColor: "#ececec"
+    };
+  },
+  props: {
+    entities: {
+      required: false // vck: Validator throws false errors when entities are not ready, so disabling it
+      // validator: function(value) {
+      //     return Array.isArray(value) && value.every(function(entityItem) {
+      //         return typeof entityItem.percentage === 'number' && typeof entityItem.color === 'string';
+      //     });
+      // }
+
+    },
+    height: {
+      type: Number,
+      required: false
+    },
+    percentage: {
+      required: false
+    },
+    // vck: type constraint removed due to a similar reason explained above
+    color: {
+      type: String,
+      required: false
+    },
+    backgroundColor: {
+      type: String,
+      required: false
+    },
+    tooltip: {
+      type: String,
+      required: false,
+      default: null
+    }
+  },
+  computed: {
+    barStacks: function () {
+      if (this.hasEntities()) {
+        return this.getBarStacksWhenEntitiesFound();
+      } else {
+        return this.getBarStacksWhenEntitiesNotFound();
+      }
+    },
+    remainingBarStackColor: function () {
+      return this.backgroundColor || this.defaultRemainingBarStackColor;
+    }
+  },
+  methods: {
+    getBarStacksWhenEntitiesNotFound: function () {
+      var totalBarPercentage = this.percentage;
+
+      if (this.isBarEmpty(totalBarPercentage)) {
+        return [{
+          percentage: 0,
+          color: this.remainingBarStackColor,
+          tooltip: this.tooltip
+        }];
+      } else if (this.isBarFull(totalBarPercentage)) {
+        return [{
+          percentage: this.percentage,
+          color: this.color,
+          tooltip: this.tooltip
+        }];
+      } else {
+        return [{
+          percentage: this.percentage,
+          color: this.color,
+          tooltip: this.tooltip
+        }, this.getRemainingBarStack(totalBarPercentage)];
+      }
+    },
+    getBarStacksWhenEntitiesFound: function () {
+      var totalBarPercentage = this.getEntitiesTotalPercentage();
+
+      if (this.isBarEmpty(totalBarPercentage)) {
+        return [{
+          percentage: 0,
+          color: this.remainingBarStackColor
+        }];
+      } else if (this.isBarFull(totalBarPercentage)) {
+        return this.entities;
+      } else {
+        return this.entities.concat(this.getRemainingBarStack(totalBarPercentage));
+      }
+    },
+    getRemainingBarStack: function (totalBarPercentage) {
+      return {
+        percentage: this.getRemainingPercentage(totalBarPercentage),
+        color: this.remainingBarStackColor
+      };
+    },
+    getRemainingPercentage: function (total) {
+      return 100 - total;
+    },
+    getEntitiesTotalPercentage: function () {
+      return this.entities.reduce(function (totalPercentage, currentBarPercentage) {
+        totalPercentage += currentBarPercentage.percentage;
+        return totalPercentage;
+      }, 0);
+    },
+    hasEntities: function () {
+      return Boolean(this.entities) && Array.isArray(this.entities);
+    },
+    isBarFull: function (total) {
+      return total === 100;
+    },
+    isBarEmpty: function (total) {
+      return total === 0;
+    },
+    hasSingleBarStack: function () {
+      return this.barStacks.length === 1;
+    },
+    isLastBarStack: function (index) {
+      return this.barStacks.length - 1 === index;
+    },
+    isFirstBarStack: function (index) {
+      return index === 0;
+    },
+    isMiddleBarStack: function (index) {
+      return index > 0 && index < this.barStacks.length - 1;
+    },
+    getBarStackClasses: function (index) {
+      var classes = [];
+
+      if (!this.hasSingleBarStack()) {
+        classes.push("progress-bar-stack");
+
+        if (this.isFirstBarStack(index)) {
+          classes.push("first-progress-bar-stack");
+        }
+
+        if (this.isLastBarStack(index)) {
+          classes.push("last-progress-bar-stack");
+        }
+
+        if (this.isMiddleBarStack(index)) {
+          classes.push("middle-progress-bar-stack");
+        }
+
+        return classes;
+      }
+
+      return classes;
+    },
+    getBarStackStyleWidth: function (item) {
+      if (item.percentage === 0 && this.hasSingleBarStack()) {
+        return {
+          width: 100 + this.barWidthUnit
+        };
+      }
+
+      return {
+        width: item.percentage + this.barWidthUnit
+      };
+    },
+    getBarStackTooltip: function (item) {
+      if (item.tooltip) {
+        return {
+          content: '<span style="color: ' + item.color + ' ">' + item.tooltip + '</span> (' + item.percentage + '%)'
+        };
+      }
+
+      return null;
+    }
+  }
+});
+
+/* script */
+const __vue_script__$b = script$b;
+/* template */
+
+var __vue_render__$b = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    staticClass: "cly-progress-bar-container"
+  }, [_vm._l(_vm.barStacks, function (item, index) {
+    return [item.tooltipMode !== 'popover' ? _c('div', {
+      directives: [{
+        name: "tooltip",
+        rawName: "v-tooltip",
+        value: _vm.getBarStackTooltip(item),
+        expression: "getBarStackTooltip(item)"
+      }],
+      key: index,
+      staticClass: "cly-progress-bar-stack-container",
+      style: _vm.getBarStackStyleWidth(item)
+    }, [_c('el-progress', {
+      class: _vm.getBarStackClasses(index),
+      attrs: {
+        "show-text": false,
+        "stroke-width": _vm.height,
+        "percentage": 100,
+        "color": item.color
+      }
+    })], 1) : _c('div', {
+      key: index,
+      staticClass: "cly-progress-bar-stack-container",
+      style: _vm.getBarStackStyleWidth(item)
+    }, [_c('cly-popover', {
+      attrs: {
+        "size": "auto-chart"
+      },
+      scopedSlots: _vm._u([{
+        key: "content",
+        fn: function () {
+          return [_vm._t('popover-' + item.id)];
+        },
+        proxy: true
+      }], null, true)
+    }, [_c('el-progress', {
+      class: _vm.getBarStackClasses(index),
+      attrs: {
+        "show-text": false,
+        "stroke-width": _vm.height,
+        "percentage": 100,
+        "color": item.color
+      }
+    })], 1)], 1)];
+  })], 2);
+};
+
+var __vue_staticRenderFns__$b = [];
+/* style */
+
+const __vue_inject_styles__$b = undefined;
+/* scoped */
+
+const __vue_scope_id__$b = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$b = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$b = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$m = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$b,
+  staticRenderFns: __vue_staticRenderFns__$b
+}, __vue_inject_styles__$b, __vue_script__$b, __vue_scope_id__$b, __vue_is_functional_template__$b, __vue_module_identifier__$b, false, undefined, undefined, undefined);
+
+var __vue_component__$n = __vue_component__$m;
+
+var script$a = countlyVue.mixins.BaseContent.extend({
+  props: {
+    percentage: {
+      default: 42
+    },
+    color: {
+      type: [String, Function, Array],
+      default: '#00C3CA'
+    },
+    mode: {
+      type: String,
+      default: 'simple',
+      validator: function (val) {
+        return val === 'simple' || val === 'advanced-tile';
+      }
+    },
+    label: {
+      type: String,
+      required: false,
+      default: ''
+    }
+  },
+  computed: {
+    topClasses: function () {
+      if (this.mode === 'advanced-tile') {
+        return 'bu-p-5 bu-is-flex';
+      }
+
+      return '';
+    }
+  }
+});
+
+/* script */
+const __vue_script__$a = script$a;
+/* template */
+
+var __vue_render__$a = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    class: _vm.topClasses
+  }, [_c('el-progress', {
+    attrs: {
+      "color": _vm.color,
+      "percentage": _vm.percentage,
+      "type": "circle",
+      "width": 56,
+      "stroke-linecap": "butt",
+      "stroke-width": 9,
+      "show-text": false
+    }
+  }), _vm._v(" "), _vm.mode === 'advanced-tile' ? _c('div', {
+    staticClass: "bu-pl-5 bu-is-flex bu-is-flex-direction-column bu-is-justify-content-space-between"
+  }, [_c('span', {
+    staticClass: "text-medium"
+  }, [_vm._t("default", function () {
+    return [_vm._v(_vm._s(_vm.label))];
+  })], 2), _vm._v(" "), _c('h2', [_vm._v(_vm._s(_vm.percentage) + " %")])]) : _vm._e()], 1);
+};
+
 var __vue_staticRenderFns__$a = [];
 /* style */
 
@@ -89437,6 +94776,216 @@ const __vue_component__$k = /*#__PURE__*/normalizeComponent({
 }, __vue_inject_styles__$a, __vue_script__$a, __vue_scope_id__$a, __vue_is_functional_template__$a, __vue_module_identifier__$a, false, undefined, undefined, undefined);
 
 var __vue_component__$l = __vue_component__$k;
+
+var script$9 = countlyVue.components.BaseComponent.extend({
+  props: {
+    disabled: {
+      type: Boolean,
+      default: false
+    }
+  },
+  methods: {
+    remove: function () {
+      if (!this.disabled) {
+        this.$emit("remove");
+      }
+    }
+  }
+});
+
+/* script */
+const __vue_script__$9 = script$9;
+/* template */
+
+var __vue_render__$9 = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return !_vm.disabled ? _c('div', {
+    staticClass: "cly-vue-remover",
+    on: {
+      "click": _vm.remove
+    }
+  }, [_vm._t("default", function () {
+    return [_c('i', {
+      staticClass: "el-icon-delete"
+    })];
+  })], 2) : _vm._e();
+};
+
+var __vue_staticRenderFns__$9 = [];
+/* style */
+
+const __vue_inject_styles__$9 = undefined;
+/* scoped */
+
+const __vue_scope_id__$9 = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$9 = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$9 = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$i = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$9,
+  staticRenderFns: __vue_staticRenderFns__$9
+}, __vue_inject_styles__$9, __vue_script__$9, __vue_scope_id__$9, __vue_is_functional_template__$9, __vue_module_identifier__$9, false, undefined, undefined, undefined);
+
+var __vue_component__$j = __vue_component__$i;
+
+var script$8 = countlyVue.components.BaseComponent.extend({
+  mixins: [countlyVue.mixins.i18n],
+  props: {
+    text: {
+      required: true,
+      type: String
+    },
+    color: {
+      default: "green",
+      type: String
+    },
+    size: {
+      default: "unset",
+      type: String
+    }
+  },
+  computed: {
+    dynamicClasses: function () {
+      if (this.size === "small") {
+        return ["cly-vue-status-tag--small", "cly-vue-status-tag--" + this.color];
+      }
+
+      return "cly-vue-status-tag--" + this.color;
+    }
+  }
+});
+
+/* script */
+const __vue_script__$8 = script$8;
+/* template */
+
+var __vue_render__$8 = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _c('div', {
+    staticClass: "cly-vue-status-tag",
+    class: _vm.dynamicClasses
+  }, [_c('div', {
+    staticClass: "cly-vue-status-tag__blink"
+  }), _vm._v("\n    " + _vm._s(_vm.text) + "\n")]);
+};
+
+var __vue_staticRenderFns__$8 = [];
+/* style */
+
+const __vue_inject_styles__$8 = undefined;
+/* scoped */
+
+const __vue_scope_id__$8 = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$8 = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$8 = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$g = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$8,
+  staticRenderFns: __vue_staticRenderFns__$8
+}, __vue_inject_styles__$8, __vue_script__$8, __vue_scope_id__$8, __vue_is_functional_template__$8, __vue_module_identifier__$8, false, undefined, undefined, undefined);
+
+var __vue_component__$h = __vue_component__$g;
+
+var script$7 = countlyVue.components.BaseComponent.extend({
+  props: {
+    icon: {
+      type: String,
+      default: 'ion ion-help-circled'
+    },
+    tooltip: {
+      type: String,
+      default: ''
+    },
+    placement: {
+      type: String,
+      default: 'auto'
+    }
+  },
+  computed: {
+    tooltipConf: function () {
+      return {
+        content: this.tooltip,
+        placement: this.placement
+      };
+    }
+  }
+});
+
+/* script */
+const __vue_script__$7 = script$7;
+/* template */
+
+var __vue_render__$7 = function () {
+  var _vm = this;
+
+  var _h = _vm.$createElement;
+
+  var _c = _vm._self._c || _h;
+
+  return _vm.tooltip ? _c('i', {
+    directives: [{
+      name: "tooltip",
+      rawName: "v-tooltip",
+      value: _vm.tooltipConf,
+      expression: "tooltipConf"
+    }],
+    class: 'cly-vue-tooltip-icon' + _vm.icon
+  }) : _vm._e();
+};
+
+var __vue_staticRenderFns__$7 = [];
+/* style */
+
+const __vue_inject_styles__$7 = undefined;
+/* scoped */
+
+const __vue_scope_id__$7 = undefined;
+/* module identifier */
+
+const __vue_module_identifier__$7 = undefined;
+/* functional template */
+
+const __vue_is_functional_template__$7 = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+const __vue_component__$e = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$7,
+  staticRenderFns: __vue_staticRenderFns__$7
+}, __vue_inject_styles__$7, __vue_script__$7, __vue_scope_id__$7, __vue_is_functional_template__$7, __vue_module_identifier__$7, false, undefined, undefined, undefined);
+
+var __vue_component__$f = __vue_component__$e;
 
 var AbstractListBox = countlyVue.components.BaseComponent.extend({
   props: {
@@ -89891,7 +95440,7 @@ var SearchableOptionsMixin = {
   }
 };
 
-var script$9 = countlyVue.components.BaseComponent.extend({
+var script$6 = countlyVue.components.BaseComponent.extend({
   name: 'ClySelectX',
   mixins: [TabbedOptionsMixin, SearchableOptionsMixin, countlyVue.mixins.i18n],
   props: {
@@ -90147,10 +95696,10 @@ var script$9 = countlyVue.components.BaseComponent.extend({
 });
 
 /* script */
-const __vue_script__$9 = script$9;
+const __vue_script__$6 = script$6;
 /* template */
 
-var __vue_render__$9 = function () {
+var __vue_render__$6 = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -90409,10 +95958,10 @@ var __vue_render__$9 = function () {
   }, [_vm._v(_vm._s(_vm.i18n("common.confirm")))])], 1)]) : _vm._e()], 1)]);
 };
 
-var __vue_staticRenderFns__$9 = [];
+var __vue_staticRenderFns__$6 = [];
 /* style */
 
-const __vue_inject_styles__$9 = function (inject) {
+const __vue_inject_styles__$6 = function (inject) {
   if (!inject) return;
   inject("data-v-8cd8eacc_0", {
     source: ".cly-vue-select-x__pop .cly-vue-listbox{background-color:transparent!important}.cly-vue-select-x__pop .el-tabs__active-bar{background-color:#0166d6}.cly-vue-select-x__pop .el-tabs__nav-wrap::after{background-color:transparent}.cly-vue-select-x__pop .el-tabs__nav-scroll{margin:0 14px}.cly-vue-select-x__pop .el-tabs__header{margin:0 0 1px 0;z-index:2000}.cly-vue-select-x__pop .el-tabs__header::after{content:\"\";position:absolute;width:100%;height:12px;background:linear-gradient(180deg,#333c48 0,rgba(51,60,72,.0001) 100%);top:40px;opacity:.12}.cly-vue-select-x__pop--hidden-tabs .el-tabs__header::after{top:0}.cly-vue-select-x__pop--hidden-tabs .el-tabs__nav-scroll{display:none}.cly-vue-select-x__title{font-weight:500;font-size:16px;line-height:24px;color:#333c48;padding-bottom:16px}.cly-vue-select-x__header-slot{padding-bottom:16px}.cly-vue-select-x__header{padding:16px}.cly-vue-select-x__header input[type=text]{background-color:#f6f6f6}.cly-vue-select-x__footer{border-top:1px solid #ececec}.cly-vue-select-x__commit-section{float:right;margin:16px}.cly-vue-select-x__pop--has-single-option .cly-vue-select-x__header-slot,.cly-vue-select-x__pop--has-slim-header .cly-vue-select-x__header-slot{padding:0}.cly-vue-select-x__pop--has-single-option .el-tabs__header::after{content:none}.cly-vue-select-x .el-select-head{width:100%}",
@@ -90423,25 +95972,25 @@ const __vue_inject_styles__$9 = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__$9 = undefined;
+const __vue_scope_id__$6 = undefined;
 /* module identifier */
 
-const __vue_module_identifier__$9 = undefined;
+const __vue_module_identifier__$6 = undefined;
 /* functional template */
 
-const __vue_is_functional_template__$9 = false;
+const __vue_is_functional_template__$6 = false;
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-const __vue_component__$i = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$9,
-  staticRenderFns: __vue_staticRenderFns__$9
-}, __vue_inject_styles__$9, __vue_script__$9, __vue_scope_id__$9, __vue_is_functional_template__$9, __vue_module_identifier__$9, false, createInjector, undefined, undefined);
+const __vue_component__$c = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$6,
+  staticRenderFns: __vue_staticRenderFns__$6
+}, __vue_inject_styles__$6, __vue_script__$6, __vue_scope_id__$6, __vue_is_functional_template__$6, __vue_module_identifier__$6, false, createInjector, undefined, undefined);
 
-var __vue_component__$j = __vue_component__$i;
+var __vue_component__$d = __vue_component__$c;
 
-var script$8 = AbstractListBox.extend({
+var script$5 = AbstractListBox.extend({
   name: 'ClyListbox',
   mixins: [SearchableOptionsMixin],
   props: {
@@ -90463,10 +96012,10 @@ var script$8 = AbstractListBox.extend({
 });
 
 /* script */
-const __vue_script__$8 = script$8;
+const __vue_script__$5 = script$5;
 /* template */
 
-var __vue_render__$8 = function () {
+var __vue_render__$5 = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -90585,31 +96134,31 @@ var __vue_render__$8 = function () {
   }, [_vm._v("\n        " + _vm._s(_vm.noMatchFoundPlaceholder) + "\n    ")])], 1);
 };
 
-var __vue_staticRenderFns__$8 = [];
+var __vue_staticRenderFns__$5 = [];
 /* style */
 
-const __vue_inject_styles__$8 = undefined;
+const __vue_inject_styles__$5 = undefined;
 /* scoped */
 
-const __vue_scope_id__$8 = undefined;
+const __vue_scope_id__$5 = undefined;
 /* module identifier */
 
-const __vue_module_identifier__$8 = undefined;
+const __vue_module_identifier__$5 = undefined;
 /* functional template */
 
-const __vue_is_functional_template__$8 = false;
+const __vue_is_functional_template__$5 = false;
 /* style inject */
 
 /* style inject SSR */
 
 /* style inject shadow dom */
 
-const __vue_component__$g = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$8,
-  staticRenderFns: __vue_staticRenderFns__$8
-}, __vue_inject_styles__$8, __vue_script__$8, __vue_scope_id__$8, __vue_is_functional_template__$8, __vue_module_identifier__$8, false, undefined, undefined, undefined);
+const __vue_component__$a = /*#__PURE__*/normalizeComponent({
+  render: __vue_render__$5,
+  staticRenderFns: __vue_staticRenderFns__$5
+}, __vue_inject_styles__$5, __vue_script__$5, __vue_scope_id__$5, __vue_is_functional_template__$5, __vue_module_identifier__$5, false, undefined, undefined, undefined);
 
-var __vue_component__$h = __vue_component__$g;
+var __vue_component__$b = __vue_component__$a;
 
 /**!
  * Sortable 1.10.2
@@ -95983,7 +101532,7 @@ if (typeof window !== "undefined" && "Vue" in window) {
 
 });
 
-var script$7 = AbstractListBox.extend({
+var script$4 = AbstractListBox.extend({
   components: {
     draggable: vuedraggable_umd
   },
@@ -96097,10 +101646,10 @@ var script$7 = AbstractListBox.extend({
 });
 
 /* script */
-const __vue_script__$7 = script$7;
+const __vue_script__$4 = script$4;
 /* template */
 
-var __vue_render__$7 = function () {
+var __vue_render__$4 = function () {
   var _vm = this;
 
   var _h = _vm.$createElement;
@@ -96177,318 +101726,6 @@ var __vue_render__$7 = function () {
   }, [_vm._v("\n        " + _vm._s(_vm.noMatchFoundPlaceholder) + "\n    ")])], 1);
 };
 
-var __vue_staticRenderFns__$7 = [];
-/* style */
-
-const __vue_inject_styles__$7 = undefined;
-/* scoped */
-
-const __vue_scope_id__$7 = undefined;
-/* module identifier */
-
-const __vue_module_identifier__$7 = undefined;
-/* functional template */
-
-const __vue_is_functional_template__$7 = false;
-/* style inject */
-
-/* style inject SSR */
-
-/* style inject shadow dom */
-
-const __vue_component__$e = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$7,
-  staticRenderFns: __vue_staticRenderFns__$7
-}, __vue_inject_styles__$7, __vue_script__$7, __vue_scope_id__$7, __vue_is_functional_template__$7, __vue_module_identifier__$7, false, undefined, undefined, undefined);
-
-var __vue_component__$f = __vue_component__$e;
-
-var script$6 = countlyVue.components.BaseComponent.extend({
-  props: {
-    value: String,
-    routePattern: String,
-    routeKey: String,
-    noHistory: {
-      type: Boolean,
-      default: true
-    }
-  }
-});
-
-/* script */
-const __vue_script__$6 = script$6;
-/* template */
-
-var __vue_render__$6 = function () {
-  var _vm = this;
-
-  var _h = _vm.$createElement;
-
-  var _c = _vm._self._c || _h;
-
-  return _c('div', {
-    staticClass: "cly-vue-tabs"
-  }, [_c('el-tabs', _vm._g(_vm._b({
-    attrs: {
-      "type": "button"
-    },
-    scopedSlots: _vm._u([{
-      key: "default",
-      fn: function () {
-        return [_vm._t("default")];
-      },
-      proxy: true
-    }], null, true)
-  }, 'el-tabs', _vm.$attrs, false), _vm.$listeners))], 1);
-};
-
-var __vue_staticRenderFns__$6 = [];
-/* style */
-
-const __vue_inject_styles__$6 = undefined;
-/* scoped */
-
-const __vue_scope_id__$6 = undefined;
-/* module identifier */
-
-const __vue_module_identifier__$6 = undefined;
-/* functional template */
-
-const __vue_is_functional_template__$6 = false;
-/* style inject */
-
-/* style inject SSR */
-
-/* style inject shadow dom */
-
-const __vue_component__$c = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$6,
-  staticRenderFns: __vue_staticRenderFns__$6
-}, __vue_inject_styles__$6, __vue_script__$6, __vue_scope_id__$6, __vue_is_functional_template__$6, __vue_module_identifier__$6, false, undefined, undefined, undefined);
-
-var __vue_component__$d = __vue_component__$c;
-
-var script$5 = countlyVue.components.BaseComponent.extend({
-  name: "ClyConfirmDialog",
-  props: {
-    title: {
-      type: String,
-      required: true
-    },
-    saveButtonLabel: {
-      type: String,
-      required: false,
-      default: countlyVue.i18n("common.save")
-    },
-    cancelButtonLabel: {
-      type: String,
-      required: false,
-      default: countlyVue.i18n("common.cancel")
-    },
-    dialogType: {
-      type: String,
-      required: false,
-      default: "success"
-    }
-  },
-  computed: {
-    forwardedSlots: function () {
-      var self = this;
-      return Object.keys(this.$scopedSlots).reduce(function (slots, slotKey) {
-        slots[slotKey] = self.$scopedSlots[slotKey];
-        return slots;
-      }, {});
-    },
-    saveLabel: function () {
-      return this.$attrs.saveButtonLabel || this.saveButtonLabel;
-    },
-    cancelLabel: function () {
-      return this.$attrs.cancelButtonLabel || this.cancelButtonLabel;
-    },
-    confirmStyle: function () {
-      if (this.dialogType === "success" || this.dialogType === "danger") {
-        return this.dialogType;
-      }
-
-      return "success";
-    }
-  },
-  methods: {
-    confirmClicked: function () {
-      this.$emit("confirm");
-    },
-    cancelClicked: function () {
-      this.$emit("cancel");
-    }
-  }
-});
-
-/* script */
-const __vue_script__$5 = script$5;
-/* template */
-
-var __vue_render__$5 = function () {
-  var _vm = this;
-
-  var _h = _vm.$createElement;
-
-  var _c = _vm._self._c || _h;
-
-  return _c('el-dialog', _vm._g(_vm._b({
-    staticClass: "cly-vue-confirm-dialog",
-    attrs: {
-      "destroyOnClose": "",
-      "title": _vm.title
-    },
-    scopedSlots: _vm._u([{
-      key: "title",
-      fn: function () {
-        return [_c('h3', {
-          staticClass: "color-cool-gray-100"
-        }, [_vm._v(_vm._s(_vm.title))])];
-      },
-      proxy: true
-    }, _vm._l(_vm.forwardedSlots, function (_, name) {
-      return {
-        key: name,
-        fn: function () {
-          return [_vm._t(name)];
-        },
-        proxy: true
-      };
-    }), {
-      key: "footer",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "cly-vue-formdialog__buttons is-single-step bu-is-justify-content-flex-end bu-is-flex"
-        }, [_c('el-button', {
-          attrs: {
-            "size": "small",
-            "type": "secondary"
-          },
-          on: {
-            "click": _vm.cancelClicked
-          }
-        }, [_vm._v(_vm._s(_vm.cancelLabel))]), _vm._v(" "), _vm.confirmStyle == 'success' ? _c('el-button', {
-          attrs: {
-            "size": "small",
-            "type": "success"
-          },
-          on: {
-            "click": _vm.confirmClicked
-          }
-        }, [_vm._v(_vm._s(_vm.saveLabel))]) : _c('el-button', {
-          attrs: {
-            "size": "small",
-            "type": "danger"
-          },
-          on: {
-            "click": _vm.confirmClicked
-          }
-        }, [_vm._v(_vm._s(_vm.saveLabel))])], 1)];
-      },
-      proxy: true
-    }], null, true)
-  }, 'el-dialog', _vm.$attrs, false), _vm.$listeners));
-};
-
-var __vue_staticRenderFns__$5 = [];
-/* style */
-
-const __vue_inject_styles__$5 = undefined;
-/* scoped */
-
-const __vue_scope_id__$5 = undefined;
-/* module identifier */
-
-const __vue_module_identifier__$5 = undefined;
-/* functional template */
-
-const __vue_is_functional_template__$5 = false;
-/* style inject */
-
-/* style inject SSR */
-
-/* style inject shadow dom */
-
-const __vue_component__$a = /*#__PURE__*/normalizeComponent({
-  render: __vue_render__$5,
-  staticRenderFns: __vue_staticRenderFns__$5
-}, __vue_inject_styles__$5, __vue_script__$5, __vue_scope_id__$5, __vue_is_functional_template__$5, __vue_module_identifier__$5, false, undefined, undefined, undefined);
-
-var __vue_component__$b = __vue_component__$a;
-
-var script$4 = countlyVue.components.BaseComponent.extend({
-  name: "ClyDialog",
-  props: {
-    title: {
-      type: String,
-      required: false,
-      default: ''
-    },
-    autoCentered: {
-      type: Boolean,
-      required: false,
-      default: false
-    }
-  },
-  computed: {
-    forwardedSlots: function () {
-      var self = this;
-      return Object.keys(this.$scopedSlots).reduce(function (slots, slotKey) {
-        slots[slotKey] = self.$scopedSlots[slotKey];
-        return slots;
-      }, {});
-    },
-    topClasses: function () {
-      if (this.autoCentered) {
-        return "is-auto-centered";
-      }
-
-      return "";
-    }
-  }
-});
-
-/* script */
-const __vue_script__$4 = script$4;
-/* template */
-
-var __vue_render__$4 = function () {
-  var _vm = this;
-
-  var _h = _vm.$createElement;
-
-  var _c = _vm._self._c || _h;
-
-  return _c('el-dialog', _vm._g(_vm._b({
-    staticClass: "cly-vue-dialog",
-    class: _vm.topClasses,
-    attrs: {
-      "destroy-on-close": true,
-      "title": _vm.title,
-      "append-to-body": true
-    },
-    scopedSlots: _vm._u([{
-      key: "title",
-      fn: function () {
-        return [_c('h3', {
-          staticClass: "color-cool-gray-100"
-        }, [_vm._v(_vm._s(_vm.title))])];
-      },
-      proxy: true
-    }, _vm._l(_vm.forwardedSlots, function (_, name) {
-      return {
-        key: name,
-        fn: function () {
-          return [_vm._t(name)];
-        },
-        proxy: true
-      };
-    })], null, true)
-  }, 'el-dialog', _vm.$attrs, false), _vm.$listeners));
-};
-
 var __vue_staticRenderFns__$4 = [];
 /* style */
 
@@ -96515,349 +101752,14 @@ const __vue_component__$8 = /*#__PURE__*/normalizeComponent({
 
 var __vue_component__$9 = __vue_component__$8;
 
-const BufferedObject = {
-  props: {
-    initialEditedObject: {
-      type: Object,
-      default: function () {
-        return {};
-      }
-    },
-    beforeCopyFn: {
-      type: Function
-    }
-  },
-  data: function () {
-    return {
-      editedObject: this.copyOfEdited()
-    };
-  },
-  watch: {
-    initialEditedObject: function () {
-      this.reload();
-    }
-  },
-  methods: {
-    reload: function () {
-      this.editedObject = this.copyOfEdited();
-      this.reset();
-      this.$emit("copy", this.editedObject);
-    },
-    copyOfEdited: function () {
-      var copied = JSON.parse(JSON.stringify(this.initialEditedObject));
-
-      if (this.beforeCopyFn) {
-        return this.beforeCopyFn(copied);
-      } else {
-        return copied;
-      }
-    }
-  }
-};
-const MultiStepForm = {
-  mixins: [BufferedObject],
-  props: {
-    requiresAsyncSubmit: {
-      type: Boolean,
-      default: false,
-      required: false
-    },
-    setStepCallbackFn: {
-      type: Function,
-      default: null,
-      required: false
-    }
-  },
-
-  data() {
-    return {
-      currentStepIndex: 0,
-      stepContents: [],
-      isMounted: false,
-      isSubmissionAllowed: true,
-      isSubmitPending: false
-    };
-  },
-
-  computed: {
-    lastValidIndex: function () {
-      if (!this.isMounted) {
-        return -1;
-      }
-
-      for (var i = 0; i < this.stepContents.length; i++) {
-        if (this.stepContents[i].isStep && !this.stepContents[i].isValid) {
-          return i;
-        }
-      }
-
-      return i;
-    },
-    activeContentId: function () {
-      if (this.activeContent) {
-        return this.activeContent.tId;
-      }
-
-      return null;
-    },
-    currentScreenMode: function () {
-      if (this.activeContent && this.activeContent.screen) {
-        return this.activeContent.screen;
-      }
-
-      return "half";
-    },
-    currentStepId: function () {
-      return this.activeContentId;
-    },
-    isCurrentStepValid: function () {
-      if (this.activeContent.isStep) {
-        return this.activeContent.isValid;
-      }
-
-      return true;
-    },
-    isLastStep: function () {
-      return this.stepContents.length > 1 && this.currentStepIndex === this.stepContents.length - 1;
-    },
-    activeContent: function () {
-      if (this.currentStepIndex > this.stepContents.length - 1) {
-        return null;
-      }
-
-      return this.stepContents[this.currentStepIndex];
-    },
-    isMultiStep: function () {
-      return this.stepContents.length > 1;
-    },
-    isValid: function () {
-      if (!this.isMounted) {
-        return true;
-      }
-
-      return this.stepContents.reduce(function (item, current) {
-        if (current.isStep) {
-          return item && current.isValid;
-        }
-
-        return item;
-      }, true);
-    },
-    passedScope: function () {
-      var defaultKeys = ["editedObject", "currentStepId", "isSubmissionAllowed", "submit", "reset", "validate"],
-          self = this;
-      var passed = defaultKeys.reduce(function (acc, val) {
-        acc[val] = self[val];
-        return acc;
-      }, {});
-      return passed;
-    }
-  },
-  watch: {
-    isValid: function (newValue) {
-      var self = this;
-      this.$nextTick(function () {
-        self.isSubmissionAllowed = newValue;
-      });
-    }
-  },
-  mounted: function () {
-    this.stepContents = this.$children.filter(function (child) {
-      return child.isContent && child.role === "default";
-    });
-    this.isMounted = true;
-  },
-  methods: {
-    setStep: function (newIndex, originator, internalValidationFailed) {
-      var self = this;
-
-      var defaultAction = function () {
-        if (!internalValidationFailed && newIndex >= 0 && newIndex < self.stepContents.length) {
-          self.currentStepIndex = newIndex;
-        }
-      };
-
-      if (this.setStepCallbackFn) {
-        // .resolve() handles non-Promise return values as well
-        Promise.resolve(this.setStepCallbackFn(newIndex, self.currentStepIndex, originator)).then(function (value) {
-          if (value) {
-            defaultAction();
-          }
-        }).catch(function () {//err
-          // TODO: handle error
-        });
-      } else {
-        defaultAction();
-      }
-    },
-    setStepSafe: function (newIndex, originator) {
-      this.beforeLeavingStep(newIndex < this.currentStepIndex ? "skip" : "onlyCurrent");
-      this.setStep(newIndex, originator, newIndex > this.lastValidIndex);
-    },
-    prevStep: function () {
-      this.setStep(this.currentStepIndex - 1, 'prev');
-    },
-    nextStep: function () {
-      this.beforeLeavingStep("onlyCurrent");
-      this.setStep(this.currentStepIndex + 1, 'next', !this.isCurrentStepValid);
-    },
-    reset: function () {
-      var self = this; // this.callValidators("reset");
-
-      this.setStep(0, 'reset');
-      this.$nextTick(function () {
-        self.callValidators("reset");
-      });
-    },
-    submit: function (force) {
-      this.beforeLeavingStep();
-
-      if (this.isSubmissionAllowed || force === true) {
-        if (this.requiresAsyncSubmit) {
-          this.isSubmitPending = true;
-          var self = this;
-
-          var callback = function (err) {
-            self.isSubmitPending = false;
-
-            if (!err && self.doClose) {
-              self.doClose();
-            }
-          };
-
-          this.$emit("submit", JSON.parse(JSON.stringify(this.editedObject)), callback);
-        } else {
-          this.$emit("submit", JSON.parse(JSON.stringify(this.editedObject)));
-
-          if (this.doClose) {
-            this.doClose();
-          }
-        }
-      }
-    },
-    validate: function () {
-      this.callValidators("touch");
-    },
-    beforeLeavingStep: function (touchPolicy) {
-      if (touchPolicy === "onlyCurrent") {
-        this.callValidators("touch", true);
-      } else if (touchPolicy !== "skip") {
-        this.callValidators("touch");
-      }
-
-      this.$emit("before-leaving-step");
-    },
-    callValidators: function (command, onlyCurrent) {
-      if (onlyCurrent) {
-        var target = this.stepContents[this.currentStepIndex];
-
-        if (target && target[command]) {
-          target[command]();
-        }
-      } else {
-        this.stepContents.forEach(function (current) {
-          if (current[command]) {
-            current[command]();
-          }
-        });
-      }
-    }
-  }
-};
-const BaseStep = countlyVue.mixins.BaseContent.extend({
-  data: function () {
-    return {
-      isValid: true,
-      isStep: true
-    };
-  }
-});
-var FormCommons = {
-  BufferedObject,
-  MultiStepForm,
-  BaseStep
-};
-
 var script$3 = countlyVue.components.BaseComponent.extend({
-  name: "ClyFormDialog",
-  inheritAttrs: false,
-  mixins: [countlyVue.mixins.i18n, FormCommons.MultiStepForm, countlyVue.mixins.Modal],
   props: {
-    isOpened: {
+    value: String,
+    routePattern: String,
+    routeKey: String,
+    noHistory: {
       type: Boolean,
-      required: true
-    },
-    name: {
-      type: String,
-      required: true
-    },
-    title: {
-      type: String,
-      required: true
-    },
-    saveButtonLabel: {
-      type: String,
-      required: true,
-      default: ""
-    },
-    cancelButtonLabel: {
-      type: String,
-      required: false,
-      default: countlyVue.i18n("common.cancel")
-    },
-    closeFn: {
-      type: Function
-    },
-    hasCancelButton: {
-      type: Boolean,
-      required: false,
       default: true
-    },
-    toggleTransition: {
-      type: String,
-      default: 'stdt-fade'
-    }
-  },
-  computed: {
-    rootClasses: function () {
-      return {
-        'is-mounted': this.isMounted,
-        'is-open': this.isOpened
-      };
-    }
-  },
-  data: function () {
-    return {
-      isToggleable: true
-    };
-  },
-  watch: {
-    isOpened: function (newState) {
-      if (!newState) {
-        this.reset();
-      } else {
-        this.$emit("open");
-      }
-
-      this.setModalState(newState);
-    }
-  },
-  methods: {
-    doClose: function () {
-      this.$emit("close", this.name);
-
-      if (this.closeFn) {
-        this.closeFn();
-      }
-    },
-    onClickOutside: function () {
-      this.doClose();
-    },
-    escKeyEvent: function () {
-      this.doClose();
-    },
-    onViewEntered: function () {
-      this.$refs.rootEl.focus();
     }
   }
 });
@@ -96873,131 +101775,20 @@ var __vue_render__$3 = function () {
 
   var _c = _vm._self._c || _h;
 
-  return _c('transition', {
+  return _c('div', {
+    staticClass: "cly-vue-tabs"
+  }, [_c('el-tabs', _vm._g(_vm._b({
     attrs: {
-      "name": _vm.toggleTransition
+      "type": "button"
     },
-    on: {
-      "enter": _vm.onViewEntered
-    }
-  }, [_c('div', {
-    directives: [{
-      name: "show",
-      rawName: "v-show",
-      value: _vm.isOpened,
-      expression: "isOpened"
-    }, {
-      name: "click-outside",
-      rawName: "v-click-outside",
-      value: _vm.onClickOutside,
-      expression: "onClickOutside"
-    }],
-    ref: "rootEl",
-    staticClass: "cly-vue-formdialog",
-    class: _vm.rootClasses,
-    attrs: {
-      "tabindex": "0"
-    },
-    on: {
-      "keydown": function ($event) {
-        if (!$event.type.indexOf('key') && _vm._k($event.keyCode, "esc", 27, $event.key, ["Esc", "Escape"])) {
-          return null;
-        }
-
-        return _vm.escKeyEvent.apply(null, arguments);
-      }
-    }
-  }, [_c('div', {
-    staticClass: "cly-vue-formdialog__header bu-p-4"
-  }, [_c('h3', {
-    staticClass: "color-cool-gray-100"
-  }, [_vm._v(_vm._s(_vm.title))])]), _vm._v(" "), _c('div', {
-    directives: [{
-      name: "scroll-shadow",
-      rawName: "v-scroll-shadow"
-    }],
-    staticClass: "cly-vue-formdialog__steps-container bu-px-4 bg-warm-gray-10",
-    class: {
-      'is-multi-step': _vm.isMultiStep
-    }
-  }, [_c('div', {
-    staticClass: "bu-columns bu-is-gapless bu-is-mobile"
-  }, [_c('div', {
-    staticClass: "bu-column bu-is-12"
-  }, [_vm._t("default", null, null, _vm.passedScope)], 2)])]), _vm._v(" "), _c('div', {
-    staticClass: "cly-vue-formdialog__footer bu-p-4"
-  }, [_c('div', {
-    staticClass: "cly-vue-formdialog__controls-left-pc"
-  }, [_vm._t("controls-left", null, null, _vm.passedScope)], 2), _vm._v(" "), _vm.isMultiStep ? _c('div', {
-    staticClass: "cly-vue-formdialog__buttons is-multi-step bu-is-justify-content-flex-end bu-is-flex"
-  }, [_vm.hasCancelButton && _vm.currentStepIndex === 0 ? _c('el-button', {
-    attrs: {
-      "type": "secondary",
-      "size": "small",
-      "disabled": _vm.isSubmitPending
-    },
-    on: {
-      "click": _vm.doClose
-    }
-  }, [_vm._v(_vm._s(_vm.cancelButtonLabel))]) : _vm._e(), _vm._v(" "), _vm.currentStepIndex > 0 ? _c('el-button', {
-    attrs: {
-      "type": "secondary",
-      "size": "small",
-      "disabled": _vm.isSubmitPending
-    },
-    on: {
-      "click": _vm.prevStep
-    }
-  }, [_vm._v(_vm._s(_vm.i18n('common.drawer.previous-step')))]) : _vm._e(), _vm._v(" "), !_vm.isLastStep ? _c('el-button', {
-    class: {
-      'is-disabled': !_vm.isCurrentStepValid
-    },
-    attrs: {
-      "size": "small",
-      "type": "success",
-      "disabled": _vm.isSubmitPending
-    },
-    on: {
-      "click": _vm.nextStep
-    }
-  }, [_vm._v(_vm._s(_vm.i18n('common.drawer.next-step')))]) : _vm._e(), _vm._v(" "), _vm.isLastStep ? _c('el-button', {
-    class: {
-      'is-disabled': !_vm.isSubmissionAllowed
-    },
-    attrs: {
-      "loading": _vm.isSubmitPending,
-      "size": "small",
-      "type": "success",
-      "disabled": _vm.isSubmitPending
-    },
-    on: {
-      "click": _vm.submit
-    }
-  }, [_vm._v(_vm._s(_vm.saveButtonLabel))]) : _vm._e()], 1) : _vm._e(), _vm._v(" "), !_vm.isMultiStep ? _c('div', {
-    staticClass: "cly-vue-formdialog__buttons is-single-step bu-is-justify-content-flex-end bu-is-flex"
-  }, [_vm.hasCancelButton ? _c('el-button', {
-    attrs: {
-      "type": "secondary",
-      "size": "small",
-      "disabled": _vm.isSubmitPending
-    },
-    on: {
-      "click": _vm.doClose
-    }
-  }, [_vm._v(_vm._s(_vm.cancelButtonLabel))]) : _vm._e(), _vm._v(" "), _c('el-button', {
-    class: {
-      'is-disabled': !_vm.isSubmissionAllowed
-    },
-    attrs: {
-      "loading": _vm.isSubmitPending,
-      "size": "small",
-      "type": "success",
-      "disabled": _vm.isSubmitPending
-    },
-    on: {
-      "click": _vm.submit
-    }
-  }, [_vm._v(_vm._s(_vm.saveButtonLabel))])], 1) : _vm._e()])])]);
+    scopedSlots: _vm._u([{
+      key: "default",
+      fn: function () {
+        return [_vm._t("default")];
+      },
+      proxy: true
+    }], null, true)
+  }, 'el-tabs', _vm.$attrs, false), _vm.$listeners))], 1);
 };
 
 var __vue_staticRenderFns__$3 = [];
@@ -97027,43 +101818,87 @@ const __vue_component__$6 = /*#__PURE__*/normalizeComponent({
 var __vue_component__$7 = __vue_component__$6;
 
 var script$2 = countlyVue.components.BaseComponent.extend({
-  name: "ClyMessageDialog",
+  mixins: [countlyVue.mixins.i18n],
   props: {
-    title: {
-      type: String,
-      required: true
+    name: {
+      type: String
     },
-    confirmButtonLabel: {
+    description: {
       type: String,
-      required: false,
-      default: countlyVue.i18n("common.confirm")
+      default: '',
+      required: false
     },
-    dialogType: {
-      type: String,
-      required: false,
-      default: "secondary"
+    values: {
+      type: Array
+    },
+    columnWidth: {
+      type: [Number, String],
+      default: -1
+    },
+    isVertical: {
+      type: Boolean,
+      default: false
+    },
+    color: {
+      type: [String, Function, Array],
+      default: '#017AFF'
+    },
+    scrollOps: {
+      type: Object,
+      default: null,
+      required: false
+    },
+    isSyncedScroll: {
+      type: Boolean,
+      default: false,
+      required: false
     }
   },
   computed: {
-    forwardedSlots: function () {
-      var self = this;
-      return Object.keys(this.$scopedSlots).reduce(function (slots, slotKey) {
-        slots[slotKey] = self.$scopedSlots[slotKey];
-        return slots;
-      }, {});
+    topClasses: function () {
+      if (this.isVertical || this.columnWidth === -1) {
+        return "";
+      } else if (this.isSyncedScroll) {
+        return "is-synced bu-is-" + this.columnWidth;
+      } else {
+        return "bu-is-" + this.columnWidth;
+      }
     },
-    buttonStyle: function () {
-      if (this.dialogType === "success" || this.dialogType === "secondary") {
-        return this.dialogType;
+    effectiveScrollOps: function () {
+      if (this.scrollOps) {
+        return this.scrollOps;
       }
 
-      return "success";
+      return this.defaultScrollOps;
     }
   },
   methods: {
-    confirmClicked: function () {
-      this.$emit("confirm");
+    getProgressBarEntities: function (item) {
+      return item.bar ? item.bar : [{
+        color: this.color,
+        percentage: item.percent
+      }];
     }
+  },
+  data: function () {
+    return {
+      defaultScrollOps: {
+        vuescroll: {},
+        scrollPanel: {
+          initialScrollX: false
+        },
+        rail: {
+          gutterOfSide: "1px",
+          gutterOfEnds: "15px"
+        },
+        bar: {
+          background: "#A7AEB8",
+          size: "6px",
+          specifyBorderRadius: "3px",
+          keepShow: false
+        }
+      }
+    };
   }
 });
 
@@ -97078,46 +101913,78 @@ var __vue_render__$2 = function () {
 
   var _c = _vm._self._c || _h;
 
-  return _c('el-dialog', _vm._g(_vm._b({
-    staticClass: "cly-vue-message-dialog",
+  return _c('div', {
+    staticClass: "cly-vue-metric-breakdown bu-column",
+    class: _vm.topClasses
+  }, [_c('cly-section', {
+    staticClass: "cly-vue-metric-breakdown__wrapper"
+  }, [_c('div', {
+    staticClass: "bu-is-relative"
+  }, [typeof _vm.name !== 'undefined' ? _c('div', {
+    staticClass: "bu-level-left bu-p-5"
+  }, [_c('span', {
+    staticClass: "text-medium"
+  }, [_vm._v(_vm._s(_vm.name))]), _vm._v(" "), _vm.description ? _c('span', {
+    directives: [{
+      name: "tooltip",
+      rawName: "v-tooltip.top-center",
+      value: _vm.description,
+      expression: "description",
+      modifiers: {
+        "top-center": true
+      }
+    }],
+    staticClass: "cly-vue-tooltip-icon ion ion-help-circled has-tooltip bu-ml-3"
+  }) : _vm._e()]) : _vm._e(), _vm._v(" "), typeof _vm.name === 'undefined' ? _c('div', {
+    staticClass: "bu-level-left bu-p-2"
+  }) : _vm._e(), _vm._v(" "), _vm.values.length === 0 ? _c('div', {
+    staticClass: "bu-pl-3 bu-pr-3 cly-vue-metric-breakdown__empty",
+    staticStyle: {
+      "height": "264px"
+    }
+  }, [_c('div', [_vm._v(_vm._s(_vm.i18n('common.table.no-data')))])]) : _c('div', {
+    staticClass: "bu-pl-3 bu-pr-1  cly-vue-metric-breakdown__rows",
+    staticStyle: {
+      "height": "264px"
+    }
+  }, [_c('vue-scroll', {
     attrs: {
-      "destroyOnClose": "",
-      "title": _vm.title
-    },
-    scopedSlots: _vm._u([{
-      key: "title",
-      fn: function () {
-        return [_c('h3', {
-          staticClass: "color-cool-gray-100"
-        }, [_vm._v(_vm._s(_vm.title))])];
-      },
-      proxy: true
-    }, _vm._l(_vm.forwardedSlots, function (_, name) {
-      return {
-        key: name,
-        fn: function () {
-          return [_vm._t(name)];
-        },
-        proxy: true
-      };
-    }), {
-      key: "footer",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "cly-vue-formdialog__buttons is-single-step bu-is-justify-content-flex-end bu-is-flex"
-        }, [_c('el-button', {
-          attrs: {
-            "size": "small",
-            "type": _vm.buttonStyle
-          },
-          on: {
-            "click": _vm.confirmClicked
-          }
-        }, [_vm._v(_vm._s(_vm.confirmButtonLabel))])], 1)];
-      },
-      proxy: true
-    }], null, true)
-  }, 'el-dialog', _vm.$attrs, false), _vm.$listeners));
+      "ops": _vm.effectiveScrollOps
+    }
+  }, _vm._l(_vm.values, function (item, idx) {
+    return _c('div', {
+      key: idx
+    }, [_c('div', {
+      staticClass: "cly-vue-metric-breakdown__value-row bu-p-3",
+      class: {
+        'cly-vue-metric-breakdown__value-row--is-clickable': !!item.link
+      }
+    }, [_c('div', {
+      staticClass: "bu-columns cly-vue-metric-breakdown__inner text-medium color-cool-gray-100"
+    }, [_c('div', {
+      staticClass: "bu-column"
+    }, [item.icon ? _c('img', {
+      staticClass: "cly-vue-metric-breakdown__row-icon",
+      attrs: {
+        "src": item.icon
+      }
+    }) : _vm._e(), _vm._v(" "), _c('span', [_vm._v(_vm._s(item.name))])]), _vm._v(" "), _c('div', {
+      staticClass: "bu-column cly-vue-metric-breakdown__numbers"
+    }, [item.link ? _c('a', {
+      attrs: {
+        "href": item.link
+      }
+    }, [item.description ? _c('span', [_vm._v(_vm._s(item.description) + " | ")]) : _vm._e(), _vm._v(" "), _c('span', [_vm._v(_vm._s(item.percent) + " % ")]), _vm._v(" "), _c('i', {
+      staticClass: "fas fa-arrow-circle-right color-cool-gray-40"
+    })]) : _c('div', [item.description ? _c('span', [_vm._v(_vm._s(item.description) + " | ")]) : _vm._e(), _vm._v(" "), _c('span', [_vm._v(_vm._s(item.percent) + " % ")])])])]), _vm._v(" "), _c('cly-progress-bar', {
+      attrs: {
+        "entities": _vm.getProgressBarEntities(item),
+        "height": 8
+      }
+    })], 1)]);
+  }), 0)], 1), _vm._v(" "), _c('div', {
+    staticClass: "cly-vue-metric-breakdown__blur_container"
+  })])])], 1);
 };
 
 var __vue_staticRenderFns__$2 = [];
@@ -97146,2175 +102013,102 @@ const __vue_component__$4 = /*#__PURE__*/normalizeComponent({
 
 var __vue_component__$5 = __vue_component__$4;
 
-/*! *****************************************************************************
-Copyright (c) Microsoft Corporation.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-PERFORMANCE OF THIS SOFTWARE.
-***************************************************************************** */
-/* global Reflect, Promise */
-
-var extendStatics = function(d, b) {
-    extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
-    return extendStatics(d, b);
-};
-
-function __extends(d, b) {
-    if (typeof b !== "function" && b !== null)
-        throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
-    extendStatics(d, b);
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-}
-
-var __assign = function() {
-    __assign = Object.assign || function __assign(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
-
-function __values(o) {
-    var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
-    if (m) return m.call(o);
-    if (o && typeof o.length === "number") return {
-        next: function () {
-            if (o && i >= o.length) o = void 0;
-            return { value: o && o[i++], done: !o };
-        }
-    };
-    throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
-}
-
-function __read(o, n) {
-    var m = typeof Symbol === "function" && o[Symbol.iterator];
-    if (!m) return o;
-    var i = m.call(o), r, ar = [], e;
-    try {
-        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
-    }
-    catch (error) { e = { error: error }; }
-    finally {
-        try {
-            if (r && !r.done && (m = i["return"])) m.call(i);
-        }
-        finally { if (e) throw e.error; }
-    }
-    return ar;
-}
-
-function __spreadArray(to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-}
-
-var activeEffectScope;
-var effectScopeStack = [];
-var EffectScopeImpl = /** @class */ (function () {
-    function EffectScopeImpl(vm) {
-        this.active = true;
-        this.effects = [];
-        this.cleanups = [];
-        this.vm = vm;
-    }
-    EffectScopeImpl.prototype.run = function (fn) {
-        if (this.active) {
-            try {
-                this.on();
-                return fn();
-            }
-            finally {
-                this.off();
-            }
-        }
-        return;
-    };
-    EffectScopeImpl.prototype.on = function () {
-        if (this.active) {
-            effectScopeStack.push(this);
-            activeEffectScope = this;
-        }
-    };
-    EffectScopeImpl.prototype.off = function () {
-        if (this.active) {
-            effectScopeStack.pop();
-            activeEffectScope = effectScopeStack[effectScopeStack.length - 1];
-        }
-    };
-    EffectScopeImpl.prototype.stop = function () {
-        if (this.active) {
-            this.vm.$destroy();
-            this.effects.forEach(function (e) { return e.stop(); });
-            this.cleanups.forEach(function (cleanup) { return cleanup(); });
-            this.active = false;
-        }
-    };
-    return EffectScopeImpl;
-}());
-var EffectScope = /** @class */ (function (_super) {
-    __extends(EffectScope, _super);
-    function EffectScope(detached) {
-        if (detached === void 0) { detached = false; }
-        var _this = this;
-        var vm = undefined;
-        withCurrentInstanceTrackingDisabled(function () {
-            vm = defineComponentInstance(getVueConstructor());
-        });
-        _this = _super.call(this, vm) || this;
-        if (!detached) {
-            recordEffectScope(_this);
-        }
-        return _this;
-    }
-    return EffectScope;
-}(EffectScopeImpl));
-function recordEffectScope(effect, scope) {
-    var _a;
-    scope = scope || activeEffectScope;
-    if (scope && scope.active) {
-        scope.effects.push(effect);
-        return;
-    }
-    // destory on parent component unmounted
-    var vm = (_a = getCurrentInstance()) === null || _a === void 0 ? void 0 : _a.proxy;
-    vm && vm.$on('hook:destroyed', function () { return effect.stop(); });
-}
-function effectScope(detached) {
-    return new EffectScope(detached);
-}
-function getCurrentScope() {
-    return activeEffectScope;
-}
-/**
- * @internal
- **/
-function getCurrentScopeVM() {
-    var _a, _b;
-    return ((_a = getCurrentScope()) === null || _a === void 0 ? void 0 : _a.vm) || ((_b = getCurrentInstance()) === null || _b === void 0 ? void 0 : _b.proxy);
-}
-/**
- * @internal
- **/
-function bindCurrentScopeToVM(vm) {
-    if (!vm.scope) {
-        var scope_1 = new EffectScopeImpl(vm.proxy);
-        vm.scope = scope_1;
-        vm.proxy.$on('hook:destroyed', function () { return scope_1.stop(); });
-    }
-    return vm.scope;
-}
-
-var vueDependency = undefined;
-try {
-    var requiredVue = require('vue');
-    if (requiredVue && isVue(requiredVue)) {
-        vueDependency = requiredVue;
-    }
-    else if (requiredVue &&
-        'default' in requiredVue &&
-        isVue(requiredVue.default)) {
-        vueDependency = requiredVue.default;
-    }
-}
-catch (_a) {
-    // not available
-}
-var vueConstructor = null;
-var currentInstance = null;
-var currentInstanceTracking = true;
-var PluginInstalledFlag = '__composition_api_installed__';
-function isVue(obj) {
-    return obj && isFunction(obj) && obj.name === 'Vue';
-}
-function isVueRegistered(Vue) {
-    // resolve issue: https://github.com/vuejs/composition-api/issues/876#issue-1087619365
-    return vueConstructor && hasOwn(Vue, PluginInstalledFlag);
-}
-function getVueConstructor() {
-    return vueConstructor;
-}
-// returns registered vue or `vue` dependency
-function getRegisteredVueOrDefault() {
-    var constructor = vueConstructor || vueDependency;
-    return constructor;
-}
-function setVueConstructor(Vue) {
-    vueConstructor = Vue;
-    Object.defineProperty(Vue, PluginInstalledFlag, {
-        configurable: true,
-        writable: true,
-        value: true,
-    });
-}
-/**
- * For `effectScope` to create instance without populate the current instance
- * @internal
- **/
-function withCurrentInstanceTrackingDisabled(fn) {
-    var prev = currentInstanceTracking;
-    currentInstanceTracking = false;
-    try {
-        fn();
-    }
-    finally {
-        currentInstanceTracking = prev;
-    }
-}
-function setCurrentInstance(instance) {
-    if (!currentInstanceTracking)
-        return;
-    var prev = currentInstance;
-    prev === null || prev === void 0 ? void 0 : prev.scope.off();
-    currentInstance = instance;
-    currentInstance === null || currentInstance === void 0 ? void 0 : currentInstance.scope.on();
-}
-function getCurrentInstance() {
-    return currentInstance;
-}
-var instanceMapCache = new WeakMap();
-function toVue3ComponentInstance(vm) {
-    if (instanceMapCache.has(vm)) {
-        return instanceMapCache.get(vm);
-    }
-    var instance = {
-        proxy: vm,
-        update: vm.$forceUpdate,
-        type: vm.$options,
-        uid: vm._uid,
-        // $emit is defined on prototype and it expected to be bound
-        emit: vm.$emit.bind(vm),
-        parent: null,
-        root: null, // to be immediately set
-    };
-    bindCurrentScopeToVM(instance);
-    // map vm.$props =
-    var instanceProps = [
-        'data',
-        'props',
-        'attrs',
-        'refs',
-        'vnode',
-        'slots',
-    ];
-    instanceProps.forEach(function (prop) {
-        proxy(instance, prop, {
-            get: function () {
-                return vm["$".concat(prop)];
-            },
-        });
-    });
-    proxy(instance, 'isMounted', {
-        get: function () {
-            // @ts-expect-error private api
-            return vm._isMounted;
-        },
-    });
-    proxy(instance, 'isUnmounted', {
-        get: function () {
-            // @ts-expect-error private api
-            return vm._isDestroyed;
-        },
-    });
-    proxy(instance, 'isDeactivated', {
-        get: function () {
-            // @ts-expect-error private api
-            return vm._inactive;
-        },
-    });
-    proxy(instance, 'emitted', {
-        get: function () {
-            // @ts-expect-error private api
-            return vm._events;
-        },
-    });
-    instanceMapCache.set(vm, instance);
-    if (vm.$parent) {
-        instance.parent = toVue3ComponentInstance(vm.$parent);
-    }
-    if (vm.$root) {
-        instance.root = toVue3ComponentInstance(vm.$root);
-    }
-    return instance;
-}
-
-var toString = function (x) { return Object.prototype.toString.call(x); };
-function isNative(Ctor) {
-    return typeof Ctor === 'function' && /native code/.test(Ctor.toString());
-}
-var hasSymbol = typeof Symbol !== 'undefined' &&
-    isNative(Symbol) &&
-    typeof Reflect !== 'undefined' &&
-    isNative(Reflect.ownKeys);
-var noopFn = function (_) { return _; };
-function proxy(target, key, _a) {
-    var get = _a.get, set = _a.set;
-    Object.defineProperty(target, key, {
-        enumerable: true,
-        configurable: true,
-        get: get || noopFn,
-        set: set || noopFn,
-    });
-}
-function def(obj, key, val, enumerable) {
-    Object.defineProperty(obj, key, {
-        value: val,
-        enumerable: !!enumerable,
-        writable: true,
-        configurable: true,
-    });
-}
-function hasOwn(obj, key) {
-    return Object.hasOwnProperty.call(obj, key);
-}
-function assert(condition, msg) {
-    if (!condition) {
-        throw new Error("[vue-composition-api] ".concat(msg));
-    }
-}
-function isArray(x) {
-    return Array.isArray(x);
-}
-var objectToString = Object.prototype.toString;
-var toTypeString = function (value) {
-    return objectToString.call(value);
-};
-var isMap = function (val) {
-    return toTypeString(val) === '[object Map]';
-};
-var isSet = function (val) {
-    return toTypeString(val) === '[object Set]';
-};
-var MAX_VALID_ARRAY_LENGTH = 4294967295; // Math.pow(2, 32) - 1
-function isValidArrayIndex(val) {
-    var n = parseFloat(String(val));
-    return (n >= 0 &&
-        Math.floor(n) === n &&
-        isFinite(val) &&
-        n <= MAX_VALID_ARRAY_LENGTH);
-}
-function isObject(val) {
-    return val !== null && typeof val === 'object';
-}
-function isPlainObject$1(x) {
-    return toString(x) === '[object Object]';
-}
-function isFunction(x) {
-    return typeof x === 'function';
-}
-function warn(msg, vm) {
-    var Vue = getRegisteredVueOrDefault();
-    if (!Vue || !Vue.util)
-        console.warn("[vue-composition-api] ".concat(msg));
-    else
-        Vue.util.warn(msg, vm);
-}
-function logError(err, vm, info) {
-    if (typeof window !== 'undefined' && typeof console !== 'undefined') {
-        console.error(err);
-    }
-    else {
-        throw err;
-    }
-}
-/**
- * Object.is polyfill
- * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
- * */
-function isSame(value1, value2) {
-    if (value1 === value2) {
-        return value1 !== 0 || 1 / value1 === 1 / value2;
-    }
-    else {
-        return value1 !== value1 && value2 !== value2;
-    }
-}
-
-function getCurrentInstanceForFn(hook, target) {
-    target = target || getCurrentInstance();
-    return target;
-}
-function defineComponentInstance(Ctor, options) {
-    if (options === void 0) { options = {}; }
-    var silent = Ctor.config.silent;
-    Ctor.config.silent = true;
-    var vm = new Ctor(options);
-    Ctor.config.silent = silent;
-    return vm;
-}
-function isComponentInstance(obj) {
-    var Vue = getVueConstructor();
-    return Vue && obj instanceof Vue;
-}
-function createSlotProxy(vm, slotName) {
-    return (function () {
-        var args = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            args[_i] = arguments[_i];
-        }
-        if (!vm.$scopedSlots[slotName]) {
-            return;
-        }
-        return vm.$scopedSlots[slotName].apply(vm, args);
-    });
-}
-function resolveSlots(slots, normalSlots) {
-    var res;
-    if (!slots) {
-        res = {};
-    }
-    else if (slots._normalized) {
-        // fast path 1: child component re-render only, parent did not change
-        return slots._normalized;
-    }
-    else {
-        res = {};
-        for (var key in slots) {
-            if (slots[key] && key[0] !== '$') {
-                res[key] = true;
-            }
-        }
-    }
-    // expose normal slots on scopedSlots
-    for (var key in normalSlots) {
-        if (!(key in res)) {
-            res[key] = true;
-        }
-    }
-    return res;
-}
-var vueInternalClasses;
-var getVueInternalClasses = function () {
-    if (!vueInternalClasses) {
-        var vm = defineComponentInstance(getVueConstructor(), {
-            computed: {
-                value: function () {
-                    return 0;
-                },
-            },
-        });
-        // to get Watcher class
-        var Watcher = vm._computedWatchers.value.constructor;
-        // to get Dep class
-        var Dep = vm._data.__ob__.dep.constructor;
-        vueInternalClasses = {
-            Watcher: Watcher,
-            Dep: Dep,
-        };
-        vm.$destroy();
-    }
-    return vueInternalClasses;
-};
-
-function createSymbol(name) {
-    return hasSymbol ? Symbol.for(name) : name;
-}
-var WatcherPreFlushQueueKey = createSymbol('composition-api.preFlushQueue');
-var WatcherPostFlushQueueKey = createSymbol('composition-api.postFlushQueue');
-// must be a string, symbol key is ignored in reactive
-var RefKey = 'composition-api.refKey';
-
-var accessModifiedSet = new WeakMap();
-var rawSet = new WeakMap();
-var readonlySet = new WeakMap();
-
-/**
- * Set a property on an object. Adds the new property, triggers change
- * notification and intercept it's subsequent access if the property doesn't
- * already exist.
- */
-function set$1(target, key, val) {
-    var Vue = getVueConstructor();
-    // @ts-expect-error https://github.com/vuejs/vue/pull/12132
-    var _a = Vue.util; _a.warn; var defineReactive = _a.defineReactive;
-    var ob = target.__ob__;
-    function ssrMockReactivity() {
-        // in SSR, there is no __ob__. Mock for reactivity check
-        if (ob && isObject(val) && !hasOwn(val, '__ob__')) {
-            mockReactivityDeep(val);
-        }
-    }
-    if (isArray(target)) {
-        if (isValidArrayIndex(key)) {
-            target.length = Math.max(target.length, key);
-            target.splice(key, 1, val);
-            ssrMockReactivity();
-            return val;
-        }
-        else if (key === 'length' && val !== target.length) {
-            target.length = val;
-            ob === null || ob === void 0 ? void 0 : ob.dep.notify();
-            return val;
-        }
-    }
-    if (key in target && !(key in Object.prototype)) {
-        target[key] = val;
-        ssrMockReactivity();
-        return val;
-    }
-    if (target._isVue || (ob && ob.vmCount)) {
-        return val;
-    }
-    if (!ob) {
-        target[key] = val;
-        return val;
-    }
-    defineReactive(ob.value, key, val);
-    // IMPORTANT: define access control before trigger watcher
-    defineAccessControl(target, key, val);
-    ssrMockReactivity();
-    ob.dep.notify();
-    return val;
-}
-
-var RefImpl = /** @class */ (function () {
-    function RefImpl(_a) {
-        var get = _a.get, set = _a.set;
-        proxy(this, 'value', {
-            get: get,
-            set: set,
-        });
-    }
-    return RefImpl;
-}());
-function createRef(options, isReadonly, isComputed) {
-    if (isReadonly === void 0) { isReadonly = false; }
-    if (isComputed === void 0) { isComputed = false; }
-    var r = new RefImpl(options);
-    // add effect to differentiate refs from computed
-    if (isComputed)
-        r.effect = true;
-    // seal the ref, this could prevent ref from being observed
-    // It's safe to seal the ref, since we really shouldn't extend it.
-    // related issues: #79
-    var sealed = Object.seal(r);
-    if (isReadonly)
-        readonlySet.set(sealed, true);
-    return sealed;
-}
-function ref(raw) {
-    var _a;
-    if (isRef(raw)) {
-        return raw;
-    }
-    var value = reactive((_a = {}, _a[RefKey] = raw, _a));
-    return createRef({
-        get: function () { return value[RefKey]; },
-        set: function (v) { return (value[RefKey] = v); },
-    });
-}
-function isRef(value) {
-    return value instanceof RefImpl;
-}
-function toRefs(obj) {
-    if (!isPlainObject$1(obj))
-        return obj;
-    var ret = {};
-    for (var key in obj) {
-        ret[key] = toRef(obj, key);
-    }
-    return ret;
-}
-function toRef(object, key) {
-    if (!(key in object))
-        set$1(object, key, undefined);
-    var v = object[key];
-    if (isRef(v))
-        return v;
-    return createRef({
-        get: function () { return object[key]; },
-        set: function (v) { return (object[key] = v); },
-    });
-}
-
-var SKIPFLAG = '__v_skip';
-function isRaw(obj) {
-    var _a;
-    return Boolean(obj &&
-        hasOwn(obj, '__ob__') &&
-        typeof obj.__ob__ === 'object' &&
-        ((_a = obj.__ob__) === null || _a === void 0 ? void 0 : _a[SKIPFLAG]));
-}
-function isReactive(obj) {
-    var _a;
-    return Boolean(obj &&
-        hasOwn(obj, '__ob__') &&
-        typeof obj.__ob__ === 'object' &&
-        !((_a = obj.__ob__) === null || _a === void 0 ? void 0 : _a[SKIPFLAG]));
-}
-/**
- * Proxing property access of target.
- * We can do unwrapping and other things here.
- */
-function setupAccessControl(target) {
-    if (!isPlainObject$1(target) ||
-        isRaw(target) ||
-        isArray(target) ||
-        isRef(target) ||
-        isComponentInstance(target) ||
-        accessModifiedSet.has(target))
-        return;
-    accessModifiedSet.set(target, true);
-    var keys = Object.keys(target);
-    for (var i = 0; i < keys.length; i++) {
-        defineAccessControl(target, keys[i]);
-    }
-}
-/**
- * Auto unwrapping when access property
- */
-function defineAccessControl(target, key, val) {
-    if (key === '__ob__')
-        return;
-    if (isRaw(target[key]))
-        return;
-    var getter;
-    var setter;
-    var property = Object.getOwnPropertyDescriptor(target, key);
-    if (property) {
-        if (property.configurable === false) {
-            return;
-        }
-        getter = property.get;
-        setter = property.set;
-        if ((!getter || setter) /* not only have getter */ &&
-            arguments.length === 2) {
-            val = target[key];
-        }
-    }
-    setupAccessControl(val);
-    proxy(target, key, {
-        get: function getterHandler() {
-            var value = getter ? getter.call(target) : val;
-            // if the key is equal to RefKey, skip the unwrap logic
-            if (key !== RefKey && isRef(value)) {
-                return value.value;
-            }
-            else {
-                return value;
-            }
-        },
-        set: function setterHandler(newVal) {
-            if (getter && !setter)
-                return;
-            // If the key is equal to RefKey, skip the unwrap logic
-            // If and only if "value" is ref and "newVal" is not a ref,
-            // the assignment should be proxied to "value" ref.
-            if (key !== RefKey && isRef(val) && !isRef(newVal)) {
-                val.value = newVal;
-            }
-            else if (setter) {
-                setter.call(target, newVal);
-                val = newVal;
-            }
-            else {
-                val = newVal;
-            }
-            setupAccessControl(newVal);
-        },
-    });
-}
-function observe(obj) {
-    var Vue = getRegisteredVueOrDefault();
-    var observed;
-    if (Vue.observable) {
-        observed = Vue.observable(obj);
-    }
-    else {
-        var vm = defineComponentInstance(Vue, {
-            data: {
-                $$state: obj,
-            },
-        });
-        observed = vm._data.$$state;
-    }
-    // in SSR, there is no __ob__. Mock for reactivity check
-    if (!hasOwn(observed, '__ob__')) {
-        mockReactivityDeep(observed);
-    }
-    return observed;
-}
-/**
- * Mock __ob__ for object recursively
- */
-function mockReactivityDeep(obj, seen) {
-    var e_1, _a;
-    if (seen === void 0) { seen = new Set(); }
-    if (seen.has(obj) || hasOwn(obj, '__ob__') || !Object.isExtensible(obj))
-        return;
-    def(obj, '__ob__', mockObserver(obj));
-    seen.add(obj);
-    try {
-        for (var _b = __values(Object.keys(obj)), _c = _b.next(); !_c.done; _c = _b.next()) {
-            var key = _c.value;
-            var value = obj[key];
-            if (!(isPlainObject$1(value) || isArray(value)) ||
-                isRaw(value) ||
-                !Object.isExtensible(value)) {
-                continue;
-            }
-            mockReactivityDeep(value, seen);
-        }
-    }
-    catch (e_1_1) { e_1 = { error: e_1_1 }; }
-    finally {
-        try {
-            if (_c && !_c.done && (_a = _b.return)) _a.call(_b);
-        }
-        finally { if (e_1) throw e_1.error; }
-    }
-}
-function mockObserver(value) {
-    if (value === void 0) { value = {}; }
-    return {
-        value: value,
-        dep: {
-            notify: noopFn,
-            depend: noopFn,
-            addSub: noopFn,
-            removeSub: noopFn,
-        },
-    };
-}
-function createObserver() {
-    return observe({}).__ob__;
-}
-/**
- * Make obj reactivity
- */
-function reactive(obj) {
-    if (!isObject(obj)) {
-        return obj;
-    }
-    if (!(isPlainObject$1(obj) || isArray(obj)) ||
-        isRaw(obj) ||
-        !Object.isExtensible(obj)) {
-        return obj;
-    }
-    var observed = observe(obj);
-    setupAccessControl(observed);
-    return observed;
-}
-/**
- * Make sure obj can't be a reactive
- */
-function markRaw(obj) {
-    if (!(isPlainObject$1(obj) || isArray(obj)) || !Object.isExtensible(obj)) {
-        return obj;
-    }
-    // set the vue observable flag at obj
-    var ob = createObserver();
-    ob[SKIPFLAG] = true;
-    def(obj, '__ob__', ob);
-    // mark as Raw
-    rawSet.set(obj, true);
-    return obj;
-}
-
-var genName = function (name) { return "on".concat(name[0].toUpperCase() + name.slice(1)); };
-function createLifeCycle(lifeCyclehook) {
-    return function (callback, target) {
-        var instance = getCurrentInstanceForFn(genName(lifeCyclehook), target);
-        return (instance &&
-            injectHookOption(getVueConstructor(), instance, lifeCyclehook, callback));
-    };
-}
-function injectHookOption(Vue, instance, hook, val) {
-    var options = instance.proxy.$options;
-    var mergeFn = Vue.config.optionMergeStrategies[hook];
-    var wrappedHook = wrapHookCall(instance, val);
-    options[hook] = mergeFn(options[hook], wrappedHook);
-    return wrappedHook;
-}
-function wrapHookCall(instance, fn) {
-    return function () {
-        var args = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            args[_i] = arguments[_i];
-        }
-        var prev = getCurrentInstance();
-        setCurrentInstance(instance);
-        try {
-            return fn.apply(void 0, __spreadArray([], __read(args), false));
-        }
-        finally {
-            setCurrentInstance(prev);
-        }
-    };
-}
-var onUnmounted = createLifeCycle('destroyed');
-
-var fallbackVM;
-function flushPreQueue() {
-    flushQueue(this, WatcherPreFlushQueueKey);
-}
-function flushPostQueue() {
-    flushQueue(this, WatcherPostFlushQueueKey);
-}
-function hasWatchEnv(vm) {
-    return vm[WatcherPreFlushQueueKey] !== undefined;
-}
-function installWatchEnv(vm) {
-    vm[WatcherPreFlushQueueKey] = [];
-    vm[WatcherPostFlushQueueKey] = [];
-    vm.$on('hook:beforeUpdate', flushPreQueue);
-    vm.$on('hook:updated', flushPostQueue);
-}
-function getWatcherOption(options) {
-    return __assign({
-        immediate: false,
-        deep: false,
-        flush: 'pre',
-    }, options);
-}
-function getWatcherVM() {
-    var vm = getCurrentScopeVM();
-    if (!vm) {
-        if (!fallbackVM) {
-            fallbackVM = defineComponentInstance(getVueConstructor());
-        }
-        vm = fallbackVM;
-    }
-    else if (!hasWatchEnv(vm)) {
-        installWatchEnv(vm);
-    }
-    return vm;
-}
-function flushQueue(vm, key) {
-    var queue = vm[key];
-    for (var index = 0; index < queue.length; index++) {
-        queue[index]();
-    }
-    queue.length = 0;
-}
-function queueFlushJob(vm, fn, mode) {
-    // flush all when beforeUpdate and updated are not fired
-    var fallbackFlush = function () {
-        vm.$nextTick(function () {
-            if (vm[WatcherPreFlushQueueKey].length) {
-                flushQueue(vm, WatcherPreFlushQueueKey);
-            }
-            if (vm[WatcherPostFlushQueueKey].length) {
-                flushQueue(vm, WatcherPostFlushQueueKey);
-            }
-        });
-    };
-    switch (mode) {
-        case 'pre':
-            fallbackFlush();
-            vm[WatcherPreFlushQueueKey].push(fn);
-            break;
-        case 'post':
-            fallbackFlush();
-            vm[WatcherPostFlushQueueKey].push(fn);
-            break;
-        default:
-            assert(false, "flush must be one of [\"post\", \"pre\", \"sync\"], but got ".concat(mode));
-            break;
-    }
-}
-function createVueWatcher(vm, getter, callback, options) {
-    var index = vm._watchers.length;
-    // @ts-ignore: use undocumented options
-    vm.$watch(getter, callback, {
-        immediate: options.immediateInvokeCallback,
-        deep: options.deep,
-        lazy: options.noRun,
-        sync: options.sync,
-        before: options.before,
-    });
-    return vm._watchers[index];
-}
-// We have to monkeypatch the teardown function so Vue will run
-// runCleanup() when it tears down the watcher on unmounted.
-function patchWatcherTeardown(watcher, runCleanup) {
-    var _teardown = watcher.teardown;
-    watcher.teardown = function () {
-        var args = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            args[_i] = arguments[_i];
-        }
-        _teardown.apply(watcher, args);
-        runCleanup();
-    };
-}
-function createWatcher(vm, source, cb, options) {
-    var _a;
-    var flushMode = options.flush;
-    var isSync = flushMode === 'sync';
-    var cleanup;
-    var registerCleanup = function (fn) {
-        cleanup = function () {
-            try {
-                fn();
-            }
-            catch (
-            // FIXME: remove any
-            error) {
-                logError(error);
-            }
-        };
-    };
-    // cleanup before running getter again
-    var runCleanup = function () {
-        if (cleanup) {
-            cleanup();
-            cleanup = null;
-        }
-    };
-    var createScheduler = function (fn) {
-        if (isSync ||
-            /* without a current active instance, ignore pre|post mode */ vm ===
-                fallbackVM) {
-            return fn;
-        }
-        return (function () {
-            var args = [];
-            for (var _i = 0; _i < arguments.length; _i++) {
-                args[_i] = arguments[_i];
-            }
-            return queueFlushJob(vm, function () {
-                fn.apply(void 0, __spreadArray([], __read(args), false));
-            }, flushMode);
-        });
-    };
-    // effect watch
-    if (cb === null) {
-        var running_1 = false;
-        var getter_1 = function () {
-            // preventing the watch callback being call in the same execution
-            if (running_1) {
-                return;
-            }
-            try {
-                running_1 = true;
-                source(registerCleanup);
-            }
-            finally {
-                running_1 = false;
-            }
-        };
-        var watcher_1 = createVueWatcher(vm, getter_1, noopFn, {
-            deep: options.deep || false,
-            sync: isSync,
-            before: runCleanup,
-        });
-        patchWatcherTeardown(watcher_1, runCleanup);
-        // enable the watcher update
-        watcher_1.lazy = false;
-        var originGet = watcher_1.get.bind(watcher_1);
-        // always run watchEffect
-        watcher_1.get = createScheduler(originGet);
-        return function () {
-            watcher_1.teardown();
-        };
-    }
-    var deep = options.deep;
-    var isMultiSource = false;
-    var getter;
-    if (isRef(source)) {
-        getter = function () { return source.value; };
-    }
-    else if (isReactive(source)) {
-        getter = function () { return source; };
-        deep = true;
-    }
-    else if (isArray(source)) {
-        isMultiSource = true;
-        getter = function () {
-            return source.map(function (s) {
-                if (isRef(s)) {
-                    return s.value;
-                }
-                else if (isReactive(s)) {
-                    return traverse(s);
-                }
-                else if (isFunction(s)) {
-                    return s();
-                }
-                else {
-                    return noopFn;
-                }
-            });
-        };
-    }
-    else if (isFunction(source)) {
-        getter = source;
-    }
-    else {
-        getter = noopFn;
-    }
-    if (deep) {
-        var baseGetter_1 = getter;
-        getter = function () { return traverse(baseGetter_1()); };
-    }
-    var applyCb = function (n, o) {
-        if (!deep &&
-            isMultiSource &&
-            n.every(function (v, i) { return isSame(v, o[i]); }))
-            return;
-        // cleanup before running cb again
-        runCleanup();
-        return cb(n, o, registerCleanup);
-    };
-    var callback = createScheduler(applyCb);
-    if (options.immediate) {
-        var originalCallback_1 = callback;
-        // `shiftCallback` is used to handle the first sync effect run.
-        // The subsequent callbacks will redirect to `callback`.
-        var shiftCallback_1 = function (n, o) {
-            shiftCallback_1 = originalCallback_1;
-            // o is undefined on the first call
-            return applyCb(n, isArray(n) ? [] : o);
-        };
-        callback = function (n, o) {
-            return shiftCallback_1(n, o);
-        };
-    }
-    // @ts-ignore: use undocumented option "sync"
-    var stop = vm.$watch(getter, callback, {
-        immediate: options.immediate,
-        deep: deep,
-        sync: isSync,
-    });
-    // Once again, we have to hack the watcher for proper teardown
-    var watcher = vm._watchers[vm._watchers.length - 1];
-    // if the return value is reactive and deep:true
-    // watch for changes, this might happen when new key is added
-    if (isReactive(watcher.value) && ((_a = watcher.value.__ob__) === null || _a === void 0 ? void 0 : _a.dep) && deep) {
-        watcher.value.__ob__.dep.addSub({
-            update: function () {
-                // this will force the source to be revaluated and the callback
-                // executed if needed
-                watcher.run();
-            },
-        });
-    }
-    patchWatcherTeardown(watcher, runCleanup);
-    return function () {
-        stop();
-    };
-}
-// implementation
-function watch(source, cb, options) {
-    var callback = null;
-    if (isFunction(cb)) {
-        // source watch
-        callback = cb;
-    }
-    else {
-        options = cb;
-        callback = null;
-    }
-    var opts = getWatcherOption(options);
-    var vm = getWatcherVM();
-    return createWatcher(vm, source, callback, opts);
-}
-function traverse(value, seen) {
-    if (seen === void 0) { seen = new Set(); }
-    if (!isObject(value) || seen.has(value) || rawSet.has(value)) {
-        return value;
-    }
-    seen.add(value);
-    if (isRef(value)) {
-        traverse(value.value, seen);
-    }
-    else if (isArray(value)) {
-        for (var i = 0; i < value.length; i++) {
-            traverse(value[i], seen);
-        }
-    }
-    else if (isSet(value) || isMap(value)) {
-        value.forEach(function (v) {
-            traverse(v, seen);
-        });
-    }
-    else if (isPlainObject$1(value)) {
-        for (var key in value) {
-            traverse(value[key], seen);
-        }
-    }
-    return value;
-}
-
-// implement
-function computed(getterOrOptions) {
-    var vm = getCurrentScopeVM();
-    var getter;
-    var setter;
-    if (isFunction(getterOrOptions)) {
-        getter = getterOrOptions;
-    }
-    else {
-        getter = getterOrOptions.get;
-        setter = getterOrOptions.set;
-    }
-    var computedSetter;
-    var computedGetter;
-    if (vm && !vm.$isServer) {
-        var _a = getVueInternalClasses(), Watcher_1 = _a.Watcher, Dep_1 = _a.Dep;
-        var watcher_1;
-        computedGetter = function () {
-            if (!watcher_1) {
-                watcher_1 = new Watcher_1(vm, getter, noopFn, { lazy: true });
-            }
-            if (watcher_1.dirty) {
-                watcher_1.evaluate();
-            }
-            if (Dep_1.target) {
-                watcher_1.depend();
-            }
-            return watcher_1.value;
-        };
-        computedSetter = function (v) {
-            if (setter) {
-                setter(v);
-            }
-        };
-    }
-    else {
-        // fallback
-        var computedHost_1 = defineComponentInstance(getVueConstructor(), {
-            computed: {
-                $$state: {
-                    get: getter,
-                    set: setter,
-                },
-            },
-        });
-        vm && vm.$on('hook:destroyed', function () { return computedHost_1.$destroy(); });
-        computedGetter = function () { return computedHost_1.$$state; };
-        computedSetter = function (v) {
-            computedHost_1.$$state = v;
-        };
-    }
-    return createRef({
-        get: computedGetter,
-        set: computedSetter,
-    }, !setter, true);
-}
-
-var NOT_FOUND = {};
-function resolveInject(provideKey, vm) {
-    var source = vm;
-    while (source) {
-        // @ts-ignore
-        if (source._provided && hasOwn(source._provided, provideKey)) {
-            //@ts-ignore
-            return source._provided[provideKey];
-        }
-        source = source.$parent;
-    }
-    return NOT_FOUND;
-}
-function inject(key, defaultValue, treatDefaultAsFactory) {
-    var _a;
-    if (treatDefaultAsFactory === void 0) { treatDefaultAsFactory = false; }
-    var vm = (_a = getCurrentInstance()) === null || _a === void 0 ? void 0 : _a.proxy;
-    if (!vm) {
-        return;
-    }
-    if (!key) {
-        return defaultValue;
-    }
-    var val = resolveInject(key, vm);
-    if (val !== NOT_FOUND) {
-        return val;
-    }
-    if (defaultValue === undefined && ("production" !== 'production')) {
-        warn("Injection \"".concat(String(key), "\" not found"), vm);
-    }
-    return treatDefaultAsFactory && isFunction(defaultValue)
-        ? defaultValue()
-        : defaultValue;
-}
-
-var nextTick = function nextTick() {
-    var _a;
-    var args = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        args[_i] = arguments[_i];
-    }
-    return (_a = getVueConstructor()) === null || _a === void 0 ? void 0 : _a.nextTick.apply(this, args);
-};
-
-function set(vm, key, value) {
-    var state = (vm.__composition_api_state__ =
-        vm.__composition_api_state__ || {});
-    state[key] = value;
-}
-function get(vm, key) {
-    return (vm.__composition_api_state__ || {})[key];
-}
-var vmStateManager = {
-    set: set,
-    get: get,
-};
-
-function asVmProperty(vm, propName, propValue) {
-    var props = vm.$options.props;
-    if (!(propName in vm) && !(props && hasOwn(props, propName))) {
-        if (isRef(propValue)) {
-            proxy(vm, propName, {
-                get: function () { return propValue.value; },
-                set: function (val) {
-                    propValue.value = val;
-                },
-            });
-        }
-        else {
-            proxy(vm, propName, {
-                get: function () {
-                    if (isReactive(propValue)) {
-                        propValue.__ob__.dep.depend();
-                    }
-                    return propValue;
-                },
-                set: function (val) {
-                    propValue = val;
-                },
-            });
-        }
-    }
-}
-function updateTemplateRef(vm) {
-    var rawBindings = vmStateManager.get(vm, 'rawBindings') || {};
-    if (!rawBindings || !Object.keys(rawBindings).length)
-        return;
-    var refs = vm.$refs;
-    var oldRefKeys = vmStateManager.get(vm, 'refs') || [];
-    for (var index = 0; index < oldRefKeys.length; index++) {
-        var key = oldRefKeys[index];
-        var setupValue = rawBindings[key];
-        if (!refs[key] && setupValue && isRef(setupValue)) {
-            setupValue.value = null;
-        }
-    }
-    var newKeys = Object.keys(refs);
-    var validNewKeys = [];
-    for (var index = 0; index < newKeys.length; index++) {
-        var key = newKeys[index];
-        var setupValue = rawBindings[key];
-        if (refs[key] && setupValue && isRef(setupValue)) {
-            setupValue.value = refs[key];
-            validNewKeys.push(key);
-        }
-    }
-    vmStateManager.set(vm, 'refs', validNewKeys);
-}
-function afterRender(vm) {
-    var stack = [vm._vnode];
-    while (stack.length) {
-        var vnode = stack.pop();
-        if (vnode.context)
-            updateTemplateRef(vnode.context);
-        if (vnode.children) {
-            for (var i = 0; i < vnode.children.length; ++i) {
-                stack.push(vnode.children[i]);
-            }
-        }
-    }
-}
-function updateVmAttrs(vm, ctx) {
-    var e_1, _a;
-    if (!vm) {
-        return;
-    }
-    var attrBindings = vmStateManager.get(vm, 'attrBindings');
-    if (!attrBindings && !ctx) {
-        // fix 840
-        return;
-    }
-    if (!attrBindings) {
-        var observedData = reactive({});
-        attrBindings = { ctx: ctx, data: observedData };
-        vmStateManager.set(vm, 'attrBindings', attrBindings);
-        proxy(ctx, 'attrs', {
-            get: function () {
-                return attrBindings === null || attrBindings === void 0 ? void 0 : attrBindings.data;
-            },
-            set: function () {
-            },
-        });
-    }
-    var source = vm.$attrs;
-    var _loop_1 = function (attr) {
-        if (!hasOwn(attrBindings.data, attr)) {
-            proxy(attrBindings.data, attr, {
-                get: function () {
-                    // to ensure it always return the latest value
-                    return vm.$attrs[attr];
-                },
-            });
-        }
-    };
-    try {
-        for (var _b = __values(Object.keys(source)), _c = _b.next(); !_c.done; _c = _b.next()) {
-            var attr = _c.value;
-            _loop_1(attr);
-        }
-    }
-    catch (e_1_1) { e_1 = { error: e_1_1 }; }
-    finally {
-        try {
-            if (_c && !_c.done && (_a = _b.return)) _a.call(_b);
-        }
-        finally { if (e_1) throw e_1.error; }
-    }
-}
-function resolveScopedSlots(vm, slotsProxy) {
-    var parentVNode = vm.$options._parentVnode;
-    if (!parentVNode)
-        return;
-    var prevSlots = vmStateManager.get(vm, 'slots') || [];
-    var curSlots = resolveSlots(parentVNode.data.scopedSlots, vm.$slots);
-    // remove staled slots
-    for (var index = 0; index < prevSlots.length; index++) {
-        var key = prevSlots[index];
-        if (!curSlots[key]) {
-            delete slotsProxy[key];
-        }
-    }
-    // proxy fresh slots
-    var slotNames = Object.keys(curSlots);
-    for (var index = 0; index < slotNames.length; index++) {
-        var key = slotNames[index];
-        if (!slotsProxy[key]) {
-            slotsProxy[key] = createSlotProxy(vm, key);
-        }
-    }
-    vmStateManager.set(vm, 'slots', slotNames);
-}
-function activateCurrentInstance(instance, fn, onError) {
-    var preVm = getCurrentInstance();
-    setCurrentInstance(instance);
-    try {
-        return fn(instance);
-    }
-    catch (
-    // FIXME: remove any
-    err) {
-        if (onError) {
-            onError(err);
-        }
-        else {
-            throw err;
-        }
-    }
-    finally {
-        setCurrentInstance(preVm);
-    }
-}
-
-function mixin(Vue) {
-    Vue.mixin({
-        beforeCreate: functionApiInit,
-        mounted: function () {
-            afterRender(this);
-        },
-        beforeUpdate: function () {
-            updateVmAttrs(this);
-        },
-        updated: function () {
-            afterRender(this);
-        },
-    });
-    /**
-     * Vuex init hook, injected into each instances init hooks list.
-     */
-    function functionApiInit() {
-        var vm = this;
-        var $options = vm.$options;
-        var setup = $options.setup, render = $options.render;
-        if (render) {
-            // keep currentInstance accessible for createElement
-            $options.render = function () {
-                var _this = this;
-                var args = [];
-                for (var _i = 0; _i < arguments.length; _i++) {
-                    args[_i] = arguments[_i];
-                }
-                return activateCurrentInstance(toVue3ComponentInstance(vm), function () {
-                    return render.apply(_this, args);
-                });
-            };
-        }
-        if (!setup) {
-            return;
-        }
-        if (!isFunction(setup)) {
-            return;
-        }
-        var data = $options.data;
-        // wrapper the data option, so we can invoke setup before data get resolved
-        $options.data = function wrappedData() {
-            initSetup(vm, vm.$props);
-            return isFunction(data)
-                ? data.call(vm, vm)
-                : data || {};
-        };
-    }
-    function initSetup(vm, props) {
-        if (props === void 0) { props = {}; }
-        var setup = vm.$options.setup;
-        var ctx = createSetupContext(vm);
-        var instance = toVue3ComponentInstance(vm);
-        instance.setupContext = ctx;
-        // fake reactive for `toRefs(props)`
-        def(props, '__ob__', createObserver());
-        // resolve scopedSlots and slots to functions
-        resolveScopedSlots(vm, ctx.slots);
-        var binding;
-        activateCurrentInstance(instance, function () {
-            // make props to be fake reactive, this is for `toRefs(props)`
-            binding = setup(props, ctx);
-        });
-        if (!binding)
-            return;
-        if (isFunction(binding)) {
-            // keep typescript happy with the binding type.
-            var bindingFunc_1 = binding;
-            // keep currentInstance accessible for createElement
-            vm.$options.render = function () {
-                resolveScopedSlots(vm, ctx.slots);
-                return activateCurrentInstance(instance, function () { return bindingFunc_1(); });
-            };
-            return;
-        }
-        else if (isObject(binding)) {
-            if (isReactive(binding)) {
-                binding = toRefs(binding);
-            }
-            vmStateManager.set(vm, 'rawBindings', binding);
-            var bindingObj_1 = binding;
-            Object.keys(bindingObj_1).forEach(function (name) {
-                var bindingValue = bindingObj_1[name];
-                if (!isRef(bindingValue)) {
-                    if (!isReactive(bindingValue)) {
-                        if (isFunction(bindingValue)) {
-                            var copy_1 = bindingValue;
-                            bindingValue = bindingValue.bind(vm);
-                            Object.keys(copy_1).forEach(function (ele) {
-                                bindingValue[ele] = copy_1[ele];
-                            });
-                        }
-                        else if (!isObject(bindingValue)) {
-                            bindingValue = ref(bindingValue);
-                        }
-                        else if (hasReactiveArrayChild(bindingValue)) {
-                            // creates a custom reactive properties without make the object explicitly reactive
-                            // NOTE we should try to avoid this, better implementation needed
-                            customReactive(bindingValue);
-                        }
-                    }
-                    else if (isArray(bindingValue)) {
-                        bindingValue = ref(bindingValue);
-                    }
-                }
-                asVmProperty(vm, name, bindingValue);
-            });
-            return;
-        }
-    }
-    function customReactive(target, seen) {
-        if (seen === void 0) { seen = new Set(); }
-        if (seen.has(target))
-            return;
-        if (!isPlainObject$1(target) ||
-            isRef(target) ||
-            isReactive(target) ||
-            isRaw(target))
-            return;
-        var Vue = getVueConstructor();
-        // @ts-expect-error https://github.com/vuejs/vue/pull/12132
-        var defineReactive = Vue.util.defineReactive;
-        Object.keys(target).forEach(function (k) {
-            var val = target[k];
-            defineReactive(target, k, val);
-            if (val) {
-                seen.add(val);
-                customReactive(val, seen);
-            }
-            return;
-        });
-    }
-    function hasReactiveArrayChild(target, visited) {
-        if (visited === void 0) { visited = new Map(); }
-        if (visited.has(target)) {
-            return visited.get(target);
-        }
-        visited.set(target, false);
-        if (isArray(target) && isReactive(target)) {
-            visited.set(target, true);
-            return true;
-        }
-        if (!isPlainObject$1(target) || isRaw(target) || isRef(target)) {
-            return false;
-        }
-        return Object.keys(target).some(function (x) {
-            return hasReactiveArrayChild(target[x], visited);
-        });
-    }
-    function createSetupContext(vm) {
-        var ctx = { slots: {} };
-        var propsPlain = [
-            'root',
-            'parent',
-            'refs',
-            'listeners',
-            'isServer',
-            'ssrContext',
-        ];
-        var methodReturnVoid = ['emit'];
-        propsPlain.forEach(function (key) {
-            var srcKey = "$".concat(key);
-            proxy(ctx, key, {
-                get: function () { return vm[srcKey]; },
-                set: function () {
-                },
-            });
-        });
-        updateVmAttrs(vm, ctx);
-        methodReturnVoid.forEach(function (key) {
-            var srcKey = "$".concat(key);
-            proxy(ctx, key, {
-                get: function () {
-                    return function () {
-                        var args = [];
-                        for (var _i = 0; _i < arguments.length; _i++) {
-                            args[_i] = arguments[_i];
-                        }
-                        var fn = vm[srcKey];
-                        fn.apply(vm, args);
-                    };
-                },
-            });
-        });
-        return ctx;
-    }
-}
-
-/**
- * Helper that recursively merges two data objects together.
- */
-function mergeData(from, to) {
-    if (!from)
-        return to;
-    if (!to)
-        return from;
-    var key;
-    var toVal;
-    var fromVal;
-    var keys = hasSymbol ? Reflect.ownKeys(from) : Object.keys(from);
-    for (var i = 0; i < keys.length; i++) {
-        key = keys[i];
-        // in case the object is already observed...
-        if (key === '__ob__')
-            continue;
-        toVal = to[key];
-        fromVal = from[key];
-        if (!hasOwn(to, key)) {
-            to[key] = fromVal;
-        }
-        else if (toVal !== fromVal &&
-            isPlainObject$1(toVal) &&
-            !isRef(toVal) &&
-            isPlainObject$1(fromVal) &&
-            !isRef(fromVal)) {
-            mergeData(fromVal, toVal);
-        }
-    }
-    return to;
-}
-function install$2(Vue) {
-    if (isVueRegistered(Vue)) {
-        return;
-    }
-    Vue.config.optionMergeStrategies.setup = function (parent, child) {
-        return function mergedSetupFn(props, context) {
-            return mergeData(isFunction(parent) ? parent(props, context) || {} : undefined, isFunction(child) ? child(props, context) || {} : undefined);
-        };
-    };
-    setVueConstructor(Vue);
-    mixin(Vue);
-}
-var Plugin = {
-    install: function (Vue) { return install$2(Vue); },
-};
-// auto install when using CDN
-if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(Plugin);
-}
-
-function install$1(_vue) {
-  _vue = _vue || Vue;
-  if (_vue && !_vue['__composition_api_installed__'])
-    Vue.use(Plugin);
-}
-
-install$1(Vue);
-Vue.version;
-
-/*!
-  * pinia v2.0.13
-  * (c) 2022 Eduardo San Martin Morote
-  * @license MIT
-  */
-
-/**
- * setActivePinia must be called to handle SSR at the top of functions like
- * `fetch`, `setup`, `serverPrefetch` and others
- */
-let activePinia;
-/**
- * Sets or unsets the active pinia. Used in SSR and internally when calling
- * actions and getters
- *
- * @param pinia - Pinia instance
- */
-const setActivePinia = (pinia) => (activePinia = pinia);
-const piniaSymbol = (/* istanbul ignore next */ Symbol());
-
-function isPlainObject(
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-o) {
-    return (o &&
-        typeof o === 'object' &&
-        Object.prototype.toString.call(o) === '[object Object]' &&
-        typeof o.toJSON !== 'function');
-}
-// type DeepReadonly<T> = { readonly [P in keyof T]: DeepReadonly<T[P]> }
-// TODO: can we change these to numbers?
-/**
- * Possible types for SubscriptionCallback
- */
-var MutationType;
-(function (MutationType) {
-    /**
-     * Direct mutation of the state:
-     *
-     * - `store.name = 'new name'`
-     * - `store.$state.name = 'new name'`
-     * - `store.list.push('new item')`
-     */
-    MutationType["direct"] = "direct";
-    /**
-     * Mutated the state with `$patch` and an object
-     *
-     * - `store.$patch({ name: 'newName' })`
-     */
-    MutationType["patchObject"] = "patch object";
-    /**
-     * Mutated the state with `$patch` and a function
-     *
-     * - `store.$patch(state => state.name = 'newName')`
-     */
-    MutationType["patchFunction"] = "patch function";
-    // maybe reset? for $state = {} and $reset
-})(MutationType || (MutationType = {}));
-
-const noop = () => { };
-function addSubscription(subscriptions, callback, detached, onCleanup = noop) {
-    subscriptions.push(callback);
-    const removeSubscription = () => {
-        const idx = subscriptions.indexOf(callback);
-        if (idx > -1) {
-            subscriptions.splice(idx, 1);
-            onCleanup();
-        }
-    };
-    if (!detached && getCurrentInstance()) {
-        onUnmounted(removeSubscription);
-    }
-    return removeSubscription;
-}
-function triggerSubscriptions(subscriptions, ...args) {
-    subscriptions.slice().forEach((callback) => {
-        callback(...args);
-    });
-}
-
-function mergeReactiveObjects(target, patchToApply) {
-    // no need to go through symbols because they cannot be serialized anyway
-    for (const key in patchToApply) {
-        if (!patchToApply.hasOwnProperty(key))
-            continue;
-        const subPatch = patchToApply[key];
-        const targetValue = target[key];
-        if (isPlainObject(targetValue) &&
-            isPlainObject(subPatch) &&
-            target.hasOwnProperty(key) &&
-            !isRef(subPatch) &&
-            !isReactive(subPatch)) {
-            target[key] = mergeReactiveObjects(targetValue, subPatch);
-        }
-        else {
-            // @ts-expect-error: subPatch is a valid value
-            target[key] = subPatch;
-        }
-    }
-    return target;
-}
-const skipHydrateMap = /*#__PURE__*/ new WeakMap();
-function shouldHydrate(obj) {
-    return /* istanbul ignore next */ !skipHydrateMap.has(obj)
-        ;
-}
-const { assign } = Object;
-function isComputed(o) {
-    return !!(isRef(o) && o.effect);
-}
-function createOptionsStore(id, options, pinia, hot) {
-    const { state, actions, getters } = options;
-    const initialState = pinia.state.value[id];
-    let store;
-    function setup() {
-        if (!initialState && (!("production" !== 'production') )) {
-            /* istanbul ignore if */
-            {
-                set$1(pinia.state.value, id, state ? state() : {});
-            }
-        }
-        // avoid creating a state in pinia.state.value
-        const localState = toRefs(pinia.state.value[id]);
-        return assign(localState, actions, Object.keys(getters || {}).reduce((computedGetters, name) => {
-            computedGetters[name] = markRaw(computed(() => {
-                setActivePinia(pinia);
-                // it was created just before
-                const store = pinia._s.get(id);
-                // allow cross using stores
-                /* istanbul ignore next */
-                if (!store._r)
-                    return;
-                // @ts-expect-error
-                // return getters![name].call(context, context)
-                // TODO: avoid reading the getter while assigning with a global variable
-                return getters[name].call(store, store);
-            }));
-            return computedGetters;
-        }, {}));
-    }
-    store = createSetupStore(id, setup, options, pinia);
-    store.$reset = function $reset() {
-        const newState = state ? state() : {};
-        // we use a patch to group all changes into one single subscription
-        this.$patch(($state) => {
-            assign($state, newState);
-        });
-    };
-    return store;
-}
-function createSetupStore($id, setup, options = {}, pinia, hot) {
-    let scope;
-    const buildState = options.state;
-    const optionsForPlugin = assign({ actions: {} }, options);
-    // watcher options for $subscribe
-    const $subscribeOptions = {
-        deep: true,
-        // flush: 'post',
-    };
-    // internal state
-    let isListening; // set to true at the end
-    let isSyncListening; // set to true at the end
-    let subscriptions = markRaw([]);
-    let actionSubscriptions = markRaw([]);
-    let debuggerEvents;
-    const initialState = pinia.state.value[$id];
-    // avoid setting the state for option stores are it is set
-    // by the setup
-    if (!buildState && !initialState && (!("production" !== 'production') )) {
-        /* istanbul ignore if */
-        {
-            set$1(pinia.state.value, $id, {});
-        }
-    }
-    ref({});
-    function $patch(partialStateOrMutator) {
-        let subscriptionMutation;
-        isListening = isSyncListening = false;
-        if (typeof partialStateOrMutator === 'function') {
-            partialStateOrMutator(pinia.state.value[$id]);
-            subscriptionMutation = {
-                type: MutationType.patchFunction,
-                storeId: $id,
-                events: debuggerEvents,
-            };
-        }
-        else {
-            mergeReactiveObjects(pinia.state.value[$id], partialStateOrMutator);
-            subscriptionMutation = {
-                type: MutationType.patchObject,
-                payload: partialStateOrMutator,
-                storeId: $id,
-                events: debuggerEvents,
-            };
-        }
-        nextTick().then(() => {
-            isListening = true;
-        });
-        isSyncListening = true;
-        // because we paused the watcher, we need to manually call the subscriptions
-        triggerSubscriptions(subscriptions, subscriptionMutation, pinia.state.value[$id]);
-    }
-    /* istanbul ignore next */
-    const $reset = noop;
-    function $dispose() {
-        scope.stop();
-        subscriptions = [];
-        actionSubscriptions = [];
-        pinia._s.delete($id);
-    }
-    /**
-     * Wraps an action to handle subscriptions.
-     *
-     * @param name - name of the action
-     * @param action - action to wrap
-     * @returns a wrapped action to handle subscriptions
-     */
-    function wrapAction(name, action) {
-        return function () {
-            setActivePinia(pinia);
-            const args = Array.from(arguments);
-            const afterCallbackList = [];
-            const onErrorCallbackList = [];
-            function after(callback) {
-                afterCallbackList.push(callback);
-            }
-            function onError(callback) {
-                onErrorCallbackList.push(callback);
-            }
-            // @ts-expect-error
-            triggerSubscriptions(actionSubscriptions, {
-                args,
-                name,
-                store,
-                after,
-                onError,
-            });
-            let ret;
-            try {
-                ret = action.apply(this && this.$id === $id ? this : store, args);
-                // handle sync errors
-            }
-            catch (error) {
-                triggerSubscriptions(onErrorCallbackList, error);
-                throw error;
-            }
-            if (ret instanceof Promise) {
-                return ret
-                    .then((value) => {
-                    triggerSubscriptions(afterCallbackList, value);
-                    return value;
-                })
-                    .catch((error) => {
-                    triggerSubscriptions(onErrorCallbackList, error);
-                    return Promise.reject(error);
-                });
-            }
-            // allow the afterCallback to override the return value
-            triggerSubscriptions(afterCallbackList, ret);
-            return ret;
-        };
-    }
-    const partialStore = {
-        _p: pinia,
-        // _s: scope,
-        $id,
-        $onAction: addSubscription.bind(null, actionSubscriptions),
-        $patch,
-        $reset,
-        $subscribe(callback, options = {}) {
-            const removeSubscription = addSubscription(subscriptions, callback, options.detached, () => stopWatcher());
-            const stopWatcher = scope.run(() => watch(() => pinia.state.value[$id], (state) => {
-                if (options.flush === 'sync' ? isSyncListening : isListening) {
-                    callback({
-                        storeId: $id,
-                        type: MutationType.direct,
-                        events: debuggerEvents,
-                    }, state);
-                }
-            }, assign({}, $subscribeOptions, options)));
-            return removeSubscription;
-        },
-        $dispose,
-    };
-    /* istanbul ignore if */
-    {
-        // start as non ready
-        partialStore._r = false;
-    }
-    const store = reactive(assign({}, partialStore
-    // must be added later
-    // setupStore
-    ));
-    // store the partial store now so the setup of stores can instantiate each other before they are finished without
-    // creating infinite loops.
-    pinia._s.set($id, store);
-    // TODO: idea create skipSerialize that marks properties as non serializable and they are skipped
-    const setupStore = pinia._e.run(() => {
-        scope = effectScope();
-        return scope.run(() => setup());
-    });
-    // overwrite existing actions to support $onAction
-    for (const key in setupStore) {
-        const prop = setupStore[key];
-        if ((isRef(prop) && !isComputed(prop)) || isReactive(prop)) {
-            // mark it as a piece of state to be serialized
-            if (!buildState) {
-                // in setup stores we must hydrate the state and sync pinia state tree with the refs the user just created
-                if (initialState && shouldHydrate(prop)) {
-                    if (isRef(prop)) {
-                        prop.value = initialState[key];
-                    }
-                    else {
-                        // probably a reactive object, lets recursively assign
-                        mergeReactiveObjects(prop, initialState[key]);
-                    }
-                }
-                // transfer the ref to the pinia state to keep everything in sync
-                /* istanbul ignore if */
-                {
-                    set$1(pinia.state.value[$id], key, prop);
-                }
-            }
-            // action
-        }
-        else if (typeof prop === 'function') {
-            // @ts-expect-error: we are overriding the function we avoid wrapping if
-            const actionValue = wrapAction(key, prop);
-            // this a hot module replacement store because the hotUpdate method needs
-            // to do it with the right context
-            /* istanbul ignore if */
-            {
-                set$1(setupStore, key, actionValue);
-            }
-            // list actions so they can be used in plugins
-            // @ts-expect-error
-            optionsForPlugin.actions[key] = prop;
-        }
-        else ;
-    }
-    // add the state, getters, and action properties
-    /* istanbul ignore if */
-    {
-        Object.keys(setupStore).forEach((key) => {
-            set$1(store, key, 
-            // @ts-expect-error: valid key indexing
-            setupStore[key]);
-        });
-    }
-    // use this instead of a computed with setter to be able to create it anywhere
-    // without linking the computed lifespan to wherever the store is first
-    // created.
-    Object.defineProperty(store, '$state', {
-        get: () => (pinia.state.value[$id]),
-        set: (state) => {
-            $patch(($state) => {
-                assign($state, state);
-            });
-        },
-    });
-    /* istanbul ignore if */
-    {
-        // mark the store as ready before plugins
-        store._r = true;
-    }
-    // apply all plugins
-    pinia._p.forEach((extender) => {
-        /* istanbul ignore else */
-        {
-            assign(store, scope.run(() => extender({
-                store,
-                app: pinia._a,
-                pinia,
-                options: optionsForPlugin,
-            })));
-        }
-    });
-    // only apply hydrate to option stores with an initial state in pinia
-    if (initialState &&
-        buildState &&
-        options.hydrate) {
-        options.hydrate(store.$state, initialState);
-    }
-    isListening = true;
-    isSyncListening = true;
-    return store;
-}
-function defineStore(
-// TODO: add proper types from above
-idOrOptions, setup, setupOptions) {
-    let id;
-    let options;
-    const isSetupStore = typeof setup === 'function';
-    if (typeof idOrOptions === 'string') {
-        id = idOrOptions;
-        // the option store setup will contain the actual options in this case
-        options = isSetupStore ? setupOptions : setup;
-    }
-    else {
-        options = idOrOptions;
-        id = idOrOptions.id;
-    }
-    function useStore(pinia, hot) {
-        const currentInstance = getCurrentInstance();
-        pinia =
-            // in test mode, ignore the argument provided as we can always retrieve a
-            // pinia instance with getActivePinia()
-            (pinia) ||
-                (currentInstance && inject(piniaSymbol));
-        if (pinia)
-            setActivePinia(pinia);
-        pinia = activePinia;
-        if (!pinia._s.has(id)) {
-            // creating the store registers it in `pinia._s`
-            if (isSetupStore) {
-                createSetupStore(id, setup, options, pinia);
-            }
-            else {
-                createOptionsStore(id, options, pinia);
-            }
-        }
-        const store = pinia._s.get(id);
-        // StoreGeneric cannot be casted towards Store
-        return store;
-    }
-    useStore.$id = id;
-    return useStore;
-}
-
-var store = defineStore('globalDialogs', {
-  state: () => {
-    return {
-      dialogs: [],
-      id: 0
-    };
-  },
-  getters: {
-    messageDialogs: function (state) {
-      return state.dialogs.filter(function (item) {
-        return item.intent === "message";
-      });
-    },
-    confirmDialogs: function (state) {
-      return state.dialogs.filter(function (item) {
-        return item.intent === "confirm";
-      });
-    }
-  },
-  actions: {
-    addDialog(payload) {
-      payload.id = this.id++;
-      this.dialogs.unshift(payload);
-    },
-
-    removeDialog(id) {
-      this.dialogs = this.dialogs.filter(function (item) {
-        return item.id !== id;
-      });
-    }
-
-  }
-});
-
-var commons = {
-  hasFormDialogsMixin(names) {
-    if (!Array.isArray(names)) {
-      names = [names];
-    }
-
-    return {
-      data: function () {
-        return {
-          formDialogs: names.reduce(function (acc, val) {
-            acc[val] = {
-              name: val,
-              isOpened: false,
-              initialEditedObject: {}
-            };
-
-            acc[val].closeFn = function () {
-              acc[val].isOpened = false;
-            };
-
-            return acc;
-          }, {})
-        };
-      },
-      methods: {
-        openFormDialog: function (name, initialEditedObject) {
-          if (this.formDialogs[name].isOpened) {
-            return;
-          }
-
-          this.loadFormDialog(name, initialEditedObject);
-          this.formDialogs[name].isOpened = true;
-        },
-        loadFormDialog: function (name, initialEditedObject) {
-          this.formDialogs[name].initialEditedObject = initialEditedObject || {};
-        },
-        closeFormDialog: function (name) {
-          this.formDialogs[name].isOpened = false;
-        }
-      }
-    };
-  }
-
-};
-
 var script$1 = countlyVue.components.BaseComponent.extend({
-  mixins: [countlyVue.mixins.i18n],
+  mixins: [countlyVue.mixins.commonFormatters],
   props: {
-    diff: {
-      type: Array
+    label: {
+      type: String,
+      default: ''
     },
-    disabled: {
+    number: {
+      type: Number,
+      default: 0
+    },
+    description: {
+      type: String,
+      default: ''
+    },
+    formatting: {
+      type: String,
+      default: 'auto'
+    },
+    isPercentage: {
       type: Boolean,
-      required: false,
       default: false
     },
-    emitSaveWhenDisabled: {
+    columnWidth: {
+      type: [Number, String],
+      default: -1
+    },
+    isVertical: {
       type: Boolean,
-      required: false,
       default: false
+    },
+    color: {
+      type: [String, Function, Array],
+      default: ''
+    },
+    numberClasses: {
+      type: String,
+      default: 'bu-is-flex bu-is-align-items-baseline'
+    },
+    boxType: {
+      type: Number,
+      default: -1
+    },
+    tooltip: {
+      type: String,
+      default: ''
     }
   },
   computed: {
-    hasDiff: function () {
-      return this.diff.length > 0;
-    },
-    madeChanges: function () {
-      return this.i18n("common.diff-helper.changes", this.diff.length);
-    }
-  },
-  methods: {
-    save: function () {
-      if (this.disabled && !this.emitSaveWhenDisabled) {
-        return;
+    formattedNumber: function () {
+      if (this.isNumberSlotUsed) {
+        // Avoid extra processing, it won't be shown anyway.
+        return '';
       }
 
-      this.$emit("save");
+      if (this.formatting === 'auto') {
+        if (this.isPercentage) {
+          return this.number + " %";
+        } else if (Math.abs(this.number) >= 10000) {
+          return this.getShortNumber(this.number);
+        } else {
+          return this.formatNumber(this.number);
+        }
+      } else if (this.formatting === 'short') {
+        return this.getShortNumber(this.number);
+      } else if (this.formatting === 'long') {
+        return this.formatNumber(this.number);
+      }
+
+      return this.number;
     },
-    discard: function () {
-      this.$emit("discard");
+    isDescriptionSlotUsed: function () {
+      return !!this.$slots.description;
+    },
+    isNumberSlotUsed: function () {
+      return !!this.$slots.number;
+    },
+    topClasses: function () {
+      if (this.isVertical || this.columnWidth === -1) {
+        return "";
+      }
+
+      return "bu-is-" + this.columnWidth;
+    },
+    metricStyles: function () {
+      var classes = "";
+
+      if (this.boxType === 3) {
+        classes = "min-width: 33%";
+      } else if (this.boxType === 4) {
+        classes = "min-width: 25%";
+      } else if (this.boxType === 5) {
+        classes = "min-width: 20%";
+      }
+
+      return classes;
     }
   }
 });
@@ -99330,38 +102124,48 @@ var __vue_render__$1 = function () {
 
   var _c = _vm._self._c || _h;
 
-  return _vm.hasDiff ? _c('div', {
-    staticClass: "cly-vue-diff-helper"
-  }, [_vm._t("main", function () {
-    return [_c('div', {
-      staticClass: "message"
-    }, [_c('span', {
-      staticClass: "text-dark"
-    }, [_vm._v(_vm._s(_vm.madeChanges))]), _vm._v(" "), _c('span', {
-      staticClass: "text-dark"
-    }, [_vm._v(_vm._s(_vm.i18n("common.diff-helper.keep")))])]), _vm._v(" "), _c('div', {
-      staticClass: "buttons"
-    }, [_c('el-button', {
-      staticClass: "discard-btn",
-      attrs: {
-        "skin": "light",
-        "type": "secondary"
-      },
-      on: {
-        "click": _vm.discard
-      }
-    }, [_vm._v(_vm._s(_vm.i18n('common.discard-changes')))]), _vm._v(" "), _c('el-button', {
-      staticClass: "save-btn",
-      attrs: {
-        "skin": "green",
-        "disabled": _vm.disabled,
-        "type": "success"
-      },
-      on: {
-        "click": _vm.save
-      }
-    }, [_vm._v(_vm._s(_vm.i18n('common.save-changes')))])], 1)];
-  })], 2) : _vm._e();
+  return _c('div', {
+    staticClass: "cly-vue-metric-card bu-column bu-is-flex",
+    class: _vm.topClasses,
+    style: _vm.metricStyles
+  }, [_c('div', {
+    staticClass: "cly-vue-metric-card__wrapper bu-p-5 bu-is-flex bu-is-justify-content-space-between has-ellipsis"
+  }, [_vm.isPercentage ? _c('cly-progress-donut', {
+    staticClass: "bu-pr-4 bu-is-flex",
+    attrs: {
+      "color": _vm.color,
+      "percentage": _vm.number
+    }
+  }) : _vm._e(), _vm._v(" "), _c('div', {
+    staticClass: "bu-is-flex bu-is-flex-direction-column bu-is-justify-content-space-between has-ellipsis"
+  }, [_c('div', {
+    staticClass: "bu-is-flex bu-is-align-items-center"
+  }, [_c('span', {
+    directives: [{
+      name: "tooltip",
+      rawName: "v-tooltip",
+      value: _vm.label,
+      expression: "label"
+    }],
+    staticClass: "text-medium has-ellipsis"
+  }, [_vm._t("default", function () {
+    return [_vm._v(_vm._s(_vm.label))];
+  })], 2), _vm._v(" "), _vm.tooltip.length > 0 ? _c('cly-tooltip-icon', {
+    staticClass: "bu-is-flex-grow-1 bu-ml-1",
+    attrs: {
+      "tooltip": _vm.tooltip
+    }
+  }) : _vm._e()], 1), _vm._v(" "), _c('div', {
+    class: _vm.numberClasses
+  }, [_c('h2', [_vm._t("number", function () {
+    return [_vm._v(_vm._s(_vm.formattedNumber))];
+  })], 2), _vm._v(" "), _c('div', {
+    staticClass: "bu-pl-2 bu-is-flex-grow-1"
+  }, [_vm._t("description", function () {
+    return [_c('span', {
+      staticClass: "text-medium"
+    }, [_vm._v(_vm._s(_vm.description))])];
+  })], 2)])])], 1)]);
 };
 
 var __vue_staticRenderFns__$1 = [];
@@ -99390,42 +102194,27 @@ const __vue_component__$2 = /*#__PURE__*/normalizeComponent({
 
 var __vue_component__$3 = __vue_component__$2;
 
-var script = countlyVue.mixins.BaseContent.extend({
+var script = countlyVue.components.BaseComponent.extend({
   props: {
-    image: {
-      default: 'images/icons/empty-view-icon.svg',
-      type: String
+    multiline: {
+      type: Boolean,
+      default: true,
+      required: false
     },
-    title: {
-      default: countlyVue.i18n('common.emtpy-view-title'),
-      type: String
-    },
-    subTitle: {
-      default: countlyVue.i18n('common.emtpy-view-subtitle'),
-      type: String
-    },
-    height: {
-      default: 0,
-      type: Number
-    },
-    classes: {
-      type: Object,
-      default: function () {
-        return {
-          'bu-py-6': true
-        };
-      }
+    isSyncedScroll: {
+      type: Boolean,
+      default: false,
+      required: false
     }
   },
-  data: function () {
-    return {};
-  },
   computed: {
-    topStyle: function () {
-      if (this.height) {
-        return {
-          height: this.height + "px"
-        };
+    topClasses: function () {
+      if (this.multiline) {
+        return ["cly-vue-metric-cards--is-multiline", "bu-is-multiline"];
+      }
+
+      if (this.isSyncedScroll) {
+        return "is-synced";
       }
     }
   }
@@ -99443,29 +102232,9 @@ var __vue_render__ = function () {
   var _c = _vm._self._c || _h;
 
   return _c('div', {
-    class: ['bu-is-flex bu-is-flex-direction-column bu-is-align-items-center bu-is-justify-content-center', _vm.classes],
-    staticStyle: {
-      "height": "100%",
-      "opacity": "0.6"
-    },
-    style: _vm.topStyle
-  }, [_vm._t("icon", function () {
-    return [_c('div', [_c('img', {
-      attrs: {
-        "src": _vm.image
-      }
-    })])];
-  }), _vm._v(" "), _c('div', {
-    staticClass: "bu-mt-2"
-  }, [_vm._t("title", function () {
-    return [_c('h4', {
-      staticClass: "color-cool-gray-100 bu-has-text-centered"
-    }, [_vm._v(_vm._s(_vm.title))])];
-  }), _vm._v(" "), _vm._t("subTitle", function () {
-    return [_c('div', {
-      staticClass: "bu-mt-1 text-small color-cool-gray-50 bu-has-text-centered"
-    }, [_vm._v(_vm._s(_vm.subTitle))])];
-  })], 2)], 2);
+    staticClass: "cly-vue-metric-cards bu-columns bu-is-gapless bu-is-mobile",
+    class: _vm.topClasses
+  }, [_vm._t("default")], 2);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -99508,27 +102277,51 @@ Vue.use(vuescroll);
 
 var components = /*#__PURE__*/Object.freeze({
 	__proto__: null,
-	ClyDatatable: __vue_component__$v,
-	ClyDatePicker: __vue_component__$r,
-	ClyTimePicker: __vue_component__$p,
-	ClyDropdown: ClyDropdown,
-	ClyMoreOptions: __vue_component__$n,
-	ClyMultiSelect: __vue_component__$l,
-	ClyInputDropdownTrigger: ClyInputDropdownTrigger,
-	ClySelectX: __vue_component__$j,
-	ClyListbox: __vue_component__$h,
-	ClyChecklistbox: __vue_component__$f,
-	ClyTabs: __vue_component__$d,
-	ClyConfirmDialog: __vue_component__$b,
-	ClyDialog: __vue_component__$9,
-	ClyFormDialog: __vue_component__$7,
-	ClyMessageDialog: __vue_component__$5,
+	ClyDatatable: __vue_component__$1d,
+	ClyDatatableUndoRow: __vue_component__$1b,
+	ClyDatePicker: __vue_component__$17,
+	ClyTimePicker: __vue_component__$15,
+	ClyConfirmDialog: __vue_component__$13,
+	ClyDialog: __vue_component__$11,
+	ClyFormDialog: __vue_component__$$,
+	ClyMessageDialog: __vue_component__$Z,
 	useGlobalDialogsStore: store,
-	ClyDialogCommons: commons,
-	ClyDiffHelper: __vue_component__$3,
-	ClyBlank: __vue_component__$1,
-	ClyEmptyChart: __vue_component__$1,
-	ClyEmptyDatatable: __vue_component__$1
+	ClyDialogCommons: commons$1,
+	ClyDrawer: __vue_component__$X,
+	ClyDrawerCommons: commons,
+	ClyDropdown: ClyDropdown,
+	ClyMoreOptions: __vue_component__$V,
+	ClyMultiSelect: __vue_component__$T,
+	ClyInputDropdownTrigger: ClyInputDropdownTrigger,
+	ClyFormFieldGroup: __vue_component__$R,
+	ClyFormField: __vue_component__$P,
+	ClyFormStep: __vue_component__$N,
+	ClyForm: __vue_component__$L,
+	ClyInlineFormField: __vue_component__$J,
+	ClyDiffHelper: __vue_component__$H,
+	ClyBlank: __vue_component__$F,
+	ClyEmptyChart: __vue_component__$F,
+	ClyEmptyDatatable: __vue_component__$F,
+	ClyBackLink: __vue_component__$D,
+	ClyBreadcrumbs: __vue_component__$B,
+	ClyColorTag: __vue_component__$z,
+	ClyEmptyView: __vue_component__$x,
+	ClyInPageNotification: __vue_component__$v,
+	ClyNotification: __vue_component__$t,
+	ClyPaginate: __vue_component__$r,
+	ClyPopover: __vue_component__$p,
+	ClyProgressBar: __vue_component__$n,
+	ClyProgressDonut: __vue_component__$l,
+	ClyRemove: __vue_component__$j,
+	ClyStatusTag: __vue_component__$h,
+	ClyTooltipIcon: __vue_component__$f,
+	ClySelectX: __vue_component__$d,
+	ClyListbox: __vue_component__$b,
+	ClyChecklistbox: __vue_component__$9,
+	ClyTabs: __vue_component__$7,
+	ClyMetricBreakdown: __vue_component__$5,
+	ClyMetricCard: __vue_component__$3,
+	ClyMetricCards: __vue_component__$1
 });
 
 // Import vue components
@@ -99540,4 +102333,4 @@ const install = function installClyComponents(Vue) {
   });
 }; // Create module definition for Vue.use()
 
-export { __vue_component__$1 as ClyBlank, __vue_component__$f as ClyChecklistbox, __vue_component__$b as ClyConfirmDialog, __vue_component__$v as ClyDatatable, __vue_component__$r as ClyDatePicker, __vue_component__$9 as ClyDialog, commons as ClyDialogCommons, __vue_component__$3 as ClyDiffHelper, ClyDropdown, __vue_component__$1 as ClyEmptyChart, __vue_component__$1 as ClyEmptyDatatable, __vue_component__$7 as ClyFormDialog, ClyInputDropdownTrigger, __vue_component__$h as ClyListbox, __vue_component__$5 as ClyMessageDialog, __vue_component__$n as ClyMoreOptions, __vue_component__$l as ClyMultiSelect, __vue_component__$j as ClySelectX, __vue_component__$d as ClyTabs, __vue_component__$p as ClyTimePicker, install as default, store as useGlobalDialogsStore };
+export { __vue_component__$D as ClyBackLink, __vue_component__$F as ClyBlank, __vue_component__$B as ClyBreadcrumbs, __vue_component__$9 as ClyChecklistbox, __vue_component__$z as ClyColorTag, __vue_component__$13 as ClyConfirmDialog, __vue_component__$1d as ClyDatatable, __vue_component__$1b as ClyDatatableUndoRow, __vue_component__$17 as ClyDatePicker, __vue_component__$11 as ClyDialog, commons$1 as ClyDialogCommons, __vue_component__$H as ClyDiffHelper, __vue_component__$X as ClyDrawer, commons as ClyDrawerCommons, ClyDropdown, __vue_component__$F as ClyEmptyChart, __vue_component__$F as ClyEmptyDatatable, __vue_component__$x as ClyEmptyView, __vue_component__$L as ClyForm, __vue_component__$$ as ClyFormDialog, __vue_component__$P as ClyFormField, __vue_component__$R as ClyFormFieldGroup, __vue_component__$N as ClyFormStep, __vue_component__$v as ClyInPageNotification, __vue_component__$J as ClyInlineFormField, ClyInputDropdownTrigger, __vue_component__$b as ClyListbox, __vue_component__$Z as ClyMessageDialog, __vue_component__$5 as ClyMetricBreakdown, __vue_component__$3 as ClyMetricCard, __vue_component__$1 as ClyMetricCards, __vue_component__$V as ClyMoreOptions, __vue_component__$T as ClyMultiSelect, __vue_component__$t as ClyNotification, __vue_component__$r as ClyPaginate, __vue_component__$p as ClyPopover, __vue_component__$n as ClyProgressBar, __vue_component__$l as ClyProgressDonut, __vue_component__$j as ClyRemove, __vue_component__$d as ClySelectX, __vue_component__$h as ClyStatusTag, __vue_component__$7 as ClyTabs, __vue_component__$15 as ClyTimePicker, __vue_component__$f as ClyTooltipIcon, install as default, store as useGlobalDialogsStore };
