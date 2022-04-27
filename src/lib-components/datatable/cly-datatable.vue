@@ -682,7 +682,7 @@ export default countlyVue.components.BaseComponent.extend({
         'cly-dropdown': ClyDropdown,
     },
     mixins: [
-        countlyVue.commonFormatters,
+        countlyVue.mixins.commonFormatters,
         countlyVue.mixins.i18n,
         TableExtensionsMixin,
         MutationTrackerMixin,

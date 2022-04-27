@@ -3,7 +3,7 @@ import FormCommons from '../form/commons';
 import countlyVue from '../../compat/vue-core';
 
 export default countlyVue.components.BaseComponent.extend({
-    mixins: [FormCommons.MultiStepFormMixin]
+    mixins: [FormCommons.MultiStepForm]
 });
 </script>
 <template>

@@ -86497,7 +86497,7 @@ var script$D = countlyVue.components.BaseComponent.extend({
   components: {
     'cly-dropdown': ClyDropdown
   },
-  mixins: [countlyVue.commonFormatters, countlyVue.mixins.i18n, TableExtensionsMixin, MutationTrackerMixin, OverlayRowMixin, ExportHandlerMixin],
+  mixins: [countlyVue.mixins.commonFormatters, countlyVue.mixins.i18n, TableExtensionsMixin, MutationTrackerMixin, OverlayRowMixin, ExportHandlerMixin],
   props: {
     keyFn: {
       type: Function,
@@ -86999,7 +86999,7 @@ var __vue_staticRenderFns__$D = [];
 
 const __vue_inject_styles__$D = function (inject) {
   if (!inject) return;
-  inject("data-v-62217692_0", {
+  inject("data-v-7cd87b94_0", {
     source: ".cly-vue-eldatatable.silent-loading .el-loading-spinner{visibility:hidden}.cly-vue-eldatatable.silent-loading .el-loading-mask{display:none!important}.cly-vue-eldatatable__header{height:56px;border-left:none;border-right:none;box-sizing:border-box;padding:12px;border-top:1px solid #ececec}.cly-vue-eldatatable__header--white{background-color:#fff;color:#333c48;font-size:13px}.cly-vue-eldatatable__export--extended::after{content:\"\";position:absolute;width:100%;height:12px;background:linear-gradient(180deg,#333c48 0,rgba(51,60,72,.0001) 100%);top:185px;left:0;opacity:.12}.cly-vue-eldatatable__export--search input[type=text]{background-color:#f6f6f6}.cly-vue-eldatatable__search--grey input{background-color:#fbfdfe}.cly-vue-eldatatable__footer{height:40px;box-shadow:0 2px 0 #eef2f5;border-left:none;border-right:none;box-sizing:border-box;padding:0 12px}.cly-vue-eldatatable__footer--white{background-color:#fff;color:#808a9d;font-size:13px}.cly-vue-eldatatable .undo-row{position:absolute;left:0;padding:9px 0;background-color:#ffd7d6;color:#2b2b2b;width:100%;height:100%;top:0;z-index:999;vertical-align:middle;display:flex;align-items:center;justify-content:center}.cly-vue-eldatatable .undo-row a{color:#017aff;cursor:pointer}.cly-vue-eldatatable .el-table-column--options .cly-vue-more-options{position:absolute;top:calc(50% - 16px);right:calc(50% - 20px)}.cly-vue-eldatatable div.cell{padding-left:16px;padding-right:8px}.cly-vue-eldatatable__empty-slot{height:200px}",
     map: undefined,
     media: undefined
@@ -93250,7 +93250,7 @@ const __vue_component__$M = /*#__PURE__*/normalizeComponent({
 var __vue_component__$N = __vue_component__$M;
 
 var script$n = countlyVue.components.BaseComponent.extend({
-  mixins: [FormCommons.MultiStepFormMixin]
+  mixins: [FormCommons.MultiStepForm]
 });
 
 /* script */
