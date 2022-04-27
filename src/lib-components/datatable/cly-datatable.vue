@@ -7,8 +7,6 @@ import lodash from 'lodash';
 import Vue from 'vue';
 import moment from 'moment';
 
-var _mixins = countlyVue.mixins;
-
 var TableExtensionsMixin = {
     props: {
         persistKey: {
@@ -684,8 +682,8 @@ export default countlyVue.components.BaseComponent.extend({
         'cly-dropdown': ClyDropdown,
     },
     mixins: [
-        _mixins.commonFormatters,
-        _mixins.i18n,
+        countlyVue.commonFormatters,
+        countlyVue.mixins.i18n,
         TableExtensionsMixin,
         MutationTrackerMixin,
         OverlayRowMixin,

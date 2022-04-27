@@ -1,5 +1,5 @@
 <script>
-import countlyVue from '../../compat/vue-core'; 
+import countlyVue from '../../compat/vue-core';
 export default countlyVue.mixins.BaseContent.extend({
     props: {
         image: {default: 'images/icons/empty-view-icon.svg', type: String},
@@ -28,8 +28,8 @@ export default countlyVue.mixins.BaseContent.extend({
 });
 </script>
 <template>
-    <div :style="topStyle" 
-        :class="['bu-is-flex bu-is-flex-direction-column bu-is-align-items-center bu-is-justify-content-center', classes]" 
+    <div :style="topStyle"
+        :class="['bu-is-flex bu-is-flex-direction-column bu-is-align-items-center bu-is-justify-content-center', classes]"
         style="height: 100%;opacity: 0.6">
         <slot name="icon">
             <div>
